@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title type="text">Hugo Theme MemE</title>
+    <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
+    <updated>2021-12-19T20:56:24&#43;08:00</updated>
+    <id>https://zchencn.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://zchencn.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://zchencn.github.io/atom.xml" />
+    <author>
+            <name>zchen</name>
+            <uri>https://zchencn.github.io/</uri>
+            
+                <email>zchen@lsec.ac.cc.cn</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
+    <generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator>
+        <entry>
+            <title type="text">Nonhomogeneous</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/nonhomogeneous/" />
+            <id>https://zchencn.github.io/post/nonhomogeneous/</id>
+            <updated>2021-12-19T20:27:51&#43;08:00</updated>
+            <published>2021-12-19T20:22:08&#43;08:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">利用分离变量法可以求解具有齐次边界条件的齐次波动方程、热传导方程和拉普拉斯方程。接下…</summary>
+            
+                <content type="html">&lt;p&gt;利用&lt;strong&gt;分离变量法&lt;/strong&gt;可以求解具有齐次边界条件的齐次波动方程、热传导方程和拉普拉斯方程。接下来我们讨论如何处理非齐次方程和非齐次边界条件的情况。我们将介绍&lt;strong&gt;齐次化原理&lt;/strong&gt;和&lt;strong&gt;本征函数法&lt;/strong&gt;两种方法用来求解带有齐次边界条件的非齐次方程，再介绍通过构造辅助函数的方法将非齐次边界条件的问题，转化为求解非齐次方程的问题。&lt;/p&gt;
+&lt;h2 id=&#34;齐次化原理&#34;&gt;齐次化原理&lt;/h2&gt;
+&lt;p&gt;先考虑非齐次方程的情况。我们可以使用齐次化原理求解。回忆微积分课程中学过的积分微商定理，设
+$$
+U(x) = \int_a^xf(x, \tau)d\tau
+$$
+$a$ 是一个常数，则有
+$$
+\frac{d}{dx}U(x) = f(x, x) + \int_a^x\frac{\partial }{\partial x}f(x, \tau)d\tau
+$$
+考虑以下无界弦的强迫振动的定界问题
+$$
+\begin{equation}
+\begin{cases}
+\frac{\partial^2u}{\partial t^2} = a^2\frac{\partial^2u}{\partial x^2} + f(x, t), \quad -\infty&amp;lt;x&amp;lt;\infty, t&amp;gt;0\
+u(x, 0) = \frac{\partial}{\partial t}u(x, 0) = 0, \quad -\infty &amp;lt; x &amp;lt; \infty
+\end{cases}
+\end{equation}
+$$
+设 $\Omega(x, t, \tau)$ 是如下齐次方程的解
+$$
+\begin{equation}
+\begin{cases}
+\frac{\partial^2\Omega}{\partial t^2} = a^2\frac{\partial^2\Omega}{\partial x^2}, \quad -\infty&amp;lt;x&amp;lt;\infty, t&amp;gt;\tau\
+\Omega(x, \tau) =0,  \frac{\partial}{\partial t}\Omega(x, \tau) = f(x, \tau), \quad -\infty &amp;lt; x &amp;lt; \infty
+\end{cases}
+\end{equation}
+$$&lt;/p&gt;
+&lt;p&gt;令
+$$
+u(x, t) = \int_0^t\Omega(x, t, \tau)d\tau
+$$
+则首先容易发现
+$$
+u(x, 0) = \int_0^0\Omega(x, t, \tau)d\tau = 0
+$$
+利用前面的引理和 $\Omega$ 方程的初始条件可以验证
+$$
+\frac{\partial u}{\partial t}(x, 0) = \Omega(x, t, t) + \left[\int_0^t\frac{\partial}{\partial t}\Omega(x, t, \tau)d\tau\right]&lt;em&gt;{t=0} = 0
+$$
+最后对上式在求一次时间的导数，同样有
+$$
+\begin{equation}
+\begin{aligned}
+\frac{\partial^2u}{\partial t^2} &amp;amp;= \left[\frac{\partial \Omega}{\partial t}(x, t, \tau)\right]&lt;/em&gt;{\tau=t} + \int_0^t\frac{\partial^2}{\partial t^2}\Omega(x, t, \tau)d\tau\
+&amp;amp;= f(x, t) + \int_0^ta^2\frac{\partial^2}{\partial x^2}\Omega(x, t, \tau)d\tau\
+&amp;amp;= f(x, t) + a^2\frac{\partial^2}{\partial x^2}\int_0^t\Omega(x, t, \tau)d\tau\
+&amp;amp;= f(x, t) + a^2\frac{\partial^2}{\partial x^2}u(x, t)
+\end{aligned}
+\end{equation}
+$$
+也即 $u$ 是原来非齐次方程的解。以上就是所谓齐次化原理，也叫&lt;strong&gt;冲量原理&lt;/strong&gt;或者&lt;strong&gt;Duhamel&amp;rsquo;s Principle&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;本征函数法&#34;&gt;本征函数法&lt;/h2&gt;
+&lt;p&gt;第二种要介绍的方法是本征函数法。利用分离变量法需要使用叠加原理，这要求方程必须是齐次的且有齐次边界条件。在处理非齐次方程时，直接根据齐次的边界条件选取本征值写出级数形式的解，再利用方程和初始条件来确定技术展开中的系数，这种方法就是本征函数法。考虑两端固定的弦振动问题
+$$
+\begin{equation}
+\begin{cases}
+\frac{\partial^2u}{\partial t^2} = a^2\frac{\partial^2u}{\partial x^2} + f(x, t), \quad 0&amp;lt;x&amp;lt;l, t&amp;gt;0\
+u(x, 0) = \frac{\partial}{\partial t}u(x, 0) = 0, \quad 0 &amp;lt; x &amp;lt; l\
+u(0, t) = u(l, t) = 0
+\end{cases}
+\end{equation}
+$$
+本征函数集由对应齐次方程和边界条件给出，所以容易知道对应级数形式的解为
+$$
+u(x,t) = \sum_{n\geq 1}g_n(t)\sin\frac{n\pi}{l}x
+$$&lt;/p&gt;
+&lt;p&gt;其中
+$$
+g_n(t) = \frac{2}{l}\int_0^lu(x, t)\sin\frac{n\pi}{l}xdx
+$$
+所以容易有
+$$
+g_n(0) = g^{&#39;}_n(0) = 0
+$$&lt;/p&gt;
+&lt;p&gt;带入方程得到
+$$
+\sum_{t\geq1}\left[g^{&#39;&#39;}&lt;em&gt;n(t) + \left(\frac{na\pi}{l}\right)^2g_n(t)\right]\sin\frac{n\pi}{l}x = f(x, t)
+$$
+对 $f$ 做半幅傅里叶级数展开
+$$
+f(x, t) = \sum&lt;/em&gt;{t\geq 1}f_n(t)\sin\frac{n\pi}{l}x\
+f_n(t) = \frac{2}{l}\int_0^lf(x, t)\sin\frac{n\pi}{l}xdx
+$$
+对比可得关于 $g_n(t)$ 的二阶常系数非齐次微分方程
+$$
+g^{&#39;&#39;}_n + \left(\frac{na\pi}{l}\right)^2g_n - f_n(t) = 0
+$$
+两边对时间作拉普拉斯变换
+$$
+p^2G_n(p) +  \left(\frac{na\pi}{l}\right)^2G_n(p) - F_n(p) = 0
+$$
+得到
+$$
+G_n(p) = \frac{F_n(p)}{p^2 +  \left(\frac{na\pi}{l}\right)^2}
+$$
+利用拉普拉斯变换卷积的性质和平移性质以及 $\sin t$ 的拉普拉斯变化，容易看出
+$$
+g_n(t) = \frac{l}{na\pi}\int_0^tf_n(\tau)\sin \frac{na\pi}{l}(t-\tau)d\tau
+$$
+代入级数展开我们就得到了原非齐次方程的解。&lt;/p&gt;
+&lt;h2 id=&#34;非齐次边界条件&#34;&gt;非齐次边界条件&lt;/h2&gt;
+&lt;p&gt;以上处理的都是齐次边界的情况，接下来考虑方程有如下非齐次边界条件
+$$
+u(0, t) = \alpha(t), \quad u(l, t) = \beta(t)
+$$
+引入辅助函数
+$$
+\gamma(x, t) = (1 - \frac{x}{l})\alpha(t) + \frac{x}{l}\beta(t)
+$$
+设
+$$
+v(x, t) = u(x, t) - \gamma(x, t)
+$$
+那么容易验证 $v$ 满足齐次边界条件且
+$$
+\begin{aligned}
+\frac{\partial^2v}{\partial t^2} - a^2\frac{\partial^2v}{\partial x^2} &amp;amp;= \frac{\partial^2u}{\partial t^2} - \frac{\partial^2\gamma}{\partial t^2} - a^2\left(\frac{\partial^2u}{\partial x^2}-\frac{\partial^2\gamma}{\partial x^2}\right)\
+&amp;amp;= f(x, t) - \frac{\partial^2\gamma}{\partial t^2} + a^2\frac{\partial^2\gamma}{\partial x^2}
+\end{aligned}
+$$
+这样我们把非齐次边界问题转化为了带齐次边界条件的非齐次方程的问题，前面我们已经介绍过了。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/pde/" term="PDE" label="PDE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">CrossValidation</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/crossvalidation/" />
+            <id>https://zchencn.github.io/post/crossvalidation/</id>
+            <updated>2021-12-02T21:41:55&#43;08:00</updated>
+            <published>2021-12-02T21:40:00&#43;08:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Apart from the parameters that will be adjusted during the process of training, there exits some parameters, that are not learned and have to be configured by ourselves in advance. These parameters are also referred to as hyper-parameters which have immense impact on the final results.</summary>
+            
+                <content type="html">&lt;p&gt;Apart from the parameters that will be adjusted during the process of training, there exits some parameters, that are not learned and have to be configured by ourselves in advance. These parameters are also referred to as &lt;strong&gt;hyper-parameters&lt;/strong&gt; which have immense impact on the final results.  Given a set of hyper-parameters, we have to assess our final trained machine learning model while testing it on the same data is a methodological mistake: a model that would just repeat the labels of the samples that it has just seen would have a perfect score but would fail to predict anything useful on yet-unseen data. This situation is called &lt;strong&gt;overfitting&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;One way to overcome this problem is to not use the entire data set when training a learner. Some of the data is removed before training begins. Then when training is done, the data that was removed can be used to test the performance of the learned model on new data. This is the basic idea for a whole class of model evaluation methods called &lt;strong&gt;cross validation&lt;/strong&gt; which allows us to compare different machine learning models and get a sense of how well they will work in practice.  The best parameters can be determined by grid search.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://scikit-learn.org/stable/_images/grid_search_workflow.png&#34; alt=&#34;Grid search workflow&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;holdout-method&#34;&gt;Holdout Method&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;holdout method&lt;/strong&gt; is the simplest kind of cross validation. The data set is separated into two sets, called the training set and the testing set. The training process using the training set only., then the model  is asked to predict the output values for the data in the testing set that never seen before. The errors on the testing data set is used to evaluate the model. The advantage of this method is that it is usually preferable to the residual method and takes no longer to compute. However, its evaluation can have a high variance. The evaluation may depend heavily on which data points end up in the training set and which end up in the test set, and thus the evaluation may be significantly different depending on how the division is made.&lt;/p&gt;
+&lt;h2 id=&#34;k-fold-cross-validation&#34;&gt;K-fold Cross Validation&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;K-fold cross validation&lt;/strong&gt; is one way to improve over the holdout method. The data set is divided into &lt;em&gt;k&lt;/em&gt; subsets, and the holdout method is repeated &lt;em&gt;k&lt;/em&gt; times. Each time, one of the &lt;em&gt;k&lt;/em&gt; subsets is used as the test set and the other &lt;em&gt;k-1&lt;/em&gt; subsets are put together to form a training set. Then the average error across all &lt;em&gt;k&lt;/em&gt; trials is computed. The advantage of this method is that it matters less how the data gets divided. Every data point gets to be in a test set exactly once, and gets to be in a training set &lt;em&gt;k-1&lt;/em&gt; times. The variance of the resulting estimate is reduced as &lt;em&gt;k&lt;/em&gt; is increased. The disadvantage of this method is that the training algorithm has to be rerun from scratch &lt;em&gt;k&lt;/em&gt; times, which means it takes &lt;em&gt;k&lt;/em&gt; times as much computation to make an evaluation. A variant of this method is to randomly divide the data into a test and training set &lt;em&gt;k&lt;/em&gt; different times. The advantage of doing this is that you can independently choose how large each test set is and how many trials you average over.&lt;/p&gt;
+&lt;h2 id=&#34;leave-one-out-cross-validation&#34;&gt;Leave-one-out Cross Validation&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;leave-one-out cross validation&lt;/strong&gt; is K-fold cross validation taken to its logical extreme, with K equal to N, the number of data points in the set. That means that N separate times, the model is trained on all the data except for one point and a prediction is made for that point. As before the average error is computed and used to evaluate the model. The evaluation given by leave-one-out cross validation error  is good, but at first pass it seems very expensive to compute.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.cmu.edu/~schneide/tut5/node42.html&#34;&gt;Cross Validation (cmu.edu)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://scikit-learn.org/stable/modules/cross_validation.html&#34;&gt;3.1. Cross-validation: evaluating estimator performance — scikit-learn 1.0.1 documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Cross-validation_(statistics)&#34;&gt;Cross-validation (statistics) - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/model-selection/" term="Model Selection" label="Model Selection" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/cross-validation/" term="Cross Validation" label="Cross Validation" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Sinkhorn</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/sinkhorn/" />
+            <id>https://zchencn.github.io/post/sinkhorn/</id>
+            <updated>2021-12-19T20:27:50&#43;08:00</updated>
+            <published>2021-10-31T16:38:57&#43;08:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Optimal Transport Overview Optimal transportation (OT) problem was first study by Gaspard Monge in 1781: A worker with a shovel in hand want to move a large pile of sand lying on a construction site and wish to minimize her total effort. OT arouse the interest of mathematicians because it can compare two probability distribution.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;optimal-transport-overview&#34;&gt;Optimal Transport Overview&lt;/h2&gt;
+&lt;p&gt;Optimal transportation (OT) problem was first study by Gaspard Monge in 1781: A worker with a shovel in hand want to move a large pile of sand lying on a construction site and wish to minimize her total effort.  OT arouse the interest of mathematicians because it can compare two probability distribution. OT has been rediscovered in many settings and under different forms, giving it a rich history. Kantorovich in 1940s established its significance to logistics and economics. Dantzig solved it numerically in 1949 within the framework of linear programming, giving OT a firm footing in optimization. In recent years, thanks to the emergence of approximate solvers that can scale to large problem dimension, OT is being increasingly used to unlock various problems in imaging sciences (such as color or texture processing), graphics (for shape manipulation) or machine learning (for regression, classification and generative modeling).&lt;/p&gt;
+&lt;p&gt;We mainly focus on the numerical aspect of OT, for more theoretical detail, please reference the work of Villani.&lt;/p&gt;
+&lt;h2 id=&#34;monge-problem&#34;&gt;Monge Problem&lt;/h2&gt;
+&lt;p&gt;We say $\textbf{a}$ is an histogram or probability vector if  it belongs to the probability simplex:
+$$
+\Sigma_n = \left{\textbf{a}\in\mathbb{R}^n_+: \sum_{i=1}^na_i = 1\right}
+$$
+That is to say, the elements of $\textbf{a}$ is nonnegative and the sum of them is one. A discrete measure with weights $\textbf{a}$ and locations $x_1, x_2, \cdots, x_n$ reads:
+$$
+\alpha = \sum_{i=1}^na_i\delta_{x_i}
+$$
+where $\delta_x$ is the Dirac at  position $x$  intuitively a unit of mass which is infinitely concentrated at location $x$.  For discrete measure:
+$$
+\alpha = \sum_{i=1}^na_i\delta_{x_i}\quad \text{and}\quad\beta = \sum_{i=1}^mb_i\delta_{y_i}
+$$
+the Monge problem seeks a map the associates to each point $x_i$ a single point $y_i$ and which must push the mass of $\alpha$ toward the mass of $\beta$, namely, such a map $T:{x_1, \cdots, x_n} \rightarrow {y_1, \cdots, y_m}$ must verify that:
+$$
+\forall j \in {1, 2, \cdots, m}, b_j = \sum_{T(x_i)=y_j}a_i
+$$
+which we write in compact form as:
+$$
+T_{\sharp}\alpha = \beta
+$$
+Given a cost function $c(x, y)$, the Monge problem is to find the map that minimize the total cost of the transportation:
+$$
+\min_T\left{\sum_{i}c(x_i, T(x_i)): T_{\sharp}\alpha=\beta\right}
+$$
+Monge maps may not even exist between a discrete measure to another.&lt;/p&gt;
+&lt;h2 id=&#34;kantorovich-relaxation&#34;&gt;Kantorovich Relaxation&lt;/h2&gt;
+&lt;p&gt;The key idea of Kantorovich is to relax the deterministic nature of transportation, namely the fact that a source point $x_i$ can only be assigned to another point or location $T(x_i)$ only.  Kantorovich proposed instead that the mass at any point $x_i$ be potentially dispatched across several locations. This flexibility is encoded using a coupling matrix $P \in \mathbb{R}^{n\times m}&lt;em&gt;+$, where $P&lt;/em&gt;{ij}$ describes the amount of mass flowing from bin $i$ to bin $j$.  Admissible couplings admit a simple characterization that:
+$$
+U(\textbf{a}, \textbf{b}) = \left{P\in\mathbb{R}^{n\times m}&lt;em&gt;+: \sum_jP&lt;/em&gt;{ij}=a_i, \sum_iP_{ij}=b_j\right}
+$$
+The set of matrices $U(\textbf{a}, \textbf{b})$ is bounded and defined by $n+m$ equality constraints, and therefore is a convex polytope.&lt;/p&gt;
+&lt;p&gt;Given a cost matrix $C$, Kantorovich&amp;rsquo;s OT problem now reads:
+$$
+L_C(\textbf{a}, \textbf{b}) = \min_{P\in U(\textbf{a}, \textbf{b})}\left&amp;lt;P, C\right&amp;gt; = \sum_{i,j}C_{ij}P_{ij}
+$$
+This is a linear program and as is usually the case with such programs, its optimal solutions are not necessarily unique.&lt;/p&gt;
+&lt;h2 id=&#34;wasserstein-distance&#34;&gt;Wasserstein Distance&lt;/h2&gt;
+&lt;p&gt;An import feature if OT is that it defines a distance between histograms and probability measures as soon as the cost matrix satisfies certain suitable properties. We suppose $n=m$ and that for some $p\geq 1$, $C = D^p$ where $D\in \mathbb{R}^{n\times n}_+$ is a distance matrix, that is to say $D$ satisfy following properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;$D$ is symmetric&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$D_{ij} = 0$ if and only if $i=j$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\forall i, j, k, D_{ik} \leq D_{ij} + D_{jk}$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then we can define so-called Wasserstein distance on probability simplex $\Sigma_n$,
+$$
+W_p(\textbf{a}, \textbf{b}) = L_{D^p}(\textbf{a}, \textbf{b})^{1/p}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;entropic-regularization&#34;&gt;Entropic Regularization&lt;/h2&gt;
+&lt;p&gt;We will introduce a family of numerical schemes to approximate solutions to Kantorovich formulation of OT. It operates by adding an entropic regularization to the original problem. The minimization of the regularized problem can be solved by using a simple alternate minimization scheme which are iterations of simple matrix-vector products. The resulting approximate distance is smooth with respect to input histogram weights and can be differentiated using automatic differentiation.&lt;/p&gt;
+&lt;p&gt;The discrete entropy of the coupling matrix is defined as:
+$$
+H(P) = -\sum_{i, j}P_{ij}(\log(P_{ij})-1)
+$$
+The idea of the entropic regularization of OT is to use $-H$ as a regularization function to obtain approximate solutions to the origin Kantorovich OT problem:
+$$
+L^{\epsilon}&lt;em&gt;C(\textbf{a}, \textbf{b}) = \min&lt;/em&gt;{P\in U(\textbf{a, \textbf{b}})}\left&amp;lt;P, C\right&amp;gt; - \epsilon H(P)
+$$
+Since the objective is an $\epsilon-strongly$ convex function, the problem mentioned above has a unique optimal solution.&lt;/p&gt;
+&lt;p&gt;It has been proved that:
+$$
+L^{\epsilon}_C(\textbf{a}, \textbf{b})\stackrel{\epsilon\rightarrow0}{\longrightarrow}L_C(\textbf{a}, \textbf{b})
+$$&lt;/p&gt;
+&lt;h2 id=&#34;sinkhorns-algorithm&#34;&gt;Sinkhorn&amp;rsquo;s Algorithm&lt;/h2&gt;
+&lt;p&gt;Let $K$ denote the Gibbs kernel associated to the cost matrix $C$ as:
+$$
+K_{ij} = e^{-\frac{C_{ij}}{\epsilon}}
+$$
+The solution of the regularized OT problem has the form:
+$$
+P_{ij} = u_iK_{ij}v_j
+$$
+for two (unknow) scaling variable $(\textbf{u}, \textbf{v}) \in \mathbb{R}^n_+\times\mathbb{R}^m_+$.&lt;/p&gt;
+&lt;p&gt;The factorization of the optimal solution can be conveniently rewritten in matrix form as:
+$$
+P = diag(\textbf{u})Kdiag(\textbf{v})
+$$
+The scaling variables must therefore satisfy the following nonlinear equations which correspond to the mass conservation constraints inherent to $U(\textbf{a}, \textbf{b})$:
+$$
+\textbf{u}\odot(K\textbf{v}) = \textbf{a}, \quad \textbf{v}\odot(K^T\textbf{u}) = \textbf{b}
+$$
+where $\odot$ corresponds to entrywise multiplication of vectors. That problem is known as matrix scaling problem which can be solved iteratively by modifying first $\textbf{u}$ so that it satisfies the left-hand side of above equations and then $\textbf{v}$ to satisfy its right-hand side. These two updates define Sinkhorn&amp;rsquo;s algorithm:
+$$
+\textbf{u}^{(l+1)} = \frac{\textbf{a}}{K\textbf{v}^(l)}, \quad \textbf{v}^{(l+1)} = \frac{\textbf{b}}{K^T\textbf{u}^{(l+1)}}
+$$
+initialized with an arbitrary positive vector $\textbf{v}^{(0)} = \mathbb{1}_m$. The division operator used above between two vectors is to be understood entrywise.&lt;/p&gt;
+&lt;p&gt;In order to speed up the Sinkhorn&amp;rsquo;s iterations, we can compute several regularized Wasserstein distances between pairs of histograms simultaneously. Let $N$ be an integer, $\textbf{a}_1, \cdots, \textbf{a}_N$ be histograms in $\Sigma_n$, and $\textbf{b}_1, \cdots, \textbf{b}_N$ be histograms in $\Sigma_m$. We seek to compute all $N$ approximate distances $L_C^{\epsilon}(\textbf{a}_1, \textbf{b}_1), \cdots, L_C^{\epsilon}(\textbf{a}_N, \textbf{b}_N).$  In that case, writing $A = [\textbf{a}_1, \cdots, \textbf{a}_N]$ and $B = [\textbf{b}_1, \cdots, \textbf{b}&lt;em&gt;N]$ for the $n\times N$ and $m\times N$ matrices storing all histograms,  one can notice that all Sinkhorn iterations for all these $N$ pairs can be carried out in parallel, by setting, for instance,
+$$
+\textbf{U}^{(l+1)} = \frac{\textbf{A}}{K\textbf{V}^(l)}, \quad \textbf{V}^{(l+1)} = \frac{\textbf{B}}{K^T\textbf{U}^{(l+1)}}
+$$
+initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt;
+&lt;h2 id=&#34;log-domain-stabilized-sinkhorn&#34;&gt;Log-domain Stabilized Sinkhorn&lt;/h2&gt;
+&lt;p&gt;The Sinkhorn algorithm suffers from numerical overflow when the regularization parameter $\epsilon$ is small compared to the entries of the cost matrix $C$. This concern can be alleviated to some extent be carrying out computations in log domain.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://optimaltransport.github.io/&#34;&gt;Computational Optimal Transport&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/optimal-transport/" term="Optimal Transport" label="Optimal Transport" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/optimal-transport/" term="Optimal Transport" label="Optimal Transport" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+</feed>
