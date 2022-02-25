@@ -2,9 +2,9 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">Hugo Theme MemE</title>
-    <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2021-12-19T20:56:24&#43;08:00</updated>
+    <title type="text">CZ&#39;s Selfpage</title>
+    <subtitle type="html">Notes aboust mathematics and compter science</subtitle>
+    <updated>2022-02-25T13:21:35&#43;08:00</updated>
     <id>https://zchencn.github.io/</id>
     <link rel="alternate" type="text/html" href="https://zchencn.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zchencn.github.io/atom.xml" />
@@ -17,10 +17,10 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator>
         <entry>
-            <title type="text">Nonhomogeneous</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/nonhomogeneous/" />
-            <id>https://zchencn.github.io/post/nonhomogeneous/</id>
-            <updated>2021-12-19T20:27:51&#43;08:00</updated>
+            <title type="text">Methods to Solve Nonhomogeneous PDE problems</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/nonhomogeneous/" />
+            <id>https://zchencn.github.io/posts/nonhomogeneous/</id>
+            <updated>2022-02-25T13:20:04&#43;08:00</updated>
             <published>2021-12-19T20:22:08&#43;08:00</published>
             <author>
                     <name>zchen</name>
@@ -195,8 +195,8 @@ $$
     
         <entry>
             <title type="text">CrossValidation</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/crossvalidation/" />
-            <id>https://zchencn.github.io/post/crossvalidation/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/crossvalidation/" />
+            <id>https://zchencn.github.io/posts/crossvalidation/</id>
             <updated>2021-12-02T21:41:55&#43;08:00</updated>
             <published>2021-12-02T21:40:00&#43;08:00</published>
             <author>
@@ -264,10 +264,10 @@ $$
         </entry>
     
         <entry>
-            <title type="text">Sinkhorn</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/sinkhorn/" />
-            <id>https://zchencn.github.io/post/sinkhorn/</id>
-            <updated>2021-12-19T20:27:50&#43;08:00</updated>
+            <title type="text">An Introduction to Optimal Transport</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/sinkhorn/" />
+            <id>https://zchencn.github.io/posts/sinkhorn/</id>
+            <updated>2022-02-24T23:38:42&#43;08:00</updated>
             <published>2021-10-31T16:38:57&#43;08:00</published>
             <author>
                     <name>zchen</name>
@@ -417,6 +417,2055 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
                             
                             
                                 <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Bias and Variance</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/variancebias/" />
+            <id>https://zchencn.github.io/posts/variancebias/</id>
+            <updated>2022-02-25T11:52:59&#43;08:00</updated>
+            <published>2021-09-08T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">在监督学习中，我们使用特定的算法在给定的带标记的训练集 $D={(x_i, y_i)}_{i=1}^N$ 上训练得到一个模型 $f(x; D)$ . 泛…</summary>
+            
+                <content type="html">&lt;p&gt;在监督学习中，我们使用特定的算法在给定的带标记的训练集 $D={(x_i, y_i)}_{i=1}^N$ 上训练得到一个模型 $f(x; D)$ . 泛化能力是评价一个模型好坏的重要标准，我们希望得到的模型能够在它没有见过的输入 $x$ 上有更准确的预测能力. 在模型训练时，我们总是通过特定的算法去减小训练误差，但是在实践中我们发现，更小的训练误差并不就意味着更小的泛化误差，往往随着训练误差的减小，泛化误差呈现一个先下降后上升的趋势，我们称之为&lt;strong&gt;过拟合&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bias&lt;/strong&gt; 和 &lt;strong&gt;Variance&lt;/strong&gt; 能够帮助我们去理解模型的泛化能力.  给定测试样本 $x$ ，令 $y_{D}$ 为 $x$ 在训练集中的标记，$y$ 为真实标记，则学习算法的期望预测为
+$$
+\bar{f}(x) = E_{D}[f(x; D)]
+$$&lt;/p&gt;
+&lt;h2 id=&#34;what-is-bias&#34;&gt;What Is Bias?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Bias&lt;/strong&gt; 是衡量模型与真实标记偏差的量，数学上如下定义
+$$
+bias^2 = (\bar{f}(x)-y)^2
+$$
+通常，一个简单模型的 $bias$ 会比复杂模型的大。比如在多项式回归中，极端地，我们使用0次多项式也即常数作为模型，那么它的输出和真实标记的偏差显然比我们使用高次多项式作为模型得到的偏差要大，因为总是存在一个 $N-1$ 次多项式能够完全拟合给定的 $N$ 个数据点.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-variance&#34;&gt;What Is Variance?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Variance&lt;/strong&gt; 是衡量训练集扰动对模型产生的影响的量，数学定义如下
+$$
+variance = E_{D}[(f(x; D)-\bar{f}(x))^2]
+$$
+高的 Variance 说明当训练集发生扰动时，训练得到的模型会有很大的改变，也就是说鲁棒性比较差，这是我们不希望看到的，因为训练集的标记总是和真实标记之间存在误差。通常，一个简单模型的 Variance 会比复杂模型的小。同样以上文中多项式回归为例子，用常数作为模型无论训练集的输入如何变化得到的最终模型都不会改变，但是扰动对高次多项式的影响是较大的。&lt;/p&gt;
+&lt;h2 id=&#34;decomposition&#34;&gt;Decomposition&lt;/h2&gt;
+&lt;p&gt;假设训练集标记和真实标记之间的误差的期望为0，方差为 $\epsilon^2$ ，即
+$$
+E_{D}[y-y_D] = 0, E_{D}[(y-y_D)^2] = \epsilon^2
+$$
+我们对期望泛化误差可以作如下分解
+$$
+\begin{align}
+E_D[(f(x; D) - y_D)^2] &amp;amp;= E_D[(f(x; D) -\bar{f}(x) + \bar{f}(x)- y_D)^2]\\
+&amp;amp;= E_D[(f(x; D)-\bar{f}(x))^2] + E_D[(\bar{f}(x)-y+y-y_D)^2] + 2E_D[(f(x; D)-\bar{f}(x))(\bar{f}(x)-y_D)]\\
+&amp;amp;= variance + E_D[(\bar{f}(x)-y)^2] + E_D[(y-y_D)^2] + 2E_D[(\bar{f}(x)-y)(y-y_D)]\\
+&amp;amp;= variance + bias^2 + \epsilon^2
+\end{align}
+$$&lt;/p&gt;
+&lt;p&gt;也就是说，泛化误差可以分解为偏差、方差与噪声之和. 噪声刻画了泛化误差的下界，反应了学习问题本身的难度.&lt;/p&gt;
+&lt;h2 id=&#34;trade-off&#34;&gt;Trade-off&lt;/h2&gt;
+&lt;p&gt;监督学习的希望得到一个 bias 和 Variance 都较低的模型，但是一般来说，这两者是冲突的。在训练不足时，模型的拟合能力不足，训练数据扰动不足以对模型产生显著影响，此时 bias 主导了泛化误差；随着训练程度的加深，模型的拟合能力逐渐增强，训练数据的扰动能够被算法学习到，发生了过拟合，此时 Variance 主导了泛化误差. 我们需要在这两者中找到一个好的平衡点，使得得到的模型效果足够令人满意.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;《机器学习》，周志华，清华大学出版社&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Gentle Introduction to the Bias-Variance Trade-Off in Machine Learning (machinelearningmastery.com)](&lt;a href=&#34;https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/#:~:text=Bias&#34;&gt;https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/#:~:text=Bias&lt;/a&gt; is the simplifying assumptions,the bias and the variance.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.mastersindatascience.org/learning/difference-between-bias-and-variance/&#34;&gt;What Is the Difference Between Bias and Variance? (mastersindatascience.org)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff&#34;&gt;Bias–variance tradeoff - Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Mutable and Immutable Objects in Python</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/mutableandimmutableobjects/" />
+            <id>https://zchencn.github.io/posts/mutableandimmutableobjects/</id>
+            <updated>2022-02-25T13:17:43&#43;08:00</updated>
+            <published>2021-01-21T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Python 是一门面向对象语言，Python 中包括内置类型在内的一切都是对象。Python 对象…</summary>
+            
+                <content type="html">&lt;p&gt;Python 是一门面向对象语言，Python 中包括内置类型在内的一切都是对象。Python 对象分为可变对象(Mutable Object)和不可变对象(Immutable Object).&lt;/p&gt;
+&lt;h2 id=&#34;id-and-type&#34;&gt;ID and Type&lt;/h2&gt;
+&lt;p&gt;Python 中的对象再被实例化时会被分配一个与内存位置相关的id, 可以用内置的&lt;code&gt;id()&lt;/code&gt;函数查看对象的id, 用&lt;code&gt;type()&lt;/code&gt;函数查看对象的类型。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;mi&#34;&gt;140279384729648&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;mutable-and-immutable&#34;&gt;Mutable and Immutable&lt;/h2&gt;
+&lt;p&gt;Python 的内置类型也分为可变和不可变两种：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mutable:  int  float complex sting tuple&lt;/li&gt;
+&lt;li&gt;immutable:  list set dict&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;看一段代码：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;首先，我们在内存中创建了一个类型为&lt;code&gt;int&lt;/code&gt;, 值为&lt;code&gt;10&lt;/code&gt;的对象，并把它赋给变量&lt;code&gt;x&lt;/code&gt; （或者说给这个对象起了一个名字&lt;code&gt;x&lt;/code&gt;）， 再把变量&lt;code&gt;x&lt;/code&gt;表示的对象与&lt;code&gt;y&lt;/code&gt;绑定（或者说起了一个别名&lt;code&gt;y&lt;/code&gt;）.  所以&lt;code&gt;x, y, 10&lt;/code&gt; 的id是相同的。然后， 因为&lt;code&gt;int&lt;/code&gt;是不可变对象，&lt;code&gt;x + 1&lt;/code&gt;会创建一个值为&lt;code&gt;11&lt;/code&gt; 类型为 &lt;code&gt;int&lt;/code&gt; 的新对象，再把这个新对象重新与 &lt;code&gt;x&lt;/code&gt; 绑定，此时 &lt;code&gt;y&lt;/code&gt; 还是 &lt;code&gt;10&lt;/code&gt; 这个对象，所以 &lt;code&gt;x, y&lt;/code&gt; 的id不相等。&lt;/p&gt;
+&lt;p&gt;再看下面一段代买：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;b&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;c&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l1&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;s1&#34;&gt;&amp;#39;c&amp;#39;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;同样我们创建一个对象并把它赋给两个变量 &lt;code&gt;l1, 12&lt;/code&gt;, 由于 &lt;code&gt;list&lt;/code&gt; 是可变对象，  &lt;code&gt;pop&lt;/code&gt; 可以直接改变它的状态，并不用重新创建一个新的 &lt;code&gt;&#39;list&lt;/code&gt;&#39; 对象，所以 &lt;code&gt;l1, l2&lt;/code&gt; 的id还是相同的。&lt;/p&gt;
+&lt;p&gt;但是，不可变对象的不可变不是绝对的，看下面一个例子：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;abcd&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;t&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;abcd&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;我们首先创建了一个  &lt;code&gt;tuple&lt;/code&gt;  对象，在 Python 中， &lt;code&gt;tuple&lt;/code&gt; 是不可变对象，它的第二个成员是一个可变的 &lt;code&gt;list&lt;/code&gt; 对象， 我们改变了这个 &lt;code&gt;list&lt;/code&gt; 对象，从内容上看，&lt;code&gt;tuple&lt;/code&gt; 被改变了，但是它仍然绑定的是创建时的那个 &lt;code&gt;string&lt;/code&gt; 和 &lt;code&gt;list&lt;/code&gt; ，从这个角度看，它是没有被改变的。&lt;/p&gt;
+&lt;h2 id=&#34;custom-class&#34;&gt;Custom Class&lt;/h2&gt;
+&lt;p&gt;用户自定义的类默认是可变的.&lt;/p&gt;
+&lt;h2 id=&#34;passed-to-function&#34;&gt;Passed to Function&lt;/h2&gt;
+&lt;p&gt;不严谨地说，传递可变对象类似引用传递(Call by Reference), 传递不可变对象类似值传递(Call by Value).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;func1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+ 
+&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# [0, 1, 2, 3]&lt;/span&gt;
+
+&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+    &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;3&lt;/span&gt;
+    
+&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;func2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# 5&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/python/" term="Python" label="Python" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/python/" term="Python" label="Python" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Adjoint Method</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/adjointmethod/" />
+            <id>https://zchencn.github.io/posts/adjointmethod/</id>
+            <updated>2022-02-25T13:20:17&#43;08:00</updated>
+            <published>2021-01-18T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">问题是什么 为简单起见，我们先考虑有限维的情形，即矩阵向量的形式。 假设$x \in \math…</summary>
+            
+                <content type="html">&lt;h2 id=&#34;问题是什么&#34;&gt;问题是什么&lt;/h2&gt;
+&lt;p&gt;为简单起见，我们先考虑有限维的情形，即矩阵向量的形式。&lt;/p&gt;
+&lt;p&gt;假设$x \in \mathbb{R}^{n_x}$和$p\in\mathbb{R}^{n_p}$, 且有一个函数$g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_p} \rightarrow \mathbb{R}^{n_x}$使得$g(x, p) = 0$, 另有一个关于$x$和$p$的函数$f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_p} \rightarrow \mathbb{R}$，方程$g(x, p) = 0$建立了$x$和$p$的关系，所以$f$可以看成是一个关于$p$的函数，即：$f(x, p) = f(x(p), p) = \hat{f}(p)$。现在的问题是，怎么求出$\hat{f}$关于$p$的导数，即$d_{p}\hat{f}$.&lt;/p&gt;
+&lt;p&gt;一种直接的想法是利用有限差分，即：
+$$
+d_{p_i}\hat{f} \approx \frac{\hat{f}(p + \epsilon e_i) - \hat{f}(p-\epsilon e_i)}{2\epsilon} = \approx \frac{{f}(x(p + \epsilon e_i), p + \epsilon e_i) - f(x(p - \epsilon e_i), p-\epsilon e_i)}{2\epsilon} \tag{1}
+$$
+这样做的缺点在于，当$n_p$很大时，我们需要很多次地计算$x$, 在实际问题中，通常是数值求解一个偏微分方程，这是一个计算量相当大的过程。&lt;/p&gt;
+&lt;p&gt;那么如何快速准确高效地求出$d_{p_i}\hat{f}$呢？&lt;/p&gt;
+&lt;h2 id=&#34;伴随方法&#34;&gt;伴随方法&lt;/h2&gt;
+&lt;p&gt;对$\hat{f}$求全微分得：
+$$
+d_{p}\hat{f} = [\hat{f}&lt;em&gt;{p_1}, \hat{f}&lt;/em&gt;{p_2}, \cdots, \hat{f}&lt;em&gt;{p&lt;/em&gt;{n_p}}]^T = (d_px)^Td_xf + d_pf \tag{2}
+$$
+其中$d_px\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_p}$. 当$f$关于$p$和$x$的表达式已知时， $d_xf$和$d_pf$都可以显示的求出，所以关键在于求出$d_px$ .&lt;/p&gt;
+&lt;p&gt;同样地，我们对$g$求全微分，得：
+$$
+0 = d_xgd_px + d_pg \tag{3}
+$$
+其中$d_xg\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_x}, d_pg\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_p}$&lt;/p&gt;
+&lt;p&gt;不妨假设$d_xg$可逆，则得到$d_px = -(d_xg)^{-1}d_pg$ , 代入(2)式， 得到：
+$$
+d_p\hat{f} = -(d_pg)^T(d_xg)^{-T}d_xf + d_pf \tag{4}
+$$
+最后，为解决(4)式中的求逆，引入&lt;strong&gt;伴随变量(adjoint variable)&lt;/strong&gt;  $\lambda \in \mathbb{R}^{n_x}$, 满足&lt;strong&gt;伴随方程(adjoint equation)&lt;/strong&gt;:
+$$
+(d_xg)^T\lambda = -d_xf \tag{5}
+$$
+代入(4)式，得到：
+$$
+d_p\hat{f} = (d_pg)^T\lambda + d_pf
+$$&lt;/p&gt;
+&lt;h2 id=&#34;泛函形式&#34;&gt;泛函形式&lt;/h2&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/adjoint-method/" term="Adjoint Method" label="Adjoint Method" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Different Derivatives in Mathematics</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/derivatives/" />
+            <id>https://zchencn.github.io/posts/derivatives/</id>
+            <updated>2022-02-25T13:14:30&#43;08:00</updated>
+            <published>2021-01-18T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">一元函数、多元函数和泛函的导数相关概念。以下均假设导数存在。 一元函数 $f:\mathbb{R} \rightarrow \mathbb{R}$ 是实数域上…</summary>
+            
+                <content type="html">&lt;p&gt;一元函数、多元函数和泛函的导数相关概念。以下均假设导数存在。&lt;/p&gt;
+&lt;h2 id=&#34;一元函数&#34;&gt;一元函数&lt;/h2&gt;
+&lt;p&gt;$f:\mathbb{R} \rightarrow \mathbb{R}$ 是实数域上的一元函数，函数在某点的导数是函数值在该点关于自变量的变化率，定义如下：
+$$
+\frac{df(x)}{dx} = \lim_{h\to0}\frac{f(x + h) - f(x)}{h} \tag{1}
+$$
+上式极限存在称函数 $f$ 在 $x$ 处可导，相应的可以定义映射$f^{&#39;}:x \mapsto \frac{df(x)}{dx}$ 称 $f$ 的导函数，一般记为 $f^{&#39;}(x)$ .&lt;/p&gt;
+&lt;h2 id=&#34;多元函数&#34;&gt;多元函数&lt;/h2&gt;
+&lt;p&gt;$f:\mathbb{R}^n \rightarrow \mathbb{R}$ 是定义在 $n$ 维欧氏空间上的函数。&lt;/p&gt;
+&lt;h3 id=&#34;偏导数&#34;&gt;偏导数&lt;/h3&gt;
+&lt;p&gt;对于多变量函数，如果我们固定除某一个变量外的其他变量，此时它可以看作一个单变量函数，此时该函数关于未固定这个变量的导数，就是多元函数的偏导数：
+$$
+\frac{\partial f(x_1, x_2, \cdots, x_n )}{\partial x_k} = \lim_{h\to0}\frac{f(x_1, \cdots, x_k + h, \cdots, x_n) - f(x_1, \cdots, x_k, \cdots, x_n)}{h}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;梯度&#34;&gt;梯度&lt;/h3&gt;
+&lt;p&gt;假设 $f$ 在 $\mathbf{p}$ 点的偏导数都存在，则可以定义它在该点的梯度向量：
+$$
+grad f(\mathbf{p}) = \nabla f(\mathbf{p}) =
+\begin{bmatrix}
+\frac{\partial f(\mathbf{p})}{\partial x_1}\
+\frac{\partial f(\mathbf{p})}{\partial x_2}\
+\vdots \
+\frac{\partial f(\mathbf{p})}{\partial x_n}
+\end{bmatrix}
+$$
+$\nabla f: \mathbf{R}^n \rightarrow \mathbf{R}^n, \mathbf{p} \mapsto \nabla f(\mathbf{p})$ 是函数 $f$ 的梯度场。&lt;/p&gt;
+&lt;h3 id=&#34;方向导数&#34;&gt;方向导数&lt;/h3&gt;
+&lt;p&gt;为了衡量多变量函数在某点沿着某个方向的变化率，可以引入方向导数的概念，$f$ 在 $\mathbf{x}$ 点沿 $ \mathbf{p}$ 方向的方向导数为：
+$$
+\nabla_{\mathbf{v}}f(\mathbf{x}) = \lim_{h\to0}\frac{f(\mathbf{x} + h\mathbf{v}) -f(\mathbf{x})}{h}
+$$
+特别地，偏导数可以看作函数沿 $\mathbf{e_k}$ 方向的方向导数：
+$$
+\nabla_{\mathbf{e_k}}f(\mathbf{x}) = \lim_{h\to0}\frac{f(\mathbf{x} + h\mathbf{e_k}) - f(\mathbf{x})}{h} = \lim_{h\to0}\frac{f(x_1, \cdots, x_k + h, \cdots, x_n) - f(x_1, \cdots, x_k, \cdots, x_n)}{h} = \frac{\partial f(\mathbf{x})}{\partial x_k}
+$$
+另外：
+$$
+f(x_1 + h v_1, x_2 + hv_2) = f(x_1, x_2) + \frac{\partial f}{\partial x_1}hv_1 + \frac{\partial f}{\partial x_2}hv_2 + o(h)
+$$
+所以：
+$$
+\nabla_{\mathbf{v}}f(x) = \nabla f(\mathbf{x})\cdot \mathbf{v} = \nabla f(\mathbf{x})^T\mathbf{v}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;全微分&#34;&gt;全微分&lt;/h3&gt;
+&lt;p&gt;偏导数和方向导数衡量的都可以看作是函数沿着某一方向的近似，而全微分可以看作是函数在某点的最佳线性逼近，和方向无关：
+$$
+f(\mathbf{x} + \mathbf{h}) = f(\mathbf{x}) + df_{\mathbf{x}}(\mathbf{h}) + o(||\mathbf{h}||)
+$$
+$df_{\mathbf{x}}: \mathbb{R}^n \rightarrow R$ 是 $f$ 在 $\mathbf{x}$ 的线性全微分算子。&lt;/p&gt;
+&lt;p&gt;另有：
+$$
+0 = \lim_{t\to 0}\frac{f(\mathbf{x} + t\mathbf{h}) - f(\mathbf{x}) - df_{\mathbf{x}}(t\mathbf{h})}{t} = \nabla_{\mathbf{h}}f(\mathbf{x}) - df_{\mathbf{x}}(\mathbf{h})
+$$
+即：$\nabla_{\mathbf{h}}f(\mathbf{x}) = df_{\mathbf{x}}(\mathbf{h}) = \nabla f(\mathbf{x})^T\mathbf{h}$.&lt;/p&gt;
+&lt;p&gt;由希尔伯特空间上的Riesz表示定理， 存在 $\mathbf{p_x} \in \mathbb{R}^n$ 使得：
+$$
+df_{\mathbf{x}}(\mathbf{h}) = \mathbf{p_x}^T\mathbf{h}
+$$
+也即 $f$ 在该点的梯度，所以全微分可以看作是梯度的对偶。&lt;/p&gt;
+&lt;h2 id=&#34;g导数&#34;&gt;G导数&lt;/h2&gt;
+&lt;p&gt;设 $F: U\rightarrow R$ 是线性空间 $U$ 上的实泛函。从方向导数推广，可以定义泛函的G导数(Gateaux):
+$$
+dF(u; v) = \lim_{t \to 0}\frac{F(u + tv) - F(u)}{t}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;f导数&#34;&gt;F导数&lt;/h2&gt;
+&lt;p&gt;进一步假设 $U$ 是Banach空间，可以定义泛函的F导数(Frechet):
+$$
+F(u + h) = F(u) + Df_u(h) + o(||h||)
+$$
+$Df_u : U \rightarrow R$&lt;/p&gt;
+&lt;p&gt;F可导一定G可导，G可导不一定F可导。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/caculus/" term="Caculus" label="Caculus" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/derivatives/" term="Derivatives" label="Derivatives" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Matric Caculus</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/matriccaculus/" />
+            <id>https://zchencn.github.io/posts/matriccaculus/</id>
+            <updated>2022-02-25T13:15:46&#43;08:00</updated>
+            <published>2021-01-18T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Assume that all vectors are column vector, and we use numerator layout
+Scalar-by-Vector $f$ is a scalar function of $\mathbf{x}\in \mathbb{R}^n$, then the gradient vector of $f$ with respect to $\mathbf{x}$ is: $$ \frac{\partial f}{\partial \mathbf{x}}=\left[\frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \cdots, \frac{\partial f}{\partial x_n} \right] $$ then the gradient vector of f is: $$ \nabla f = \sum_{i=1}^n\frac{\partial f}{\partial x_i}e_i = \left(\frac{\partial f}{\partial \mathbf{x}}\right)^T $$</summary>
+            
+                <content type="html">&lt;p&gt;Assume that all vectors are column vector, and we use numerator layout&lt;/p&gt;
+&lt;h2 id=&#34;scalar-by-vector&#34;&gt;Scalar-by-Vector&lt;/h2&gt;
+&lt;p&gt;$f$ is a scalar function of $\mathbf{x}\in \mathbb{R}^n$, then the gradient vector of $f$ with respect to $\mathbf{x}$ is:
+$$
+\frac{\partial f}{\partial \mathbf{x}}=\left[\frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \cdots, \frac{\partial f}{\partial x_n} \right]
+$$
+then the gradient vector of f is:
+$$
+\nabla f = \sum_{i=1}^n\frac{\partial f}{\partial x_i}e_i = \left(\frac{\partial f}{\partial \mathbf{x}}\right)^T
+$$&lt;/p&gt;
+&lt;h2 id=&#34;vector-by-scalar&#34;&gt;Vector-by-Scalar&lt;/h2&gt;
+&lt;p&gt;$\mathbf{y} \in\mathbb{R}^n$ is a n dimensional vector each component of  which is a scalar function of x, then:
+$$
+\frac{\partial \mathbf{y}}{\partial x} = \left[\frac{\partial y_1}{\partial x}, \frac{\partial y_2}{\partial x}, \cdots, \frac{\partial y_n}{\partial x} \right]^T
+$$&lt;/p&gt;
+&lt;h2 id=&#34;vector-by-vector&#34;&gt;Vector-by-Vector&lt;/h2&gt;
+&lt;p&gt;$\mathbf{y} \in \mathbb{R}^m$ is a vector of $\mathbf{x} \in \mathbb{R}^n$ , the Jacobian matrix of it is a m-by-n matrix:
+$$
+\begin{equation}
+\frac{\partial \mathbf{y}}{\partial \mathbf{x}} = \left[\nabla y_1, \nabla y_2, \cdots, \nabla y_m  \right]^T =
+\begin{bmatrix}
+\frac{\partial y_1}{\partial x_1} &amp;amp; \frac{\partial y_1}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_1}{\partial x_n} \
+\frac{\partial y_2}{\partial x_1} &amp;amp; \frac{\partial y_2}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_2}{\partial x_n} \
+\vdots							  &amp;amp; \vdots                            &amp;amp; \ddots &amp;amp; \vdots                            \
+\frac{\partial y_m}{\partial x_1} &amp;amp; \frac{\partial y_m}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_m}{\partial x_1}
+\end{bmatrix}
+\end{equation}
+$$
+Let $\mathbf{y} = \mathbf{Ax}$ , $\mathbf{A}$ is independent of $\mathbf{x}$, then:
+$$
+\frac{\partial \mathbf{y}}{\partial \mathbf{x}} = \frac{\partial \mathbf{Ax}}{\partial \mathbf{x}} = \mathbf{A}
+$$
+If $y = \mathbf{x^TAx}$ ,
+$$
+\frac{\partial y}{\partial \mathbf{x}} = \frac{\partial \mathbf{x^TAx}}{\partial \mathbf{x}} = \frac{\partial \sum a_{ij}x_ix_j}{\partial \mathbf{x}} = \left[\sum a_{1j}x_j + \sum a_{i1}x_i, \sum a_{2j}x_j + \sum a_{i2}x_i, \cdots, \sum a_{nj}x_j + \sum a_{in}x_i\right] = \mathbf{x}^T(\mathbf{A} + \mathbf{A}^T)
+$$&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Matrix_calculus#Vector-by-vector_identities&#34;&gt;Wikipedia: Matrix Calculus&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/matrix-caculus/" term="Matrix Caculus" label="Matrix Caculus" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Static Library and Dynamic Link Library</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/staticlibanddynamiclib/" />
+            <id>https://zchencn.github.io/posts/staticlibanddynamiclib/</id>
+            <updated>2022-02-25T13:11:03&#43;08:00</updated>
+            <published>2020-12-03T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">静态库和动态库 将频繁复用的程序打包成库文件，并在使用时链接到项目中可以有效的节省编译…</summary>
+            
+                <content type="html">&lt;h2 id=&#34;静态库和动态库&#34;&gt;静态库和动态库&lt;/h2&gt;
+&lt;p&gt;将频繁复用的程序打包成库文件，并在使用时链接到项目中可以有效的节省编译时间，避免频繁的复制，提高编程的效率。 常用有静态库(static library)和动态库(shared library or dynamic library). &lt;br&gt;
+程序的编译运行可分为下面四个步骤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;预编译；处理预编译指导语句，也就是程序中以#开头的行，如#include和#define等；&lt;/li&gt;
+&lt;li&gt;编译；将程序的源文件(.c)转化为目标文件(.o);&lt;/li&gt;
+&lt;li&gt;链接；将库和所有目标文件链接成可执行程序。对静态库来说，实际的文件被打包进了最终的可执行程序，然而动态库只是把标记放入的可执行程序；&lt;/li&gt;
+&lt;li&gt;装载；程序被装载程序(loader)装载后开始执行，所有动态库的标记都会被解析被映射到程序中；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;动态库&#34;&gt;动态库&lt;/h3&gt;
+&lt;p&gt;编译和链接使用动态库有如下步骤：&lt;/p&gt;
+&lt;h4 id=&#34;step-1-compiling-with-position-independent-code&#34;&gt;Step 1: Compiling with Position Independent Code&lt;/h4&gt;
+&lt;p&gt;我们需要将库的源文件编译成位置独立的代码(PIC):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;gcc -c -Wall -Werror -fpic source_file.c
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;step-2-creating-a-shared-library-from-an-object-file&#34;&gt;Step 2: Creating a shared library from an object file&lt;/h4&gt;
+&lt;p&gt;将目标文件打包成动态库：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;gcc -shared -o libshared_lib_name.so source_file.o
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;step-3-linking-with-a-shared-library&#34;&gt;Step 3: Linking with a shared library&lt;/h4&gt;
+&lt;p&gt;经过前两步我们已经有了一个动态库了。现在main.c文件需要使用动态库，我们使用-L选项告诉编译器库所在的目录，并用-l选型指定库的名字：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;gcc -Wall -L directory_of_library -o &lt;span class=&#34;nb&#34;&gt;test&lt;/span&gt; main.c -lshared_lib_name
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;step-4-making-the-library-available-at-runtime&#34;&gt;Step 4: Making the library available at runtime&lt;/h4&gt;
+&lt;p&gt;然而此时执行程序还是会报错：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;error while loading shared libraries: shared_lib_name.so: cannot open shared object file: No such file or directory
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;有两种方法解决这个问题，一种是将库目录加到LD_LIBRARY_PATH变量中：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;LD_LIBRARY_PATH&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;directory_of_library:&lt;span class=&#34;nv&#34;&gt;$LD_LIBRARY_PATH&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;一种是在编译链接时加上：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-Wl,-rpath=directory_of_library
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-Wl是将后面的参数传给链接器的意思，“,”用来处理参数中的空格。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/static-library/" term="Static Library" label="Static Library" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/dynamic-link-library/" term="Dynamic Link Library" label="Dynamic Link Library" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">An Introduction to Perfectly Matched Layer</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/pml/" />
+            <id>https://zchencn.github.io/posts/pml/</id>
+            <updated>2022-02-25T13:18:32&#43;08:00</updated>
+            <published>2020-11-29T16:38:57&#43;08:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Free-space simulation happens in many problems and especially in wave-structure interactions. The key question is how to perform spatial truncation without introducing significant artifacts into the computation when solving the PDE numerically. Various techniques, such as &amp;ldquo;radiating boundary&amp;rdquo;, &amp;ldquo;matched layer&amp;rdquo; and &amp;ldquo;one-way approximation of the wave equation&amp;rdquo;， have been used in computer code.</summary>
+            
+                <content type="html">&lt;p&gt;Free-space simulation happens in many problems and especially in wave-structure interactions. The key question is how to perform spatial truncation without introducing significant artifacts into the computation when solving the PDE numerically. Various techniques, such as &amp;ldquo;radiating boundary&amp;rdquo;, &amp;ldquo;matched layer&amp;rdquo; and  &amp;ldquo;one-way approximation of the wave equation&amp;rdquo;， have been used in computer code. In 1994, Berenger invented a new technique as PML technique to tackle this issue, he put a layer of artificial absorbing material around the grid to absorb the outgoing wave.&lt;/p&gt;
+&lt;h3 id=&#34;wave-equation&#34;&gt;Wave Equation&lt;/h3&gt;
+&lt;p&gt;Acoustic wave equation has the following form:
+$$
+\begin{cases}
+\frac{\partial v}{\partial t} = -\frac{1}{\rho}\nabla p\
+\frac{\partial p}{\partial t} = -\kappa\nabla \cdot v
+\end{cases}
+$$
+In two dimensional case, it can be written as:
+$$
+\frac{\partial^2 p}{\partial t^2} = c^2\nabla^2p = c^2\left(\frac{\partial^2 p}{\partial x^2}+\frac{\partial^2 p}{\partial z^2}\right)
+$$
+We will numerically solve it to demonstrate some ideas in the following article. Code can be found &lt;a href=&#34;https://github.com/zchenCN/fdwave/blob/master/acoustic2d.ipynb&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;numerical-reflection&#34;&gt;Numerical Reflection&lt;/h3&gt;
+&lt;p&gt;Numerical reflection will pollute the solution if we simply truncate the grid with hard-wall(zero condition on the boundary).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./figs/reflection.jpg&#34; alt=&#34;reflection&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;complex-coordinate-stretching&#34;&gt;Complex Coordinate Stretching&lt;/h3&gt;
+&lt;p&gt;Consider a plane wave solution of the wave equation with the form:
+$$
+w(x, t) = e^{i(kx - wt)}
+$$
+The amplitude of it is invariant as it travel along the real axis:
+$$
+||w(x, t)|| = ||e^{i(kx-wt)}|| = 1
+$$
+Things change  if we analytically continue it, evaluate the plane wave solution at complex values:
+$$
+w(x, t) = e^{i(k(Rex + iImx)-wt)} = e^{-kImx}e^{i(kRex-wt)}
+$$
+The amplitude decay exponentially as the growing of  the imaginary part of x, while the solution is not changed out of the absorbing material. So, it not  only acts like an absorbing material, but also like a reflectionless material.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;figs/absorbing.jpg&#34; alt=&#34;absorbing&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The analytically continued solution satisfied the same differential equation. We assume the differential equation was x-invariant in this region, so x only appeared in derivative $\frac{\partial}{\partial x}$ .  The entire process of PML can be conceptually summed up by a single transformation of original differential equation:
+$$
+\frac{\partial }{\partial x} \rightarrow \frac{1}{s_x}\frac{\partial}{\partial x}, s_x = 1 + i\frac{\sigma_x(x)}{w}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://math.mit.edu/~stevenj/18.369/pml.pdf&#34;&gt;Notes on Perfectly Matched Layer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/pde/" term="PDE" label="PDE" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Vector in STL</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/vector/" />
+            <id>https://zchencn.github.io/posts/vector/</id>
+            <updated>2022-02-25T13:13:00&#43;08:00</updated>
+            <published>2020-11-29T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">vector是c++的一个标准类模板，可以用来动态地存储相同类型的实例或基本类型。 1…</summary>
+            
+                <content type="html">&lt;p&gt;vector是c++的一个标准类模板，可以用来动态地存储相同类型的实例或基本类型。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#inlucde &amp;lt;vector&amp;gt; &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Include the header file
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Using declaration
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;vector是模板(template)不是具体的类(class)，在使用时，应该声明具体对象的类型：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Declare a vector v for int
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;因为引用不是具体的对象，所以不能定义由引用组成的vector。特别地，可以定义成员是vector的vector:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;// T is a type 
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; 	&lt;span class=&#34;c1&#34;&gt;// Some compile require a space before closing angle bracket
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;初始化&#34;&gt;初始化&lt;/h2&gt;
+&lt;p&gt;c++提供了不同的构造函数用来初始化vector:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Default initialization, v1 is empty
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Copy construction, v2 has a copy of each element of v1
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;// Equivalent to vector&amp;lt;T&amp;gt; v2(v1)
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// v3 has n elements with value val
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// If T is a primitive type, v4 has n default value of T;
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;				 &lt;span class=&#34;c1&#34;&gt;// If T is a class, v4 has n objects initialize by default constructor
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...};&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// v5 has the element created by the corresponding initializers
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v5&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...};&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Equivalent to vector&amp;lt;T&amp;gt; v5{a, b, c...}
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;容量&#34;&gt;容量&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return if the vector is empty, bool type
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return the number of objects in vector, not necessary equal to the capacity
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;capacity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return the size of storage currently allocated for the vector, capacity is equal to or great than size
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;			  &lt;span class=&#34;c1&#34;&gt;// When the capacity is exhausted, it will reallocate memory and copy the current objects 
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reserve&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Reserve the capacity to be at least enpugh to contain n objects
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;访问&#34;&gt;访问&lt;/h2&gt;
+&lt;p&gt;同数组(raw array)类似，可以通过方括号和指标访问vector的成员，它返回对该成员的引用，需要注意的一点是，这种方式并不会进行&lt;strong&gt;边界检测(bound-check)&lt;/strong&gt;，可能会导致未定义行为，at方法的作用是相同的，但是会进行边界检测，若出界，则会抛出一个异常：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// v is a vector of T type
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return a reference to the element at position n, if n is
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;     &lt;span class=&#34;c1&#34;&gt;// out of range, it will causes undefined behavior
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;at&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// The same as [] but it will check bounds
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;其他常用访问元素的操作包括：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;front&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return a reference to the first element of v, if v is empty, it will causes undefined behavior
+&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;back&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// Return a reference to the last element of v, if v is empty, it will causes undefined behavior
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;修改&#34;&gt;修改&lt;/h2&gt;
+&lt;p&gt;通常，我们会初始化一个空的vector，然后向其中添加成员：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Add val to the end of v
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这种方法会调用到拷贝构造函数，在v内存的相应位置复制一个新的对象。如果增加成员导致新的size超过原先的capacity，那么需要重新分配足够的内存并将原来的成员全都复制过去。另一种方法可以避免插入时拷贝构造函数的调用：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;emplace_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arg1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;arg2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Construct a element at the end of vector according to the args
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;eraser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;swap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;clear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;emplace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/c-/" term="C&#43;&#43;" label="C&#43;&#43;" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/stl/" term="STL" label="STL" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">An Introduction to Constrained Optimization Problems</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/constrainedoptimization/" />
+            <id>https://zchencn.github.io/posts/constrainedoptimization/</id>
+            <updated>2022-02-25T12:21:42&#43;08:00</updated>
+            <published>2020-10-23T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">约束优化问题(optimization problems)一般可以表示为如下形式： $$ \min_{x\in…</summary>
+            
+                <content type="html">&lt;p&gt;约束优化问题(optimization problems)一般可以表示为如下形式：
+$$
+\min_{x\in R^n} f(x)\ s.t
+\begin{cases}
+c_i(x) = 0, i\in \mathcal{E}\
+c_i(x) \geq 0, i \in \mathcal{I}
+\end{cases}
+$$
+定义如下集合为可行域：
+$$
+\Omega = {x|c_i(x) = 0, i \in \mathcal{E}; c_i(x) \geq 0 , i\in\mathcal{I}}
+$$
+那么上述优化问题可以表示为：
+$$
+\min_{x\in \Omega}f(x)
+$$&lt;/p&gt;
+&lt;p&gt;同无约束问题类似，可以引入如下几个定义：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是全局最优解(global minimizer)如果$; f(x^&lt;/em&gt;)\leq f(x),\ \forall x \in \Omega;$;&lt;/li&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是局部最优解(local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^*)\leq f(x),\ \forall x \in \mathcal{N}\cap\Omega;$;&lt;/li&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是严格局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^&lt;em&gt;)&amp;lt; f(x),\ \forall x \neq x^&lt;/em&gt;\in \mathcal{N}\cap\Omega;$;&lt;/li&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是孤立局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; x^*;$是该领域中的唯一局部最优解；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;例子&#34;&gt;例子&lt;/h2&gt;
+&lt;h3 id=&#34;等式约束&#34;&gt;等式约束&lt;/h3&gt;
+&lt;p&gt;考虑如下等式约束问题：
+$$
+\min f(x_1, x_2) = x_1 + x_2, s.t \quad c(x_1, x_2) = x_1^2 + x_2^2 - 2 = 0
+$$
+显然它的最优解是$;x^* = (-1, -1);$, 可以计算目标函数和约束在最优解处的梯度，$;\nabla f(x^&lt;em&gt;) = (1, 1)^T, \nabla c(x^&lt;/em&gt;) = (-2, -2) ;$， 可以发现这两个向量是平行的，也就是说存在$;\lambda  = \frac{1}{2};$使得$;\nabla f(x^&lt;em&gt;) = -\lambda \nabla c(x^&lt;/em&gt;);$.&lt;br&gt;
+对$;c(x+d);$作一阶近似：
+$$
+c(x)\approx c(x) + \nabla c(x)^Td = \nabla c(x)^Td
+$$
+若要使得$;x+d;$仍然在可行域内，$;c(x)^Td = 0;$. 同样对$;f(x+d);$作一阶近似：
+$$
+f(x + d) = f(x) + \nabla f(x)^Td
+$$
+若要使得函数值得到下降，要求$;\nabla f(x)^Td &amp;lt; 0;$. 若要$;x;$是最优解，则不存在$;d;$同时满足上述两个条件，那么只能是$;\nabla f(x);$和$;\nabla c(x);$平行。&lt;br&gt;
+引入拉格朗日(Lagrange)函数：
+$$
+L(x, \lambda) = f(x) + \lambda c(x)
+$$
+上述条件等价于要求存在$;\lambda;$使得$\nabla_x L(x^*, \lambda) = 0$.&lt;/p&gt;
+&lt;h3 id=&#34;不等式约束&#34;&gt;不等式约束&lt;/h3&gt;
+&lt;p&gt;考虑如下不等式约束问题：
+$$
+\min f(x_1, x_2) = x_1 + x_2, s.t \quad c(x_1, x_2) = x_1^2 + x_2^2 - 2 \leq 0
+$$
+同样的，若要使得$;x + d;$的函数值得到下降，则：
+$$
+\nabla f(x)^Td &amp;lt; 0
+$$
+又要保持$;x+d;$在可行域内，则：
+$$
+c(x) + \nabla c(x)^Td \leq 0
+$$
+假如$;x;$在可行域的内部，即$;c(x) &amp;lt; 0;$, 那么对任意一个向量，只要它的模足够小，都能使$;x+d;$在可行域内，取：
+$$
+d = -\alpha \nabla f(x)
+$$
+要使得不存在这样的向量同时满足上述两个条件，只能是$;\nabla f(x) = 0;$; 假如$;x;$在可行域的边界，即$;c(x) = 0;$, 那么第二个式子变成：
+$$
+\nabla c(x)^Td \leq 0
+$$
+同样的，要使两个条件不能同时满足，只能是$;\nabla f(x) = -\mu \nabla c(x), \mu \geq 0;$.&lt;br&gt;
+引入拉格朗日函数：
+$$
+L(x, \mu) = f(x) + c(x)
+$$
+上述条件等价于要求在最优解处：
+$$
+\nabla_x L(x^&lt;em&gt;, \mu) = 0, \mu \geq 0
+$$
+且$;\mu c(x^&lt;/em&gt;)=0;$,这个条件称为互补条件。&lt;/p&gt;
+&lt;h2 id=&#34;约束限制&#34;&gt;约束限制&lt;/h2&gt;
+&lt;p&gt;我们首先引入几个概念。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对可行域内一点$;x;$, 称$;\mathcal{A}(x) = \mathcal{E} \cup {i\in\mathcal{I}, c_i(x) = 0 };$为积极集(active set)。也就是说在该点为0的约束是积极约束(active constraint)，非零的是非积极约束(inactive constraint).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我们称$;{z_k};$是一个逼近$;x;$的可行序列(feasible sequence)如果$;z_k \in \Omega;$且对充分大的$;k;$有$;k\to x;$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;向量$;d;$ 是可行域$;\Omega;$在$;x;$的切(tagent)如果存在一个逼近$;x;$的可行序列$;{z_k};$和一个逼近0的正实数序列$;t_k;$使得$;\lim_{k\to\infty}\frac{z_k-x}{t_k} = d;$. 记所有这样的向量$;d;$构成的集合为$;T_{\Omega}(x);$, 它是一个锥($;d\in T_{\Omega}(x), \Rightarrow\alpha d \in T_{\Omega}(x), \alpha &amp;gt; 0;$), 称为切锥。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;根据上面例子的演示，我们利用约束函数的一阶近似，来估计它在某点附近的行为，所以引进下面的线性可行方向集合(linearized feasible direction set):
+$$
+\mathcal{F(x)} = {d| \nabla c_i(x)^Td = 0, i \in \mathcal{E}; \nabla c_i(x)^Td \geq 0, i\in\mathcal{A}\cap \mathcal
+{I}}
+$$
+同样容易验证, $;\mathcal{F}(x);$也是一个锥。后面我们会证明，在某些特殊情况，$;\mathcal{F}(x) = T_{\Omega}(x);$.&lt;br&gt;
+最后介绍一个约束限制条件，线性无关约束限制(Linearly Independent Constraint Qualification), 称LICQ成立如果${\nabla c_i(x), i\in\mathcal{A}}$线性无关。&lt;/p&gt;
+&lt;h2 id=&#34;一阶必要条件&#34;&gt;一阶必要条件&lt;/h2&gt;
+&lt;p&gt;对于一般的约束优化问题，我们称如下函数是它的拉格朗日函数：
+$$
+L(x, \lambda) = f(x) - \sum_{i\in \mathcal{I}\cup\mathcal
+{E}}\lambda_ic_i(x)
+$$
+一阶必要性条件又称KKT条件，它是很多约束优化问题算法的基础。如果$;x^&lt;em&gt;;$是约束优化问题的局部最优解，且在该点处LICQ条件成立，$;f,c_i;$连续可微，那么存在拉格朗日乘子向量(Lagrange multiplier vector)$;\lambda^&lt;/em&gt; ;$使得：
+$$
+\begin{cases}
+\nabla L(x^&lt;em&gt;, \lambda^&lt;/em&gt;) = 0\
+c_i(x^&lt;em&gt;) = 0, i\in\mathcal{E}\
+c_i(x^&lt;/em&gt;) \geq 0, i\in\mathcal{I}\
+\lambda^&lt;em&gt;_i\geq 0, i\in\mathcal{I}\
+\lambda^&lt;/em&gt;_ic_i(x^*) = 0, i\in\mathcal{E}\cup\mathcal{I}
+\end{cases}
+$$
+其中最后一个条件称为互补条件，这意味着，非积极约束对应的拉格朗日乘子均为0。进一步的，如果对任意的约束和对应的拉格朗日乘子，一定有一个为0，我们称满足严格互补条件。&lt;br&gt;
+下面我们简要概述一阶必要性条件的证明。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/optimization/" term="Optimization" label="Optimization" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/optimization/" term="Optimization" label="Optimization" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">An Introduction to Unconstrained Optimization Problems</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/unconstrainedoptimization/" />
+            <id>https://zchencn.github.io/posts/unconstrainedoptimization/</id>
+            <updated>2022-02-25T12:20:29&#43;08:00</updated>
+            <published>2020-10-23T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">优化问题(optimization problems)一般可以表示为如下形式： $$ \min_{x\in R^n} f(x)\…</summary>
+            
+                <content type="html">&lt;p&gt;优化问题(optimization problems)一般可以表示为如下形式：
+$$
+\min_{x\in R^n} f(x)\ s.t
+\begin{cases}
+c_i(x) = 0, i\in \mathcal{E}\
+c_i(x) \geq 0, i \in \mathcal{I}
+\end{cases}
+$$
+称$;f;$为目标函数(object function), $; x;$为决策变量(decision variable), $; c_i;$为约束函数(constraint function).&lt;/p&gt;
+&lt;h2 id=&#34;凸性&#34;&gt;凸性&lt;/h2&gt;
+&lt;p&gt;称集合$; S;$是凸(convex)集，如果连接集合内任何两点的线段全都包含在该集合内，即：
+$$
+\forall x, y \in S, \alpha x + (1-\alpha)y \in S, \forall \alpha \in [0, 1]
+$$
+称函数$; f;$是凸函数，如果它的定义域是凸集且对定义域内的任意两点$; x, y;$有如下性质：
+$$
+f(\alpha x + (1-\alpha)y)\leq \alpha f(x) + (1-\alpha)f(y), \forall \alpha \in [0, 1]
+$$
+如果上述不等式在$; x\neq y, \alpha\in(0, 1);$时严格成立，则称函数是严格凸(strictly convex)的。称函数是凹(concave)的，如果$; -f;$是凸的。&lt;br&gt;
+接下来我们考虑无约束优化问题，即$;\mathcal{I}=\mathcal{E}=\empty;$,
+$$
+\min_{x\in R^n}\ f(x)
+$$&lt;/p&gt;
+&lt;h2 id=&#34;定解条件&#34;&gt;定解条件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是全局最优解(global minimizer)如果$; f(x^&lt;/em&gt;)\leq f(x),\ \forall x \in R^n;$;&lt;/li&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是局部最优解(local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^*)\leq f(x),\ \forall x \in \mathcal{N};$;&lt;/li&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是严格局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^&lt;em&gt;)&amp;lt; f(x),\ \forall x \neq x^&lt;/em&gt;\in \mathcal{N};$;&lt;/li&gt;
+&lt;li&gt;称$;x^&lt;em&gt;;$是孤立局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; x^*;$是该领域中的唯一局部最优解；
+一般来说，要得到全局最优解是十分困难的，但是当目标函数$;f;$是凸函数时，可以证明局部最优就是全局最优。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（一阶必要性条件）如果$;x^&lt;em&gt;;$是一个局部最优解，且$;f;$在$;x;$的一个开领域内连续可微，那么$;\nabla f(x^&lt;/em&gt;) = 0;$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;假设$;\nabla f(x^&lt;em&gt;)\neq 0;$,我们可以沿着负梯度方向，设为$;p;$, 找到一个的点有更小的函数值，由泰勒展开可得：
+$$
+f(x^&lt;/em&gt; + tp) = f(x^&lt;em&gt;) +  tp^T\nabla f(x^&lt;/em&gt; + \overline{t}p), \overline{t}\in (0, t)
+$$
+而由于$;p = -\nabla f(x^&lt;em&gt;)$, $; p^T\nabla f(x^&lt;/em&gt;) = - ||\nabla f(x^&lt;em&gt;)||^2_2 &amp;lt; 0$，由连续可微的条件可知，我们可以选取足够小的$t;$，使得：
+$$
+tp^T\nabla f(x^&lt;/em&gt; + \overline{t}p) &amp;lt; 0
+$$
+此时$; f(x^* + tp) &amp;lt; f(x^&lt;em&gt;)$, 与$;x^&lt;/em&gt;;$是局部最优解矛盾。由此，我们证明了一阶必要性条件。&lt;br&gt;
+我们称梯度为零的点为稳定点(stationary point), 那么由一阶必要性条件可知，局部最优解必定是稳定点。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（二阶必要性条件）如果$;x^&lt;em&gt;;$是一个局部最优解，且$;\nabla^2 f(x^&lt;/em&gt;);$存在并且在$;x^&lt;em&gt;;$的一个开领域内连续，那么$;\nabla f(x^&lt;/em&gt;) = 0, \nabla^2f(x^*)$半正定。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;假如$;\nabla^2 f(x^&lt;em&gt;);$不是半正定的，则可以选取向量$;p;$使得：
+$$
+p^T\nabla^2 f(x^&lt;/em&gt;)p &amp;lt; 0
+$$
+对$;f(x^* + tp);$作泰勒展开：
+$$
+f(x^* + tp) = f(x^&lt;em&gt;) + tp^T\nabla f(x^&lt;/em&gt;) + \frac{t^2}{2}p^T\nabla^2 f(x^* + \overline{t}p)p, \overline{t}\in (0, t)
+$$
+同样的可以选取足够小的$t;$使得$;f(x^&lt;em&gt;+tp)&amp;lt;f(x^&lt;/em&gt;);$, 从而得到矛盾。&lt;br&gt;
+特殊的，我们还可以导出一个充分条件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;（二阶充分条件）假设$;\nabla^2 f(x^&lt;em&gt;);$在$;x^&lt;/em&gt;;$的一个开领域内连续且$;\nabla f(x^&lt;em&gt;) = 0;$以及$;\nabla^2 f(x^&lt;/em&gt;);$正定，那么$;x^*;$是一个严格局部最优解。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;同样的作泰勒展开：
+$$
+f(x^* + p) = f(x^&lt;em&gt;) + p^T\nabla f(x^&lt;/em&gt;) + \frac{1}{2}p^T\nabla^2 f(z)p &amp;gt; f(x^&lt;em&gt;)
+$$
+注意，充分条件不是必要条件，也就是说存在$;x^&lt;/em&gt;;$是严格局部最优解但是不满足二阶充分条件的情况，比如$;f(x)=x^4, x^*=0.;$&lt;/p&gt;
+&lt;p&gt;当$;f(x);$是凸函数时，局部最优解和全局最优解的刻画会变得很容易。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;当$;f(x);$是凸函数时，局部最优解就是全局最优解。进一步，如果$;f(x);$是可微的，那么稳定点就是全局最优解。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;假设$;x^&lt;em&gt;;$不是全局最优解，那么存在$;z;$使得$;f(z) &amp;lt; f(x);$, 取$;x = \lambda z + (1 - \lambda)x^&lt;/em&gt;, \lambda \in (0, 1);$, 那么由凸性：
+$$
+f(x) = f(\lambda z + (1 - \lambda)x^&lt;em&gt;) &amp;lt; \lambda f(z) + (1-\lambda)f(x^&lt;/em&gt;) &amp;lt; f(x^&lt;em&gt;)
+$$
+对$;x^&lt;/em&gt;;$的任一个领域，都可以选取合适的$;\lambda;$使得$;x;$在里面，这与$;x^&lt;em&gt;;$是局部最优解矛盾。&lt;br&gt;
+假如$;f(x);$是可微的，若稳定点$;x^&lt;/em&gt;;$不是全局最优解，那么：
+$$
+\begin{array}{ll}
+\nabla f(x^&lt;em&gt;)^T(z - x^&lt;/em&gt;) &amp;amp;= \frac{d}{d\lambda}f(x^* + \lambda (z - x^&lt;em&gt;))|&lt;em&gt;{\lambda = 0}\
+&amp;amp;= \lim&lt;/em&gt;{\lambda\to 0}\frac{f(x^&lt;/em&gt; + \lambda (z-x^&lt;em&gt;)) - f(x^&lt;/em&gt;)}{\lambda}\
+&amp;amp;&amp;lt; f(z) - f(x^&lt;em&gt;) &amp;lt; 0
+\end{array}
+$$
+这与$;\nabla f(x^&lt;/em&gt;) = 0;$矛盾。&lt;/p&gt;
+&lt;p&gt;因此，无约束凸优化问题全局最优解的充要条件就是$;\nabla f(x^*) = 0;$。后续的算法，也是在寻找这样的稳定点。&lt;/p&gt;
+&lt;h2 id=&#34;算法概述&#34;&gt;算法概述&lt;/h2&gt;
+&lt;p&gt;通常我们用迭代法求解无约束优化问题。也就是说，算法需要一个初始点$;x_0;$，我们可以利用对问题的已知信息来得到一个解的估计作为初始点，或者任意选取。求解算法利用当前点或已求出点的信息，依次求出$;x_1, x_2, \cdots,x_k,\cdots;$从而得到一个对解的逼近序列，当$;k;$足够大时，$;x_k;$可以作为解的良好估计。&lt;br&gt;
+通常的求解算法可以分为两类：线搜索方法和信赖域方法。&lt;/p&gt;
+&lt;h3 id=&#34;线搜索&#34;&gt;线搜索&lt;/h3&gt;
+&lt;p&gt;线搜索方法概括的说就是从当前点沿着某一个方向走一定的步长从而使得函数值降低（这个不一定每步都需要）得到新的点，即：
+$$
+x_{k+1} = x_k + \alpha_k p_k
+$$
+其中$;p_k;$称为搜索方向(search direction), $;\alpha_k;$称为步长(step length).  &lt;br&gt;
+如何选取搜索方向？最自然的选择就是当前点下降最快的方向，最速下降方向(steepest desent direction), 即$;p_k = -\nabla f(x_k);$，且满足$;p_k^T\nabla f(x_k) &amp;lt; 0;$(称下降条件，满足该条件的称下降方向)，但是问题复杂时，最速下降方向的计算效率可能很低。其他通常的搜索方向选取还有牛顿方向$;p_k = -(\nabla^2f(x_k))^{-1}\nabla f(x_k) ;$和拟牛顿(quasi-Newton)方向$;p_k = -(B_k)^{-1}\nabla f(x_k);$.&lt;/p&gt;
+&lt;h3 id=&#34;信赖域&#34;&gt;信赖域&lt;/h3&gt;
+&lt;p&gt;信赖域方法的基本思想是在当前点的附近用一个模型$;m_k(x);$来近似目标函数，求解的问题为：
+$$
+\min_{||p||&amp;lt;\Delta} m_k(x_k + p) = f(x_k) + \nabla f(x_k)^Tp + \frac{1}{2}p^TB_kp
+$$
+其中$;\Delta;$称为信赖域半径，$;x_{k+1} = x_k + p;$. 当$;f(x_{k+1};$m没有使$;f;$产生充分的减小的话，我们认为模型对原目标函数近似的不是很好，从而应该缩小信赖域半径。当$;B_k = \nabla^2 f(x_k);$时，称之为信赖域牛顿法。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/optimization/" term="Optimization" label="Optimization" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/optimization/" term="Optimization" label="Optimization" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">SEM</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/sem/" />
+            <id>https://zchencn.github.io/posts/sem/</id>
+            <updated>2022-02-25T13:19:26&#43;08:00</updated>
+            <published>2020-10-23T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">谱元法简介 谱元法(Spectral Element Method)结合了谱方法的高精度性和有限元方法…</summary>
+            
+                <content type="html">&lt;h1 id=&#34;谱元法简介&#34;&gt;谱元法简介&lt;/h1&gt;
+&lt;p&gt;谱元法(&lt;strong&gt;S&lt;/strong&gt;pectral &lt;strong&gt;E&lt;/strong&gt;lement &lt;strong&gt;M&lt;/strong&gt;ethod)结合了谱方法的高精度性和有限元方法对于不规则求解区域的灵活性。&lt;br&gt;
+谱元法的求解一般可以分为五个步骤：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将PDE改写成弱形式(Weak Form)&lt;/li&gt;
+&lt;li&gt;将求解区域分隔为若干个小的单元&lt;/li&gt;
+&lt;li&gt;用有限空间内的分片多项式函数近未知函数&lt;/li&gt;
+&lt;li&gt;代入弱形式并数值求解上述过程得到的积分得到单元上的矩阵表示&lt;/li&gt;
+&lt;li&gt;将矩阵拼装得到最后求解的线性方程组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面用一个例子具体说明这些步骤。&lt;br&gt;
+考虑如下赫姆霍兹方程(Helmholtz Equation)：
+$$
+-\nabla^2u + ku = f, x\in \Omega = [a, b]
+$$
+以及如下迪利克雷边界条件(Dirchlet Boundary Condition)：
+$$
+u(a) = u(b) = 0
+$$&lt;/p&gt;
+&lt;h2 id=&#34;弱形式&#34;&gt;弱形式&lt;/h2&gt;
+&lt;p&gt;设好的函数$v$同样满足迪利克雷边界条件，我们称它为测试函数(Test Function). 在方程两端同时乘上$v$并且在整个求解区域上做积分，运用分部积分公式可得：
+$$
+\int_a^b\frac{\partial u}{\partial x}\frac{\partial v}{\partial x} \ dx + k\int_a^buv \ dx = \int_a^b fv \ dx
+$$
+可以证明，对任意测试函数都满足上式的$u$与原方程的解等价。&lt;br&gt;
+严谨的证明参考有限元方法数学理论的相关书籍。&lt;/p&gt;
+&lt;h2 id=&#34;剖分&#34;&gt;剖分&lt;/h2&gt;
+&lt;p&gt;将$\Omega = [a, b]$剖分成$N_e$个小单元，$\Omega = \cup_{e=1}^{N_e}\Omega_e, \Omega_e = [X_{e-1}, X_e], X_0 = a, X_{N_e} = b.$ 为方便后续的讨论和求积分，建立一个标准单元（参考单元）到$\Omega_e$的映射：
+$$
+F^e:  [-1, 1] \longrightarrow \Omega_e, x = F^e(\xi) = \frac{X_{e} - X_{e-1}}{2}\xi + \frac{X_e + X_{e-1}}{2}
+$$
+相反的有：
+$$
+\xi = (F^e)^{-1}(x) = \frac{2x - X_e - X_{e-1}}{X_e - X_{e-1}}
+$$
+二维的情况类似, 其中$\Omega_e$变成顶点为$P^e_1, P^e_2, P^e_3, P^e_4$(从左下按逆时针顺序编号)的四边形，同样的可以建立标准单元到$\Omega_e$的映射：
+$$
+F^e:  [-1, 1]^2 \longrightarrow \Omega_e, F^e(\xi, \eta) = \sum_{a=1}^4P^e_aN_a(\xi, \eta)
+$$
+其中：
+$$
+N_1 = \frac{1-\xi}{2}\cdot\frac{1-\eta}{2}, \ N_2 = \frac{1 + \xi}{2}\cdot\frac{1 - \eta}{2} \ N_3 = \frac{1 + \xi}{2}\cdot\frac{1 + \eta}{2}, \ N_4 = \frac{1 - \xi}{2}\cdot \frac{1 + \eta}{2}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;多项式近似&#34;&gt;多项式近似&lt;/h2&gt;
+&lt;p&gt;在每个单元上我们使用GLL(Gauss-Legendre-Labotto)求积公式节点的拉格朗日(Lagrange)多项式来近似函数。假设GLL点为$\xi_0 = -1, \xi_1, \cdots, \xi_n = 1$，则各个单元上的节点为：
+$$
+x^e_i = F^e(\xi_i), i=0,1, \cdots,n
+$$
+记全局节点为：
+$$
+x_I = x^e_i , I = I(e, i) = (e - 1)n + i
+$$
+$I$可以取从$0$到$N_e\times n$的所有整数，共$N_e\times n + 1$个。
+在每个单元上，我们有：
+$$
+u(x) = u(x(\xi)) = u(F^e(\xi)) \coloneqq u^e(\xi) \approx \sum_{i=0}^nu^e_il_i(\xi) = \sum_{i=0}^nu^e_il_i((F^e)^{-1}(x)) \coloneqq \sum_{i=0}^nu^e_i\phi^e_i
+$$
+其中：
+$$
+u^e_i = u^e(\xi_i) = u(F^e(\xi_i)), \phi_i^e(x) = l_i((F^e)^{-1}(x))
+$$
+对于一阶导数，我们有:&lt;/p&gt;
+&lt;!--
+$$
+\frac{\partial u}{\partial x} = \frac{\partial u^e(\xi)}{\partial \xi}\frac{\partial \xi}{\partial x} = \frac{2}{L_e}\frac{\partial u^e(\xi)}{\partial \xi} \approx \frac{2}{L_e}\sum_{i=0}^nu^e_i\frac{\partial l_i}{\partial \xi}, \ L_e = X_e - X_{e-1} 
+$$
+--&gt;
+&lt;p&gt;$$
+\frac{\partial u}{\partial x} \approx \sum_{i=0}^n
+u^e_i\frac{\partial \phi^e_i}{\partial x}$$&lt;/p&gt;
+&lt;p&gt;对于二维的情况，我们选择的插值基函数是拉格朗日多项式的乘积，记：
+$$
+\phi_I(\xi, \eta) = l_i(\xi)l_j(\eta), I = i + j(n + 1)
+$$
+则在每个子区域上：
+$$
+u(x, y) = u(F^e(\xi, \eta)) = u^e(\xi, \eta) \approx \sum_{i,j=0}^{1+n}u^e_{i,j}l_i(\xi)l_j(\eta) = \sum_{I=0}^{(n+1)^2}u^e_I\phi_I(\xi, \eta) = \sum_{I=0}^{(n+1)^2}u^e_I\phi_I^e(x, y)
+$$
+其中：
+$$
+u^e_{i,j} = u^e(\xi_i, \eta_j) = u(F^e(\xi_i, \eta_j)), u^e_I = u^e_{i, j} \
+\phi_I^e(x, y) = \phi_I((F^e)^{-1}(x, y)), I = i + j(n + 1),\ i,j = 0, 1, \cdots, n
+$$
+对于偏导数：&lt;/p&gt;
+&lt;!--
+$$
+\frac{\partial u}{\partial x} = \frac{\partial u^e}{\partial \xi}\frac{\partial \xi}{\partial x} + \frac{\partial u^e}{\partial \eta}\frac{\partial \eta}{\partial x} \approx \sum_{i,j = 0}^{n+1}u^e_{i,j}\left(\frac{\partial l_i(\xi)}{\partial \xi}l_j(\eta)\frac{\partial \xi}{\partial x} + \frac{\partial l_j(\eta)}{\partial \eta}l_i(\xi)\frac{\partial \eta}{\partial x}\right) \\
+
+\frac{\partial u}{\partial y} = \frac{\partial u^e}{\partial \xi}\frac{\partial \xi}{\partial y} + \frac{\partial u^e}{\partial \eta}\frac{\partial \eta}{\partial y} \approx \sum_{i,j = 0}^{n+1}u^e_{i,j}\left(\frac{\partial l_i(\xi)}{\partial \xi}l_j(\eta)\frac{\partial \xi}{\partial y} + \frac{\partial l_j(\eta)}{\partial \eta}l_i(\xi)\frac{\partial \eta}{\partial y}\right)
+$$
+--&gt;
+&lt;p&gt;$$
+\frac{\partial u}{\partial x} \approx \sum_{I=0}^{(n+1)^2}u^e_I\frac{\partial \phi^e_I}{\partial x}, \frac{\partial u}{\partial y} \approx \sum_{I=0}^{(1+n)^2}u^e_I\frac{\partial \phi^e_I}{\partial y}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;数值积分&#34;&gt;数值积分&lt;/h2&gt;
+&lt;p&gt;在每个单元上, 选取测试函数为任意插值基函数，由方程的弱形式可以得到：
+$$
+\int_{\Omega_e} u\phi^e_j\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e} \phi^e_i\phi^e_j\ dx \coloneqq \sum_{i=0}^nM^e_{j ,i}u^e_i, \forall j = 0, 1, \cdots, n
+$$
+其中：
+$$
+M^e_{j,i} = \int_{\Omega_e}\phi^e_i\phi^e_j\ dx = \int_{-1}^1l_i(\xi)l_j(\xi)\frac{\partial x}{\partial \xi}\ d\xi \approx \frac{L_e}{2}w_i\delta_{j, i}
+$$
+所以单元质量矩阵(Mass Matrix)是一个对角矩阵。&lt;br&gt;
+再考虑含有导数的部分：
+$$
+\int_{\Omega_e}\frac{\partial u}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \coloneqq \sum_{i=0}^nK^e_{j, i}u^e_i, \forall j = 0, 1, \cdots, n
+$$
+其中：
+$$
+K^e_{j, i} = \int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \int_{-1}^1\left(\frac{\partial \xi}{\partial x}\right)^2\frac{\partial l_i}{\partial \xi}\frac{\partial l_j}{\partial \xi}\frac{\partial x}{\partial \xi}\ d\xi = \frac{2}{L_e}\sum_{k=0}^nw_kd_{i,k}d_{j, k}\
+d_{i, k} = l&#39;&lt;em&gt;i(\xi_k), d&lt;/em&gt;{j, k} = l_j&#39;(\xi_k)
+$$
+我们有：
+$$
+K^e = \left(\frac{2}{L_e}\right)^2DM^eD^t
+$$
+单元刚度矩阵(Stifness Matrix)$K^e$是对称矩阵。
+最后，右端项：
+$$
+f^e_j \coloneqq \int_{\Omega_e}f\phi^e_j\ dx = \frac{L_e}{2}\int_{-1}^1f(F^e(\xi))l_j(\xi)\ d\xi \approx \frac{w_jL_e}{2}f(F^e(\xi_j))
+$$
+对于二维的情况：
+$$
+\int_{\Omega_e}u\phi^e_J\ dS \approx \sum_{I=0}^{(1+n)^2}u^e_I\int_{\Omega_e}\phi^e_I\phi^e_J\ dS = \sum_{I=0}^{(1+n)^2}M^e_{J, I}u^e_I
+$$
+其中：
+$$
+M^e_{J, I} = \int_{\Omega_e}\phi^e_I\phi^e_J\ dS = \int_{-1}^1\int_{-1}^1\phi_I\phi_J J^e\ d\xi d\eta = w_iw_jJ^e(\xi_i, \xi_j)\delta_{I, J}, I = I(i, j) = J
+$$&lt;/p&gt;
+&lt;h2 id=&#34;线性方程组&#34;&gt;线性方程组&lt;/h2&gt;
+&lt;p&gt;弱形式经过上面的近似和数值积分，得到：
+$$
+\sum_{e=1}^{N_e}\sum_{i=0}^nK^e_{j,i}u^e_i + k\sum_{e=1}^{N_e}\sum_{i=0}^{n}M^e_{j,i}u^e_i = \sum_{e=1}^{N_e}f^e_j
+$$
+全局质量矩阵：
+$$
+M = \sum_{e=1}^{Ne}M^e =
+\begin{pmatrix}
+M^1_{0,0} &amp;amp;        &amp;amp;                     &amp;amp; \
+&amp;amp; \ddots &amp;amp;                     &amp;amp; \
+&amp;amp;        &amp;amp; M^1_{n,n}+M^2_{0,0} &amp;amp; \
+&amp;amp;        &amp;amp;                     &amp;amp; \ddots&lt;/p&gt;
+&lt;p&gt;\end{pmatrix}
+$$
+$M$是一个$n\times N_e + 1$的方阵。&lt;br&gt;
+全局刚度矩阵：
+$$
+K = \sum_{e=1}^{Ne}K^e =
+\begin{pmatrix}
+K^1_{0,0} &amp;amp; \cdots &amp;amp; K^1_{0, n}                     &amp;amp; \
+\vdots        &amp;amp; \ddots &amp;amp;         \vdots            &amp;amp; \
+K^1_{n, 0}        &amp;amp; \cdots       &amp;amp; M^1_{n,n}+M^2_{0,0} &amp;amp; \
+&amp;amp;        &amp;amp;                     &amp;amp; \ddots&lt;/p&gt;
+&lt;p&gt;\end{pmatrix}
+$$
+同样也是一个$n\times N_e + 1$的方阵。&lt;br&gt;
+则最终的线性方程组是：
+$$
+(K +kM)\underline{u} = \underline{f}
+$$
+其中：
+$$
+\underline{u} = (u_0, u_1, \cdots, u_{n\times N_e + 1})^t \
+\underline{f} = (f^1_0, \cdots,f^1_n + f^2_0, \cdots, f^{N_e}_n)^t
+$$&lt;/p&gt;
+&lt;p&gt;二维的情况类似，这里就不再赘述。&lt;/p&gt;
+&lt;p&gt;求解上述得到的线性方程组，就可以得到微分方程的数值解。&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/numerical-analysis/" term="Numerical Analysis" label="Numerical Analysis" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/sem/" term="SEM" label="SEM" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Gaussian Quadrature</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/gaussianquadrature/" />
+            <id>https://zchencn.github.io/posts/gaussianquadrature/</id>
+            <updated>2022-02-25T12:30:13&#43;08:00</updated>
+            <published>2020-06-27T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">高斯求积 数值积分 考虑带权的积分如下： $$ \int_a^bf(x)w(x)dx $$ 其中 $w(x) \geq 0, \int_a^bw(x)dx &amp;gt; 0$，称$w(x)$为权。一…</summary>
+            
+                <content type="html">&lt;h1 id=&#34;高斯求积&#34;&gt;高斯求积&lt;/h1&gt;
+&lt;h2 id=&#34;数值积分&#34;&gt;数值积分&lt;/h2&gt;
+&lt;p&gt;考虑带权的积分如下：
+$$
+\int_a^bf(x)w(x)dx
+$$
+其中 $w(x) \geq 0, \int_a^bw(x)dx &amp;gt; 0$，称$w(x)$为权。一般的数值积分公式有如下的形式：
+$$
+\int_a^bw(x)f(x)dx \approx \sum_{i=0}^nw_if(x_i)
+$$
+即用$n+1$ 个函数值的加权和来近似积分的值。&lt;/p&gt;
+&lt;p&gt;我们记以$x_i(i=0,1,\cdots,n)$ 为节点的拉格朗日(Langrange)插值多项式为：
+$$
+L_n(x)=\sum_{i=1}^nf(x_i)l_i(x)
+$$
+其中$l_i(x)$是拉格朗日插值基函数，即：
+$$
+l_i(x) = \frac{\prod_{k=0,k\neq i}^n(x-x_k)}{\prod_{k=0,k\neq i}^n(x_i-x_k)}
+$$
+则：
+$$
+f(x)=L_n(x)+R[f],\quad R[f]=\frac{1}{(n+1)!}f^{(n+1)}(\xi)(x-x_0)(x-x_1)\cdots(x-x_n)
+$$&lt;/p&gt;
+&lt;p&gt;有：
+$$
+\int_a^bw(x)f(x)dx=\left(\sum_{i=0}^n\int_a^bw(x)l_i(x)dx\right)f(x_i)+\int_a^bw(x)R[f]dx
+$$&lt;/p&gt;
+&lt;p&gt;一般我们取$w_i =\int_a^bw(x)l_i(x)dx$ ，则数值积分公式的误差就是上式等号右侧的第二项，当$f(x)$ 是不超过$n$ 次的多项式时，容易看出误差为0。若数值积分公式对不超过$k$ 次的多项式精确成立，我们就称它的&lt;strong&gt;代数精度&lt;/strong&gt;为$k$ 。所以上述数值积分公式的代数精度至少为$n$。&lt;/p&gt;
+&lt;p&gt;另一方面，数值积分公式中含有$n+1$ 个$w_i$ 和$n+1$个$x_i$ ，共$2n+2$ 个自由度，所以可以想象通过适当选取节点$x_i$ ，它的代数精度最多可以为$2n+1$ 。我们把具有$2n+1$ 次代数精度的求积公式称为&lt;strong&gt;高斯求积公(GaussianQuadrature)&lt;/strong&gt;，其节点$x_i(i=0,1,\cdots,n)$ 称为&lt;strong&gt;高斯点&lt;/strong&gt;。接下来讨论怎么选取合适的点作为高斯点。&lt;/p&gt;
+&lt;h2 id=&#34;正交多项式与高斯点&#34;&gt;正交多项式与高斯点&lt;/h2&gt;
+&lt;p&gt;称多项式$p(x), q(x)$ （带权）正交如果：
+$$
+\int_a^bw(x)p(x)q(x)dx=0
+$$
+假设以$x_i(i=0,1,\cdots,n)$ 为零点的多项式$p(x)=(x-x_0)(x-x_1)\cdots(x-x_n)$ 与任何不超过$n$次的多项式正交，由多项式的带余除法可知，对于不超过$2n+1$次的多项式$f(x)$ ，有不超过$n$ 次的多项式$q(x), r(x)$ 使得：
+$$
+f(x)=p(x)q(x)+r(x)
+$$
+那么：
+$$
+\int_a^bw(x)f(x)dx=\int_a^bw(x)p(x)q(x)dx+\int_a^bw(x)r(x)dx=\int_a^bw(x)r(x)dx=\sum_{i=0}^nw_ir(x_i)
+$$
+又：
+$$
+f(x_i)=p(x_i)q(x_i)+r(x_i)=r(x_i)
+$$
+所以：
+$$
+\int_a^bw(x)f(x)dx=\sum_{i=0}^nw_if(x_i)
+$$
+通过这种方式，我们发现只要选取节点为正交多项式的零点就可以得到高斯求积公式。&lt;/p&gt;
+&lt;h2 id=&#34;gauss-legendre&#34;&gt;Gauss-Legendre&lt;/h2&gt;
+&lt;p&gt;取$[a,b]=[-1,1],w(x)=1$，由${1,x,x^2,\cdots}$ 正交化得到的多项式称为勒朗德(Legendre)多项式，一般记为$L_n(x)$ 。我们只要选取节点为$L_{n+1}(x)$ 的零点就可以得到高斯-勒朗德求积公式。&lt;/p&gt;
+&lt;h2 id=&#34;gauss-chebyshev&#34;&gt;Gauss-Chebyshev&lt;/h2&gt;
+&lt;p&gt;取$[a,b]=[-1,1],w(x)=\frac{1}{\sqrt{1-x^2}}$，由${1,x,x^2,\cdots}$ 正交化得到的多项式称为切比雪夫(chebyshev)多项式，一般记为$T_n(x)$ 。我们只要选取节点为$T_{n+1}(x)$ 的零点就可以得到高斯-切比雪夫求积公式。&lt;/p&gt;
+&lt;!--
+
+## Gauss-Radau
+
+取$[a,b]=[-1,1]$ ，且固定$x_0=-1$ ，取：
+$$
+p(x)=p_{n+1}(x)+ap_n(x)
+$$
+取合适的$a$ 使得$p(-1)=0$ ，$x_1,x_2,\cdots,x_n$ 是$p(x)$剩余的零点，则对任意次数不超过$2n$ 的多项式$f(x)$ ：
+$$
+f(x)=p(x)q(x)+r(x),
+$$
+$r(x)$ 的次数不超过$n$ ，$q(x)$ 的次数不超过$n-1$ ，且$f(x_i)=r(x_i)$ ，那么
+$$
+\sum_{i=0}^nw_if(x_i)=\sum_{i=0}^nw_ir(x_i)=\int_{-1}^1w(x)r(x)dx=\int_{-1}^1w(x)f(x)-w(x)p(x)q(x)dx
+$$
+其中：
+$$
+\int_{-1}^1w(x)p(x)q(x)dx=\int_{-1}^1w(x)p_{n+1}(x)q(x)dx+a\int_{-1}^1w(x)p_n(x)q(x)dx=0
+$$
+于是有：
+$$
+\int_{-1}^1w(x)f(x)dx=\sum_{i=1}^nw_if(x_i),\quad \forall f(x)\in P_{2n}
+$$
+--&gt;
+&lt;h2 id=&#34;gauss-labotto&#34;&gt;Gauss-Labotto&lt;/h2&gt;
+&lt;p&gt;取$[a,b]=[-1,1]$ ，如果我们想在求积节点中包含两个区间端点，即固定$x_0=-1,x_n=1$，这种方式称为Gauss-Labotto求积。此时，自由度只有$2n$($n+1$个权和$n-1$节点)，可以想象至多达到$2n-1$阶代数精度。&lt;br&gt;
+对任意2n-1次多项式$p_{2n-1}$，同样由多项式的带余除法可以得到：
+$$
+p_{2n-1} - L_n= (1-x^2)(x-x_1)\cdots(x-x_{n-1})q(x) + r(x),
+$$
+其中$q(x)\in P_{n-2}, r(x)\in P_n$，且$r(x_i) = 0(i = 0, 1, \cdots,n)$，所以$r(x) \equiv 0$，那么数值积分的误差项为：
+$$
+E(x) = \int_{-1}^1(1-x^2)(x-x_1)\cdots(x-x_{n})q(x)
+$$
+我们选取$x_1, x_2, \cdots, x_{n-1}$是$n-1$次Labotto多项式的零点，有$E(x)=0$.&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/numerical-analysis/" term="Numerical Analysis" label="Numerical Analysis" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">An Introduction to Make</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/makefiles/" />
+            <id>https://zchencn.github.io/posts/makefiles/</id>
+            <updated>2022-02-25T13:06:16&#43;08:00</updated>
+            <published>2019-12-21T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">概述 make是控制如何从源文件(source file)生成可执行文件(excutab…</summary>
+            
+                <content type="html">&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;
+&lt;p&gt;make是控制如何从源文件(source file)生成可执行文件(excutable)及其他非源文件(non-source file)的一种工具。make工具通过makefile中说明的方式，构建(build)整个程序(program)。在一个庞大的项目中可能包含很多个源文件，修改少部分源文件可能需要重新编译整个程序，这个过程耗时耗力，通过使用make工具可以只重新编译依赖于修改过的文件的部分，从而提升效率；&lt;/p&gt;
+&lt;h2 id=&#34;makefile&#34;&gt;makefile&lt;/h2&gt;
+&lt;h3 id=&#34;makefile的基本语法&#34;&gt;makefile的基本语法&lt;/h3&gt;
+&lt;p&gt;makefile主要由一条条如下的规则组成：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span class=&#34;nf&#34;&gt;target ... &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;prerequisite&lt;/span&gt; ...
+	&lt;span class=&#34;nb&#34;&gt;command&lt;/span&gt;
+	...
+	...
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;注意其中命令行前面是&lt;strong&gt;Tab&lt;/strong&gt;。
+如果一条规则的目标属于以下情况之一，就称为需要更新：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;目标没有生成；&lt;/li&gt;
+&lt;li&gt;某个条件需要更新；&lt;/li&gt;
+&lt;li&gt;某个条件的修改时间比目标晚；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在一条规则被执行前，规则的条件可能处于以下三种状态之一：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;需要更新。能够找到以该条件为目标的规则，且该规则中目标需要更新；&lt;/li&gt;
+&lt;li&gt;不需要更新。能够找到以该条件为目标的规则，但是该规则中目标不需要更新；或者不能找到以该条件为目标的规则且该条件已经生成；&lt;/li&gt;
+&lt;li&gt;错误。不能找到以该条件为目标的规则，并且该条件没有生成；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;执行一条规则A的步骤如下&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;检查它的每个条件P：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;如果P需要更新，则执行以P为目标的规则B。之后无论是否生成文件P都认为P已经被更新；&lt;/li&gt;
+&lt;li&gt;如果找不到规则B，并且文件P已经存在，则表示P不需要更新；&lt;/li&gt;
+&lt;li&gt;如果找不到规则B，并且文件P不存在，则报错退出；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;检查完A的所有条件后，检查它的目标T，如果属于一下情况之一，就执行命令列表：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;文件T不存在；&lt;/li&gt;
+&lt;li&gt;文件T存在，但是某个条件的修改时间比它晚；&lt;/li&gt;
+&lt;li&gt;某个条件P已将被更新（并不一定生成文件P，只要执行了命令列表就视为已经更新）；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在shell中通过以下命令执行&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;$ make &lt;span class=&#34;c1&#34;&gt;# 从缺省目标开始更新，即makefile中第一条规则的目标&lt;/span&gt;
+$ make target &lt;span class=&#34;c1&#34;&gt;# 更新target这个目标&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;变量&#34;&gt;变量&lt;/h3&gt;
+&lt;p&gt;makefile可以用‘=’定义变量和&#39;$&amp;lsquo;读取变量的值：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;CC&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; gcc &lt;span class=&#34;c1&#34;&gt;# 定义变量CC，值是gcc&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CC&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 取出CC的值
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;$ CC &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;= &lt;span class=&#34;n&#34;&gt;gcc&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 读到$(CC)时立刻展开
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;CC&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;?=&lt;/span&gt; gcc &lt;span class=&#34;c1&#34;&gt;# CC没有定义过则等同&amp;#39;=&amp;#39;，否则什么也不做&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;CC&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; gcc &lt;span class=&#34;c1&#34;&gt;# CC可以追加定义&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;makefile中还有一些特殊变量：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$@&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 表示规则中的目标
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$&amp;lt;&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 表示规则中的第一个条件
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$?&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 表示规则中所有比目标新的条件，组成一个列表，以空格分隔
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;$^&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 表示规则中所有的条件，组成一个列表，以空格分隔
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;makefile中的隐含变量，有的变量已经定义了缺省值：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span class=&#34;err&#34;&gt;AR&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;静态库打包命令，缺省值ar&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;ARFLAGS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;静态库打包命令的选型，缺省值rv&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;AS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;汇编器的名字，缺省值as&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;ASFLAGS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;汇编器的选项，没有定义&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;CC&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;C编译器的名字，缺省值是cc&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;CFLAGS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;C编译器的选项，没有定义&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;CXX&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;C++编译器的名字，缺省值是g++&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;CXXFLAGS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;C++编译器的选项，没有定义&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;CPP&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;C预处理器的名字，缺省值是&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;CC&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-E&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;CPPFLAGS&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;C预处理器的选项，没有定义&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;LD&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;链接器的名字，缺省值是ld&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;OUTPUT_OPTION&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;输出的命令行选项，缺省值是-o&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$@&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;。&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;RM&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;删除命令的名字，缺省值是rm&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-f&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;常用make命令选项&#34;&gt;常用make命令选项&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;make&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-n&lt;/span&gt; 
+&lt;span class=&#34;c&#34;&gt;# 打印要执行的命令而不执行
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# 这个命令可以用于查看命令的执行顺序，确认无误了再执行命令
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;make&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;-C&lt;/span&gt; &lt;span class=&#34;c&#34;&gt;# 可以切换到另一个目录执行makefile
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;例子&#34;&gt;例子&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;30
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;31
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;32
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;33
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;34
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;35
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;36
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;37
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;38
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;39
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;40
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;41
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;42
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;43
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;44
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;45
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;46
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;47
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;48
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;49
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;50
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;51
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;52
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;53
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;54
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;55
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;56
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;57
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;58
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;59
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;60
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;61
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;62
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;63
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;64
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;65
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;66
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;67
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;68
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;69
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;70
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;71
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;72
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;73
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;74
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;75
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;76
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-makefile&#34; data-lang=&#34;makefile&#34;&gt;&lt;span class=&#34;c&#34;&gt;# A sample Makefile
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# This Makefile demonstrates and explains 
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Make Macros, Macro Expansions,
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Rules, Targets, Dependencies, Commands, Goals
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Artificial Targets, Pattern Rule, Dependency Rule.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# Comments start with a # and go to the end of the line.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# Here is a simple Make Macro.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;LINK_TARGET&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; test_me.exe
+
+&lt;span class=&#34;c&#34;&gt;# Here is a Make Macro that uses the backslash to extend to multiple lines.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;OBJS&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;  &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; Test1.o &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; Test2.o &lt;span class=&#34;se&#34;&gt;\
+&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt; Main.o
+
+&lt;span class=&#34;c&#34;&gt;# Here is a Make Macro defined by two Macro Expansions.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# A Macro Expansion may be treated as a textual replacement of the Make Macro.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Macro Expansions are introduced with $ and enclosed in (parentheses).
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;REBUILDABLES&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;OBJS&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;LINK_TARGET&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;# Here is a simple Rule (used for &amp;#34;cleaning&amp;#34; your build environment).
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# It has a Target named &amp;#34;clean&amp;#34; (left of the colon &amp;#34;:&amp;#34; on the first line),
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# no Dependencies (right of the colon),
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# and two Commands (indented by tabs on the lines that follow).
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# The space before the colon is not required but added here for clarity.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;clean &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; 
+  rm -f &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;REBUILDABLES&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; Clean &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;# There are two standard Targets your Makefile should probably have:
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# &amp;#34;all&amp;#34; and &amp;#34;clean&amp;#34;, because they are often command-line Goals.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Also, these are both typically Artificial Targets, because they don&amp;#39;t typically
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# correspond to real files named &amp;#34;all&amp;#34; or &amp;#34;clean&amp;#34;.  
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# The rule for &amp;#34;all&amp;#34; is used to incrementally build your system.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# It does this by expressing a dependency on the results of that system,
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# which in turn have their own rules and dependencies.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;all &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;LINK_TARGET&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+  &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; All &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;# There is no required order to the list of rules as they appear in the Makefile.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Make will build its own dependency tree and only execute each rule only once
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# its dependencies&amp;#39; rules have been executed successfully.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;c&#34;&gt;# Here is a Rule that uses some built-in Make Macros in its command:
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# $@ expands to the rule&amp;#39;s target, in this case &amp;#34;test_me.exe&amp;#34;.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# $^ expands to the rule&amp;#39;s dependencies, in this case the three files
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# main.o, test1.o, and  test2.o.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;$(LINK_TARGET) &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;OBJS&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+  g++ -g -o &lt;span class=&#34;nv&#34;&gt;$@&lt;/span&gt; $^
+
+&lt;span class=&#34;c&#34;&gt;# Here is a Pattern Rule, often used for compile-line.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# It says how to create a file with a .o suffix, given a file with a .cpp suffix.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# The rule&amp;#39;s command uses some built-in Make Macros:
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# $@ for the pattern-matched target
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# $&amp;lt; for the pattern-matched dependency
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;%.o &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; %.&lt;span class=&#34;n&#34;&gt;cpp&lt;/span&gt;
+  g++ -g -o &lt;span class=&#34;nv&#34;&gt;$@&lt;/span&gt; -c $&amp;lt;
+
+&lt;span class=&#34;c&#34;&gt;# These are Dependency Rules, which are rules without any command.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Dependency Rules indicate that if any file to the right of the colon changes,
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# the target to the left of the colon should be considered out-of-date.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# The commands for making an out-of-date target up-to-date may be found elsewhere
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# (in this case, by the Pattern Rule above).
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Dependency Rules are often used to capture header file dependencies.
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Main.o &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Main&lt;/span&gt;.&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;1.&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;2.&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt;
+&lt;span class=&#34;nf&#34;&gt;Test1.o &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;1.&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;2.&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt;
+&lt;span class=&#34;nf&#34;&gt;Test2.o &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Test&lt;/span&gt;2.&lt;span class=&#34;n&#34;&gt;h&lt;/span&gt;
+
+&lt;span class=&#34;c&#34;&gt;# Alternatively to manually capturing dependencies, several automated
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# dependency generators exist.  Here is one possibility (commented out)...
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# %.dep : %.cpp
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;#   g++ -M $(FLAGS) $&amp;lt; &amp;gt; $@
+&lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# include $(OBJS:.o=.dep)
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://akaedu.github.io/book/index.html&#34;&gt;Linux C编程一站式学习&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gnu.org/software/make/manual/make.html#Wildcards&#34;&gt;GNU make tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html&#34;&gt;GCC and Make Compiling, Linking and BuildingC/C++ Applications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://prateekvjoshi.com/2014/02/01/cmake-vs-make/&#34;&gt;CMake VS Make&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/c/" term="C" label="C" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/make-file/" term="Make File" label="Make File" />
                             
                         
                     
