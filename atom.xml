@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">CZ&#39;s Selfpage</title>
     <subtitle type="html">Notes aboust mathematics and compter science</subtitle>
-    <updated>2022-02-25T13:21:35&#43;08:00</updated>
+    <updated>2022-02-25T13:28:31&#43;08:00</updated>
     <id>https://zchencn.github.io/</id>
     <link rel="alternate" type="text/html" href="https://zchencn.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zchencn.github.io/atom.xml" />
@@ -256,6 +256,196 @@ $$
                             
                             
                                 <category scheme="https://zchencn.github.io/tags/cross-validation/" term="Cross Validation" label="Cross Validation" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Boosting Methods in Machine Learning</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/boosting/" />
+            <id>https://zchencn.github.io/posts/boosting/</id>
+            <updated>2022-02-25T13:27:57&#43;08:00</updated>
+            <published>2021-11-26T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Introduction In machine learning, Boosting is a kind of ensemble algorithms which use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. It trains a sequence of weak learners, which only perform slightly better than random choice, and then combine them to get a strong learner.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In machine learning, &lt;strong&gt;Boosting&lt;/strong&gt; is a kind of ensemble algorithms which use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. It trains a sequence of weak learners,     which only perform slightly better than random choice, and then combine them to get a strong learner.&lt;/p&gt;
+&lt;p&gt;There are many different boosting algorithms, such as &lt;strong&gt;AdaBoost&lt;/strong&gt; and &lt;strong&gt;GBDT&lt;/strong&gt;(Gradient Boost Decision Tree). The process of construct them is very similar to &lt;strong&gt;gradient descent&lt;/strong&gt; in functional space.&lt;/p&gt;
+&lt;h2 id=&#34;functional-gradient-descent&#34;&gt;Functional Gradient Descent&lt;/h2&gt;
+&lt;p&gt;Given a hypothesis class $\mathbb{H}$, whose set of classifier has large bias and the training error is high. We want to create a ensemble classifier of the form
+$$
+H_T(x) = \sum_{t=1}^T\alpha_th_t(x)
+$$
+which is built in a iterative fashion. Assume we have a data set of $n$ samples $ D = {x_i, y_i}&lt;em&gt;{i=1}^n$ and loss function
+$$
+l(H) = \frac{1}{n}\sum&lt;/em&gt;{i=1}^nl(H(x_i), y_i)
+$$
+Now the problem we have to solve is an complex optimization problem
+$$
+\min_{\alpha_t, h_t} \frac{1}{n}\sum_{i=1}^nl\left(\sum_{t=1}^T\alpha_th_t(x_i), y_i\right)
+$$
+We can solve it with &lt;strong&gt;forward stage-wise algorithm&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Assume now we have already finished $t$ iterations, then in $t+1$ iteration we just have to find the $\alpha_{t+1}$ and $h_t$ which solve the following problem
+$$
+\min_{\alpha, h}\frac{1}{n}\sum_{i=1}^nl\left(H_t(x_i) + \alpha h(x_i), y_i\right)
+$$
+and add $\alpha_{t+1}h_{t+1}$ to the ensemble
+$$
+H_{t+1} = H_t + \alpha_{t+1}h_{t+1}
+$$
+Within a small region around $H_t$, we have the Taylor&amp;rsquo;s approximation of $l$
+$$
+l(H_t + \alpha h) \approx l(H_t) + \alpha &amp;lt;\nabla l(H), h&amp;gt;
+$$
+With the step-size $\alpha$ fixed,  the minimization problem above become
+$$
+\min_{h} &amp;lt;\nabla l(H), h&amp;gt; = \min_h \sum_{i=1}^n\frac{\partial l}{\partial H}(x_i)h(x_i) = \min_h\sum_{i=1}^nr_ih(x_i)
+$$
+so
+$$
+h_{t+1} = \arg\min_{h}\sum_{i=1}^nr_ih(x_i)
+$$&lt;/p&gt;
+&lt;h2 id=&#34;adaboost&#34;&gt;AdaBoost&lt;/h2&gt;
+&lt;h2 id=&#34;gbdt&#34;&gt;GBDT&lt;/h2&gt;
+&lt;h2 id=&#34;pros-and-cons&#34;&gt;Pros and Cons&lt;/h2&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ensemble_learning&#34;&gt;Ensemble learning - Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/ensembling-learning/" term="Ensembling Learning" label="Ensembling Learning" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/ensembling-learning/" term="Ensembling Learning" label="Ensembling Learning" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/boosting/" term="Boosting" label="Boosting" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Linear Regression</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/linearregression/" />
+            <id>https://zchencn.github.io/posts/linearregression/</id>
+            <updated>2022-02-25T13:25:48&#43;08:00</updated>
+            <published>2021-11-26T00:00:00&#43;00:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Mathematic model We assume a sample $x$ has n features $x_i(i = 1, 2, \cdots, n),$ and the goal is to minimize the cost funtion: $$J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}[\theta_0+\theta_1x_1^{(i)}+\cdots+\theta_nx_n^{(i)}-y^{(i)}]^2$$ $m$ is the number of sample, the supscript $i$ represent the $i-th$ sample, $y^{(i)}$ is the label of each sample and $\theta=(\theta_0, \theta_1, \cdots, \theta_n)^T$ is the parameter of cost function $J$.</summary>
+            
+                <content type="html">&lt;h2 id=&#34;mathematic-model&#34;&gt;Mathematic model&lt;/h2&gt;
+&lt;p&gt;We assume a sample $x$ has n features $x_i(i = 1, 2, \cdots, n),$ and the goal is to minimize the cost funtion:
+$$J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}[\theta_0+\theta_1x_1^{(i)}+\cdots+\theta_nx_n^{(i)}-y^{(i)}]^2$$
+$m$ is the number of sample, the supscript $i$ represent the $i-th$ sample, $y^{(i)}$ is the label of each sample and $\theta=(\theta_0, \theta_1, \cdots, \theta_n)^T$ is the parameter of cost function $J$.&lt;/p&gt;
+&lt;h2 id=&#34;gradient-desent&#34;&gt;Gradient desent&lt;/h2&gt;
+&lt;h3 id=&#34;algorithm&#34;&gt;Algorithm&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Step1: Choose a start point $\theta$;&lt;/li&gt;
+&lt;li&gt;Step2: Take a step to the direction of minus gradient with the step size of $\alpha$, i.e $\theta_{new} = \theta_{old} - \alpha\nabla J$;&lt;/li&gt;
+&lt;li&gt;Step3: Repeat step2 until $J_{\theta}(x)$ is samll enough;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;data-preprocessing&#34;&gt;Data preprocessing&lt;/h3&gt;
+&lt;p&gt;To accelerate the speed of convergence, some preprocessing can be applied the data set.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Feature scaling: $\frac{x_i}{r},$ $r = x_i^{max}-x_i^{min}$ is the range value of feature $i$;&lt;/li&gt;
+&lt;li&gt;Mean normalization: $x_i-\mu_i, \mu_i$ is the mean value of feature $i$;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;learning-rate&#34;&gt;Learning rate&lt;/h3&gt;
+&lt;p&gt;We call the step size $\alpha$ learnig rate.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;If $\alpha$ is too large, the cost function may not decrease on every  iteration, and  the algorithm may not converge;&lt;/li&gt;
+&lt;li&gt;If $\alpha$ is too small, the algorithm may converge slowly;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;feature-and-polynomial-regression&#34;&gt;Feature and polynomial regression&lt;/h3&gt;
+&lt;p&gt;We can create the new feature from the existing feature, for example $x_i^n$. Then it become a polynomial regression problem, but we can solve it by the same methods of linear regression.&lt;/p&gt;
+&lt;h2 id=&#34;normal-equation&#34;&gt;Normal equation&lt;/h2&gt;
+&lt;h3 id=&#34;matrix-form&#34;&gt;Matrix form&lt;/h3&gt;
+&lt;p&gt;The problem can be expressed in the matrix form, let $x=(x_0,x_1,\cdots,x_n)^T,\ x_0=1,\ X^T=(x^{(1)},x^{(2)},\cdots,x^{(n)}),Y=(y^{(1)},y^{(2)},\cdots,y^{(n)})^T,$ then:
+$$J_{\theta}=\frac{1}{2m}||X\theta-Y||^2=\frac{1}{2m}(X\theta-Y)^T(X\theta-Y)$$
+$||\cdot||$ is the Euclidean norm, the problem become:
+$$\min_{\theta}J_{\theta}$$
+$J$ is a convex function, so the local minimum is also the unique global minimum, and the stationary point is the very global minimum:
+$$\arg\min_{\theta}J_{\theta}=(X^TX)^{-1}X^TY$$&lt;/p&gt;
+&lt;h3 id=&#34;comparision&#34;&gt;Comparision&lt;/h3&gt;
+&lt;p&gt;If we use normal equation to solve regression problem, feature scaling is not necesssary, but when the data set is too large we tend to use gradient desent rather than solving normal equation.&lt;br&gt;
+If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or use regulization which we will talk about later.&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/categories/regression/" term="Regression" label="Regression" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://zchencn.github.io/tags/regression/" term="Regression" label="Regression" />
                             
                         
                     

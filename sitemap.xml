@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zchencn.github.io/categories/</loc>
-    <lastmod>2022-02-25T13:20:17+08:00</lastmod>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/</loc>
-    <lastmod>2022-02-25T13:20:17+08:00</lastmod>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/tags/math/</loc>
     <lastmod>2022-02-25T13:20:04+08:00</lastmod>
@@ -24,10 +24,10 @@
     <lastmod>2022-02-25T13:20:04+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/posts/</loc>
-    <lastmod>2022-02-25T13:20:17+08:00</lastmod>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/tags/</loc>
-    <lastmod>2022-02-25T13:20:17+08:00</lastmod>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/tags/cross-validation/</loc>
     <lastmod>2021-12-02T21:41:55+08:00</lastmod>
@@ -39,10 +39,31 @@
     <lastmod>2022-02-25T11:52:59+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/categories/machine-learning/</loc>
-    <lastmod>2022-02-25T11:52:59+08:00</lastmod>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/tags/model-selection/</loc>
     <lastmod>2021-12-02T21:41:55+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/tags/boosting/</loc>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/posts/boosting/</loc>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/tags/ensembling-learning/</loc>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/categories/ensembling-learning/</loc>
+    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/posts/linearregression/</loc>
+    <lastmod>2022-02-25T13:25:48+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/tags/regression/</loc>
+    <lastmod>2022-02-25T13:25:48+08:00</lastmod>
+  </url><url>
+    <loc>https://zchencn.github.io/categories/regression/</loc>
+    <lastmod>2022-02-25T13:25:48+08:00</lastmod>
   </url><url>
     <loc>https://zchencn.github.io/posts/sinkhorn/</loc>
     <lastmod>2022-02-24T23:38:42+08:00</lastmod>
