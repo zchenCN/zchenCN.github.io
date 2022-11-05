@@ -2,190 +2,184 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zchencn.github.io/categories/</loc>
+    <loc>http://zchen.github.io/categories/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/post/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/tags/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/categories/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/tags/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/post/%E5%8F%A4%E6%96%87%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2022-11-05T17:41:05+08:00</lastmod>
+  </url><url>
+    <loc>http://zchen.github.io/tags/derivative/</loc>
     <lastmod>2022-03-02T23:19:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/</loc>
+    <loc>http://zchen.github.io/post/derivativetracedeterminant/</loc>
     <lastmod>2022-03-02T23:19:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/derivative/</loc>
+    <loc>http://zchen.github.io/categories/math/</loc>
     <lastmod>2022-03-02T23:19:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/derivativetracedeterminant/</loc>
+    <loc>http://zchen.github.io/tags/mle/</loc>
     <lastmod>2022-03-02T23:19:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/math/</loc>
-    <lastmod>2022-03-02T23:19:48+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/tags/mle/</loc>
-    <lastmod>2022-03-02T23:19:48+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/posts/</loc>
-    <lastmod>2022-03-02T23:19:48+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/tags/</loc>
-    <lastmod>2022-03-02T23:19:48+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/tags/math/</loc>
+    <loc>http://zchen.github.io/tags/math/</loc>
     <lastmod>2022-02-25T13:20:04+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/nonhomogeneous/</loc>
+    <loc>http://zchen.github.io/post/nonhomogeneous/</loc>
     <lastmod>2022-02-25T13:20:04+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/pde/</loc>
+    <loc>http://zchen.github.io/tags/pde/</loc>
     <lastmod>2022-02-25T13:20:04+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/pde/</loc>
+    <loc>http://zchen.github.io/categories/pde/</loc>
     <lastmod>2022-02-25T13:20:04+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/cross-validation/</loc>
+    <loc>http://zchen.github.io/tags/cross-validation/</loc>
     <lastmod>2021-12-02T21:41:55+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/crossvalidation/</loc>
+    <loc>http://zchen.github.io/post/crossvalidation/</loc>
     <lastmod>2021-12-02T21:41:55+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/machine-learning/</loc>
+    <loc>http://zchen.github.io/tags/machine-learning/</loc>
     <lastmod>2022-02-25T11:52:59+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/machine-learning/</loc>
-    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
+    <loc>http://zchen.github.io/categories/machine-learning/</loc>
+    <lastmod>2022-02-25T13:25:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/model-selection/</loc>
+    <loc>http://zchen.github.io/tags/model-selection/</loc>
     <lastmod>2021-12-02T21:41:55+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/boosting/</loc>
-    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/posts/boosting/</loc>
-    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/tags/ensembling-learning/</loc>
-    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/categories/ensembling-learning/</loc>
-    <lastmod>2022-02-25T13:27:57+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/posts/linearregression/</loc>
+    <loc>http://zchen.github.io/post/linearregression/</loc>
     <lastmod>2022-02-25T13:25:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/regression/</loc>
+    <loc>http://zchen.github.io/tags/regression/</loc>
     <lastmod>2022-02-25T13:25:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/regression/</loc>
+    <loc>http://zchen.github.io/categories/regression/</loc>
     <lastmod>2022-02-25T13:25:48+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/sinkhorn/</loc>
+    <loc>http://zchen.github.io/post/sinkhorn/</loc>
     <lastmod>2022-02-24T23:38:42+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/optimal-transport/</loc>
+    <loc>http://zchen.github.io/tags/optimal-transport/</loc>
     <lastmod>2022-02-24T23:38:42+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/optimal-transport/</loc>
+    <loc>http://zchen.github.io/categories/optimal-transport/</loc>
     <lastmod>2022-02-24T23:38:42+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/about/</loc>
-    <lastmod>2021-12-02T19:10:57+08:00</lastmod>
+    <loc>http://zchen.github.io/about/</loc>
+    <lastmod>2022-11-05T17:38:39+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/variancebias/</loc>
+    <loc>http://zchen.github.io/post/variancebias/</loc>
     <lastmod>2022-02-25T11:52:59+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/computer-science/</loc>
+    <loc>http://zchen.github.io/categories/computer-science/</loc>
     <lastmod>2022-02-25T13:17:43+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/mutableandimmutableobjects/</loc>
+    <loc>http://zchen.github.io/post/mutableandimmutableobjects/</loc>
     <lastmod>2022-02-25T13:17:43+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/programming-language/</loc>
+    <loc>http://zchen.github.io/categories/programming-language/</loc>
     <lastmod>2022-02-25T13:17:43+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/python/</loc>
+    <loc>http://zchen.github.io/tags/python/</loc>
     <lastmod>2022-02-25T13:17:43+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/python/</loc>
+    <loc>http://zchen.github.io/categories/python/</loc>
     <lastmod>2022-02-25T13:17:43+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/adjoint-method/</loc>
-    <lastmod>2022-02-25T13:20:17+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/posts/adjointmethod/</loc>
-    <lastmod>2022-02-25T13:20:17+08:00</lastmod>
-  </url><url>
-    <loc>https://zchencn.github.io/tags/caculus/</loc>
+    <loc>http://zchen.github.io/tags/caculus/</loc>
     <lastmod>2022-02-25T13:14:30+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/derivatives/</loc>
+    <loc>http://zchen.github.io/tags/derivatives/</loc>
     <lastmod>2022-02-25T13:14:30+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/derivatives/</loc>
+    <loc>http://zchen.github.io/post/derivatives/</loc>
     <lastmod>2022-02-25T13:14:30+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/matriccaculus/</loc>
+    <loc>http://zchen.github.io/post/matriccaculus/</loc>
     <lastmod>2022-02-25T13:15:46+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/matrix-caculus/</loc>
+    <loc>http://zchen.github.io/tags/matrix-caculus/</loc>
     <lastmod>2022-02-25T13:15:46+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/cc-/</loc>
+    <loc>http://zchen.github.io/categories/cc-/</loc>
     <lastmod>2022-02-25T13:13:00+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/dynamic-link-library/</loc>
+    <loc>http://zchen.github.io/tags/dynamic-link-library/</loc>
     <lastmod>2022-02-25T13:11:03+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/static-library/</loc>
+    <loc>http://zchen.github.io/tags/static-library/</loc>
     <lastmod>2022-02-25T13:11:03+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/staticlibanddynamiclib/</loc>
+    <loc>http://zchen.github.io/post/staticlibanddynamiclib/</loc>
     <lastmod>2022-02-25T13:11:03+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/pml/</loc>
+    <loc>http://zchen.github.io/post/pml/</loc>
     <lastmod>2022-02-25T13:18:32+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/c-/</loc>
+    <loc>http://zchen.github.io/tags/c-/</loc>
     <lastmod>2022-02-25T13:13:00+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/stl/</loc>
+    <loc>http://zchen.github.io/tags/stl/</loc>
     <lastmod>2022-02-25T13:13:00+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/vector/</loc>
+    <loc>http://zchen.github.io/post/vector/</loc>
     <lastmod>2022-02-25T13:13:00+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/constrainedoptimization/</loc>
+    <loc>http://zchen.github.io/post/constrainedoptimization/</loc>
     <lastmod>2022-02-25T12:21:42+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/unconstrainedoptimization/</loc>
+    <loc>http://zchen.github.io/post/unconstrainedoptimization/</loc>
     <lastmod>2022-02-25T12:20:29+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/numerical-analysis/</loc>
+    <loc>http://zchen.github.io/categories/numerical-analysis/</loc>
     <lastmod>2022-02-25T13:19:26+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/numerical-quadrature/</loc>
+    <loc>http://zchen.github.io/categories/numerical-quadrature/</loc>
     <lastmod>2022-02-25T13:19:26+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/optimization/</loc>
+    <loc>http://zchen.github.io/tags/optimization/</loc>
     <lastmod>2022-02-25T12:21:42+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/categories/optimization/</loc>
+    <loc>http://zchen.github.io/categories/optimization/</loc>
     <lastmod>2022-02-25T12:21:42+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/sem/</loc>
+    <loc>http://zchen.github.io/tags/sem/</loc>
     <lastmod>2022-02-25T13:19:26+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/sem/</loc>
+    <loc>http://zchen.github.io/post/sem/</loc>
     <lastmod>2022-02-25T13:19:26+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/gaussianquadrature/</loc>
+    <loc>http://zchen.github.io/post/gaussianquadrature/</loc>
     <lastmod>2022-02-25T12:30:13+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/numerical-quadrature/</loc>
+    <loc>http://zchen.github.io/tags/numerical-quadrature/</loc>
     <lastmod>2022-02-25T12:30:13+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/posts/makefiles/</loc>
+    <loc>http://zchen.github.io/post/makefiles/</loc>
     <lastmod>2022-02-25T13:06:16+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/c/</loc>
+    <loc>http://zchen.github.io/tags/c/</loc>
     <lastmod>2022-02-25T13:06:16+08:00</lastmod>
   </url><url>
-    <loc>https://zchencn.github.io/tags/make-file/</loc>
+    <loc>http://zchen.github.io/tags/make-file/</loc>
     <lastmod>2022-02-25T13:06:16+08:00</lastmod>
   </url>
 </urlset>

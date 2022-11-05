@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>CZ&#39;s Selfpage</title>
-        <link>https://zchencn.github.io/</link>
+        <link>http://zchen.github.io/</link>
         <description>Notes aboust mathematics and compter science</description>
         <generator>Hugo 0.89.4 https://gohugo.io/</generator>
         
@@ -23,15 +23,73 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Wed, 02 Mar 2022 23:20:10 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sat, 05 Nov 2022 18:17:18 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://zchencn.github.io/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="http://zchen.github.io/rss.xml" />
         
         
             <item>
+                <title>古文笔记</title>
+                <link>http://zchen.github.io/post/%E5%8F%A4%E6%96%87%E7%AC%94%E8%AE%B0/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/%E5%8F%A4%E6%96%87%E7%AC%94%E8%AE%B0/</guid>
+                <pubDate>Sat, 05 Nov 2022 17:39:30 &#43;0800</pubDate>
+                
+                    <author>zchen@lsec.ac.cc.cn (zchen)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;h2 id=&#34;用词委婉&#34;&gt;用词委婉&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;簠簋（音辅轨）不饰&lt;/strong&gt;：“簠簋”是两种盛黍稷稻粱的礼器，字面意思是“盛祭品的器皿不修饰”，用来指高级官员有贪污行为，是对做官不廉正者的一种婉转的说法；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;帷薄不修&lt;/strong&gt;：“帷薄”指帷幕和帘子，引申指男女合欢，是家门淫乱的讳语；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;采薪之忧&lt;/strong&gt;：“采薪”即砍柴，指身患疾病,不能外出打柴。作为婉称有病而无法亲赴之辞；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;用典故&#34;&gt;用典故&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;箕山之节&lt;/strong&gt;：相传尧访贤禅让天下，在箕山附近访得许由，尧让其治天下，许由以为是一种羞辱而不肯接受，遁耕于箕山之下。用来指隐居不仕的节操；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结草&lt;/strong&gt;：出自《左传》，晋将魏颗不以父亲爱妾殉葬而让她改嫁，妾父的鬼魂在一次战斗中结草绊倒秦将，使魏颗获胜。用来指受人大恩,死后也要报答；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;请缨&lt;/strong&gt;：出自《汉书·终军转》，“军自请,愿受长缨,必羁南越王而致之阙下。” 比喻主动请求担当重任；&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://zchen.github.io/categories/%E5%85%B6%E4%BB%96/">其他</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="http://zchen.github.io/categories/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD/">“古代汉语”</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="http://zchen.github.io/tags/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD/">古代汉语</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>Derivative of Trace and Determinant</title>
-                <link>https://zchencn.github.io/posts/derivativetracedeterminant/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/derivativetracedeterminant/</guid>
+                <link>http://zchen.github.io/post/derivativetracedeterminant/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/derivativetracedeterminant/</guid>
                 <pubDate>Wed, 02 Mar 2022 23:05:12 &#43;0800</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -141,7 +199,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                         
@@ -151,13 +209,13 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/mle/">MLE</category>
+                                    <category domain="http://zchen.github.io/tags/mle/">MLE</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/derivative/">Derivative</category>
+                                    <category domain="http://zchen.github.io/tags/derivative/">Derivative</category>
                                 
                             
                         
@@ -167,8 +225,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Methods to Solve Nonhomogeneous PDE problems</title>
-                <link>https://zchencn.github.io/posts/nonhomogeneous/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/nonhomogeneous/</guid>
+                <link>http://zchen.github.io/post/nonhomogeneous/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/nonhomogeneous/</guid>
                 <pubDate>Sun, 19 Dec 2021 20:22:08 &#43;0800</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -309,13 +367,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/pde/">PDE</category>
+                                    <category domain="http://zchen.github.io/categories/pde/">PDE</category>
                                 
                             
                         
@@ -325,13 +383,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/math/">Math</category>
+                                    <category domain="http://zchen.github.io/tags/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/pde/">PDE</category>
+                                    <category domain="http://zchen.github.io/tags/pde/">PDE</category>
                                 
                             
                         
@@ -341,8 +399,8 @@ $$
         
             <item>
                 <title>CrossValidation</title>
-                <link>https://zchencn.github.io/posts/crossvalidation/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/crossvalidation/</guid>
+                <link>http://zchen.github.io/post/crossvalidation/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/crossvalidation/</guid>
                 <pubDate>Thu, 02 Dec 2021 21:40:00 &#43;0800</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -376,7 +434,7 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/machine-learning/">Machine Learning</category>
+                                    <category domain="http://zchen.github.io/categories/machine-learning/">Machine Learning</category>
                                 
                             
                         
@@ -386,115 +444,19 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/model-selection/">Model Selection</category>
+                                    <category domain="http://zchen.github.io/tags/model-selection/">Model Selection</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/machine-learning/">Machine Learning</category>
+                                    <category domain="http://zchen.github.io/tags/machine-learning/">Machine Learning</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/cross-validation/">Cross Validation</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>Boosting Methods in Machine Learning</title>
-                <link>https://zchencn.github.io/posts/boosting/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/boosting/</guid>
-                <pubDate>Fri, 26 Nov 2021 00:00:00 &#43;0000</pubDate>
-                
-                    <author>zchen@lsec.ac.cc.cn (zchen)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
-                
-                    <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;In machine learning, &lt;strong&gt;Boosting&lt;/strong&gt; is a kind of ensemble algorithms which use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. It trains a sequence of weak learners,     which only perform slightly better than random choice, and then combine them to get a strong learner.&lt;/p&gt;
-&lt;p&gt;There are many different boosting algorithms, such as &lt;strong&gt;AdaBoost&lt;/strong&gt; and &lt;strong&gt;GBDT&lt;/strong&gt;(Gradient Boost Decision Tree). The process of construct them is very similar to &lt;strong&gt;gradient descent&lt;/strong&gt; in functional space.&lt;/p&gt;
-&lt;h2 id=&#34;functional-gradient-descent&#34;&gt;Functional Gradient Descent&lt;/h2&gt;
-&lt;p&gt;Given a hypothesis class $\mathbb{H}$, whose set of classifier has large bias and the training error is high. We want to create a ensemble classifier of the form
-$$
-H_T(x) = \sum_{t=1}^T\alpha_th_t(x)
-$$
-which is built in a iterative fashion. Assume we have a data set of $n$ samples $ D = {x_i, y_i}&lt;em&gt;{i=1}^n$ and loss function
-$$
-l(H) = \frac{1}{n}\sum&lt;/em&gt;{i=1}^nl(H(x_i), y_i)
-$$
-Now the problem we have to solve is an complex optimization problem
-$$
-\min_{\alpha_t, h_t} \frac{1}{n}\sum_{i=1}^nl\left(\sum_{t=1}^T\alpha_th_t(x_i), y_i\right)
-$$
-We can solve it with &lt;strong&gt;forward stage-wise algorithm&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Assume now we have already finished $t$ iterations, then in $t+1$ iteration we just have to find the $\alpha_{t+1}$ and $h_t$ which solve the following problem
-$$
-\min_{\alpha, h}\frac{1}{n}\sum_{i=1}^nl\left(H_t(x_i) + \alpha h(x_i), y_i\right)
-$$
-and add $\alpha_{t+1}h_{t+1}$ to the ensemble
-$$
-H_{t+1} = H_t + \alpha_{t+1}h_{t+1}
-$$
-Within a small region around $H_t$, we have the Taylor&amp;rsquo;s approximation of $l$
-$$
-l(H_t + \alpha h) \approx l(H_t) + \alpha &amp;lt;\nabla l(H), h&amp;gt;
-$$
-With the step-size $\alpha$ fixed,  the minimization problem above become
-$$
-\min_{h} &amp;lt;\nabla l(H), h&amp;gt; = \min_h \sum_{i=1}^n\frac{\partial l}{\partial H}(x_i)h(x_i) = \min_h\sum_{i=1}^nr_ih(x_i)
-$$
-so
-$$
-h_{t+1} = \arg\min_{h}\sum_{i=1}^nr_ih(x_i)
-$$&lt;/p&gt;
-&lt;h2 id=&#34;adaboost&#34;&gt;AdaBoost&lt;/h2&gt;
-&lt;h2 id=&#34;gbdt&#34;&gt;GBDT&lt;/h2&gt;
-&lt;h2 id=&#34;pros-and-cons&#34;&gt;Pros and Cons&lt;/h2&gt;
-&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ensemble_learning&#34;&gt;Ensemble learning - Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zchencn.github.io/categories/machine-learning/">Machine Learning</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zchencn.github.io/categories/ensembling-learning/">Ensembling Learning</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zchencn.github.io/tags/ensembling-learning/">Ensembling Learning</category>
-                                
-                            
-                                
-                                
-                                
-                                    <category domain="https://zchencn.github.io/tags/boosting/">Boosting</category>
+                                    <category domain="http://zchen.github.io/tags/cross-validation/">Cross Validation</category>
                                 
                             
                         
@@ -504,8 +466,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Linear Regression</title>
-                <link>https://zchencn.github.io/posts/linearregression/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/linearregression/</guid>
+                <link>http://zchen.github.io/post/linearregression/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/linearregression/</guid>
                 <pubDate>Fri, 26 Nov 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -566,13 +528,13 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/machine-learning/">Machine Learning</category>
+                                    <category domain="http://zchen.github.io/categories/machine-learning/">Machine Learning</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/regression/">Regression</category>
+                                    <category domain="http://zchen.github.io/categories/regression/">Regression</category>
                                 
                             
                         
@@ -582,7 +544,7 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/regression/">Regression</category>
+                                    <category domain="http://zchen.github.io/tags/regression/">Regression</category>
                                 
                             
                         
@@ -592,8 +554,8 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
         
             <item>
                 <title>An Introduction to Optimal Transport</title>
-                <link>https://zchencn.github.io/posts/sinkhorn/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/sinkhorn/</guid>
+                <link>http://zchen.github.io/post/sinkhorn/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/sinkhorn/</guid>
                 <pubDate>Sun, 31 Oct 2021 16:38:57 &#43;0800</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -718,13 +680,13 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/optimal-transport/">Optimal Transport</category>
+                                    <category domain="http://zchen.github.io/categories/optimal-transport/">Optimal Transport</category>
                                 
                             
                         
@@ -734,13 +696,13 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/optimal-transport/">Optimal Transport</category>
+                                    <category domain="http://zchen.github.io/tags/optimal-transport/">Optimal Transport</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/machine-learning/">Machine Learning</category>
+                                    <category domain="http://zchen.github.io/tags/machine-learning/">Machine Learning</category>
                                 
                             
                         
@@ -750,8 +712,8 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
         
             <item>
                 <title>Bias and Variance</title>
-                <link>https://zchencn.github.io/posts/variancebias/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/variancebias/</guid>
+                <link>http://zchen.github.io/post/variancebias/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/variancebias/</guid>
                 <pubDate>Wed, 08 Sep 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -819,7 +781,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/machine-learning/">Machine Learning</category>
+                                    <category domain="http://zchen.github.io/categories/machine-learning/">Machine Learning</category>
                                 
                             
                         
@@ -829,7 +791,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/machine-learning/">Machine Learning</category>
+                                    <category domain="http://zchen.github.io/tags/machine-learning/">Machine Learning</category>
                                 
                             
                         
@@ -839,8 +801,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Mutable and Immutable Objects in Python</title>
-                <link>https://zchencn.github.io/posts/mutableandimmutableobjects/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/mutableandimmutableobjects/</guid>
+                <link>http://zchen.github.io/post/mutableandimmutableobjects/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/mutableandimmutableobjects/</guid>
                 <pubDate>Thu, 21 Jan 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -986,92 +948,19 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/computer-science/">Computer Science</category>
+                                    <category domain="http://zchen.github.io/categories/computer-science/">Computer Science</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/programming-language/">Programming Language</category>
+                                    <category domain="http://zchen.github.io/categories/programming-language/">Programming Language</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/python/">Python</category>
-                                
-                            
-                        
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zchencn.github.io/tags/python/">Python</category>
-                                
-                            
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title>Adjoint Method</title>
-                <link>https://zchencn.github.io/posts/adjointmethod/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/adjointmethod/</guid>
-                <pubDate>Mon, 18 Jan 2021 00:00:00 &#43;0000</pubDate>
-                
-                    <author>zchen@lsec.ac.cc.cn (zchen)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
-                
-                    <description>&lt;h2 id=&#34;问题是什么&#34;&gt;问题是什么&lt;/h2&gt;
-&lt;p&gt;为简单起见，我们先考虑有限维的情形，即矩阵向量的形式。&lt;/p&gt;
-&lt;p&gt;假设$x \in \mathbb{R}^{n_x}$和$p\in\mathbb{R}^{n_p}$, 且有一个函数$g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_p} \rightarrow \mathbb{R}^{n_x}$使得$g(x, p) = 0$, 另有一个关于$x$和$p$的函数$f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_p} \rightarrow \mathbb{R}$，方程$g(x, p) = 0$建立了$x$和$p$的关系，所以$f$可以看成是一个关于$p$的函数，即：$f(x, p) = f(x(p), p) = \hat{f}(p)$。现在的问题是，怎么求出$\hat{f}$关于$p$的导数，即$d_{p}\hat{f}$.&lt;/p&gt;
-&lt;p&gt;一种直接的想法是利用有限差分，即：
-$$
-d_{p_i}\hat{f} \approx \frac{\hat{f}(p + \epsilon e_i) - \hat{f}(p-\epsilon e_i)}{2\epsilon} = \approx \frac{{f}(x(p + \epsilon e_i), p + \epsilon e_i) - f(x(p - \epsilon e_i), p-\epsilon e_i)}{2\epsilon} \tag{1}
-$$
-这样做的缺点在于，当$n_p$很大时，我们需要很多次地计算$x$, 在实际问题中，通常是数值求解一个偏微分方程，这是一个计算量相当大的过程。&lt;/p&gt;
-&lt;p&gt;那么如何快速准确高效地求出$d_{p_i}\hat{f}$呢？&lt;/p&gt;
-&lt;h2 id=&#34;伴随方法&#34;&gt;伴随方法&lt;/h2&gt;
-&lt;p&gt;对$\hat{f}$求全微分得：
-$$
-d_{p}\hat{f} = [\hat{f}&lt;em&gt;{p_1}, \hat{f}&lt;/em&gt;{p_2}, \cdots, \hat{f}&lt;em&gt;{p&lt;/em&gt;{n_p}}]^T = (d_px)^Td_xf + d_pf \tag{2}
-$$
-其中$d_px\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_p}$. 当$f$关于$p$和$x$的表达式已知时， $d_xf$和$d_pf$都可以显示的求出，所以关键在于求出$d_px$ .&lt;/p&gt;
-&lt;p&gt;同样地，我们对$g$求全微分，得：
-$$
-0 = d_xgd_px + d_pg \tag{3}
-$$
-其中$d_xg\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_x}, d_pg\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_p}$&lt;/p&gt;
-&lt;p&gt;不妨假设$d_xg$可逆，则得到$d_px = -(d_xg)^{-1}d_pg$ , 代入(2)式， 得到：
-$$
-d_p\hat{f} = -(d_pg)^T(d_xg)^{-T}d_xf + d_pf \tag{4}
-$$
-最后，为解决(4)式中的求逆，引入&lt;strong&gt;伴随变量(adjoint variable)&lt;/strong&gt;  $\lambda \in \mathbb{R}^{n_x}$, 满足&lt;strong&gt;伴随方程(adjoint equation)&lt;/strong&gt;:
-$$
-(d_xg)^T\lambda = -d_xf \tag{5}
-$$
-代入(4)式，得到：
-$$
-d_p\hat{f} = (d_pg)^T\lambda + d_pf
-$$&lt;/p&gt;
-&lt;h2 id=&#34;泛函形式&#34;&gt;泛函形式&lt;/h2&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/python/">Python</category>
                                 
                             
                         
@@ -1081,7 +970,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/adjoint-method/">Adjoint Method</category>
+                                    <category domain="http://zchen.github.io/tags/python/">Python</category>
                                 
                             
                         
@@ -1091,8 +980,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Different Derivatives in Mathematics</title>
-                <link>https://zchencn.github.io/posts/derivatives/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/derivatives/</guid>
+                <link>http://zchen.github.io/post/derivatives/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/derivatives/</guid>
                 <pubDate>Mon, 18 Jan 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1182,7 +1071,7 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                         
@@ -1192,13 +1081,13 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/caculus/">Caculus</category>
+                                    <category domain="http://zchen.github.io/tags/caculus/">Caculus</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/derivatives/">Derivatives</category>
+                                    <category domain="http://zchen.github.io/tags/derivatives/">Derivatives</category>
                                 
                             
                         
@@ -1208,8 +1097,8 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
         
             <item>
                 <title>Matric Caculus</title>
-                <link>https://zchencn.github.io/posts/matriccaculus/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/matriccaculus/</guid>
+                <link>http://zchen.github.io/post/matriccaculus/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/matriccaculus/</guid>
                 <pubDate>Mon, 18 Jan 2021 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1268,7 +1157,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                         
@@ -1278,7 +1167,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/matrix-caculus/">Matrix Caculus</category>
+                                    <category domain="http://zchen.github.io/tags/matrix-caculus/">Matrix Caculus</category>
                                 
                             
                         
@@ -1288,8 +1177,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Static Library and Dynamic Link Library</title>
-                <link>https://zchencn.github.io/posts/staticlibanddynamiclib/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/staticlibanddynamiclib/</guid>
+                <link>http://zchen.github.io/post/staticlibanddynamiclib/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/staticlibanddynamiclib/</guid>
                 <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1364,19 +1253,19 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/computer-science/">Computer Science</category>
+                                    <category domain="http://zchen.github.io/categories/computer-science/">Computer Science</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/programming-language/">Programming Language</category>
+                                    <category domain="http://zchen.github.io/categories/programming-language/">Programming Language</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/cc-/">C&amp;C&#43;&#43;</category>
+                                    <category domain="http://zchen.github.io/categories/cc-/">C&amp;C&#43;&#43;</category>
                                 
                             
                         
@@ -1386,13 +1275,13 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/static-library/">Static Library</category>
+                                    <category domain="http://zchen.github.io/tags/static-library/">Static Library</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/dynamic-link-library/">Dynamic Link Library</category>
+                                    <category domain="http://zchen.github.io/tags/dynamic-link-library/">Dynamic Link Library</category>
                                 
                             
                         
@@ -1402,8 +1291,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>An Introduction to Perfectly Matched Layer</title>
-                <link>https://zchencn.github.io/posts/pml/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/pml/</guid>
+                <link>http://zchen.github.io/post/pml/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/pml/</guid>
                 <pubDate>Sun, 29 Nov 2020 16:38:57 &#43;0800</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1462,13 +1351,13 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/pde/">PDE</category>
+                                    <category domain="http://zchen.github.io/categories/pde/">PDE</category>
                                 
                             
                         
@@ -1478,7 +1367,7 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/pde/">PDE</category>
+                                    <category domain="http://zchen.github.io/tags/pde/">PDE</category>
                                 
                             
                         
@@ -1488,8 +1377,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Vector in STL</title>
-                <link>https://zchencn.github.io/posts/vector/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/vector/</guid>
+                <link>http://zchen.github.io/post/vector/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/vector/</guid>
                 <pubDate>Sun, 29 Nov 2020 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1666,19 +1555,19 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/computer-science/">Computer Science</category>
+                                    <category domain="http://zchen.github.io/categories/computer-science/">Computer Science</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/programming-language/">Programming Language</category>
+                                    <category domain="http://zchen.github.io/categories/programming-language/">Programming Language</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/cc-/">C&amp;C&#43;&#43;</category>
+                                    <category domain="http://zchen.github.io/categories/cc-/">C&amp;C&#43;&#43;</category>
                                 
                             
                         
@@ -1688,13 +1577,13 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/c-/">C&#43;&#43;</category>
+                                    <category domain="http://zchen.github.io/tags/c-/">C&#43;&#43;</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/stl/">STL</category>
+                                    <category domain="http://zchen.github.io/tags/stl/">STL</category>
                                 
                             
                         
@@ -1704,8 +1593,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>An Introduction to Constrained Optimization Problems</title>
-                <link>https://zchencn.github.io/posts/constrainedoptimization/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/constrainedoptimization/</guid>
+                <link>http://zchen.github.io/post/constrainedoptimization/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/constrainedoptimization/</guid>
                 <pubDate>Fri, 23 Oct 2020 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1835,13 +1724,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/optimization/">Optimization</category>
+                                    <category domain="http://zchen.github.io/categories/optimization/">Optimization</category>
                                 
                             
                         
@@ -1851,13 +1740,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/math/">Math</category>
+                                    <category domain="http://zchen.github.io/tags/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/optimization/">Optimization</category>
+                                    <category domain="http://zchen.github.io/tags/optimization/">Optimization</category>
                                 
                             
                         
@@ -1867,8 +1756,8 @@ $$
         
             <item>
                 <title>An Introduction to Unconstrained Optimization Problems</title>
-                <link>https://zchencn.github.io/posts/unconstrainedoptimization/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/unconstrainedoptimization/</guid>
+                <link>http://zchen.github.io/post/unconstrainedoptimization/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/unconstrainedoptimization/</guid>
                 <pubDate>Fri, 23 Oct 2020 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -1987,13 +1876,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/optimization/">Optimization</category>
+                                    <category domain="http://zchen.github.io/categories/optimization/">Optimization</category>
                                 
                             
                         
@@ -2003,13 +1892,13 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/math/">Math</category>
+                                    <category domain="http://zchen.github.io/tags/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/optimization/">Optimization</category>
+                                    <category domain="http://zchen.github.io/tags/optimization/">Optimization</category>
                                 
                             
                         
@@ -2019,8 +1908,8 @@ $$
         
             <item>
                 <title>SEM</title>
-                <link>https://zchencn.github.io/posts/sem/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/sem/</guid>
+                <link>http://zchen.github.io/post/sem/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/sem/</guid>
                 <pubDate>Fri, 23 Oct 2020 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -2207,19 +2096,19 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/numerical-analysis/">Numerical Analysis</category>
+                                    <category domain="http://zchen.github.io/categories/numerical-analysis/">Numerical Analysis</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/numerical-quadrature/">Numerical Quadrature</category>
+                                    <category domain="http://zchen.github.io/categories/numerical-quadrature/">Numerical Quadrature</category>
                                 
                             
                         
@@ -2229,13 +2118,13 @@ $$&lt;/p&gt;
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/sem/">SEM</category>
+                                    <category domain="http://zchen.github.io/tags/sem/">SEM</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/pde/">PDE</category>
+                                    <category domain="http://zchen.github.io/tags/pde/">PDE</category>
                                 
                             
                         
@@ -2245,8 +2134,8 @@ $$&lt;/p&gt;
         
             <item>
                 <title>Gaussian Quadrature</title>
-                <link>https://zchencn.github.io/posts/gaussianquadrature/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/gaussianquadrature/</guid>
+                <link>http://zchen.github.io/post/gaussianquadrature/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/gaussianquadrature/</guid>
                 <pubDate>Sat, 27 Jun 2020 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -2356,19 +2245,19 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/math/">Math</category>
+                                    <category domain="http://zchen.github.io/categories/math/">Math</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/numerical-analysis/">Numerical Analysis</category>
+                                    <category domain="http://zchen.github.io/categories/numerical-analysis/">Numerical Analysis</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/numerical-quadrature/">Numerical Quadrature</category>
+                                    <category domain="http://zchen.github.io/categories/numerical-quadrature/">Numerical Quadrature</category>
                                 
                             
                         
@@ -2378,7 +2267,7 @@ $$
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/numerical-quadrature/">Numerical Quadrature</category>
+                                    <category domain="http://zchen.github.io/tags/numerical-quadrature/">Numerical Quadrature</category>
                                 
                             
                         
@@ -2388,8 +2277,8 @@ $$
         
             <item>
                 <title>An Introduction to Make</title>
-                <link>https://zchencn.github.io/posts/makefiles/</link>
-                <guid isPermaLink="true">https://zchencn.github.io/posts/makefiles/</guid>
+                <link>http://zchen.github.io/post/makefiles/</link>
+                <guid isPermaLink="true">http://zchen.github.io/post/makefiles/</guid>
                 <pubDate>Sat, 21 Dec 2019 00:00:00 &#43;0000</pubDate>
                 
                     <author>zchen@lsec.ac.cc.cn (zchen)</author>
@@ -2733,7 +2622,7 @@ $ make target &lt;span class=&#34;c1&#34;&gt;# 更新target这个目标&lt;/span
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/categories/computer-science/">Computer Science</category>
+                                    <category domain="http://zchen.github.io/categories/computer-science/">Computer Science</category>
                                 
                             
                         
@@ -2743,13 +2632,13 @@ $ make target &lt;span class=&#34;c1&#34;&gt;# 更新target这个目标&lt;/span
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/c/">C</category>
+                                    <category domain="http://zchen.github.io/tags/c/">C</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://zchencn.github.io/tags/make-file/">Make File</category>
+                                    <category domain="http://zchen.github.io/tags/make-file/">Make File</category>
                                 
                             
                         

@@ -4,22 +4,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">CZ&#39;s Selfpage</title>
     <subtitle type="html">Notes aboust mathematics and compter science</subtitle>
-    <updated>2022-03-02T23:20:10&#43;08:00</updated>
-    <id>https://zchencn.github.io/</id>
-    <link rel="alternate" type="text/html" href="https://zchencn.github.io/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://zchencn.github.io/atom.xml" />
+    <updated>2022-11-05T18:17:18&#43;08:00</updated>
+    <id>http://zchen.github.io/</id>
+    <link rel="alternate" type="text/html" href="http://zchen.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="http://zchen.github.io/atom.xml" />
     <author>
             <name>zchen</name>
-            <uri>https://zchencn.github.io/</uri>
+            <uri>http://zchen.github.io/</uri>
             
                 <email>zchen@lsec.ac.cc.cn</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator>
         <entry>
+            <title type="text">古文笔记</title>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/%E5%8F%A4%E6%96%87%E7%AC%94%E8%AE%B0/" />
+            <id>http://zchen.github.io/post/%E5%8F%A4%E6%96%87%E7%AC%94%E8%AE%B0/</id>
+            <updated>2022-11-05T17:41:05&#43;08:00</updated>
+            <published>2022-11-05T17:39:30&#43;08:00</published>
+            <author>
+                    <name>zchen</name>
+                    <uri>https://zchencn.github.io/</uri>
+                    <email>zchen@lsec.ac.cc.cn</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">用词委婉 簠簋（音辅轨）不饰：“簠簋”是两种盛黍稷稻粱的礼器，字面意思是“盛祭品的器皿…</summary>
+            
+                <content type="html">&lt;h2 id=&#34;用词委婉&#34;&gt;用词委婉&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;簠簋（音辅轨）不饰&lt;/strong&gt;：“簠簋”是两种盛黍稷稻粱的礼器，字面意思是“盛祭品的器皿不修饰”，用来指高级官员有贪污行为，是对做官不廉正者的一种婉转的说法；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;帷薄不修&lt;/strong&gt;：“帷薄”指帷幕和帘子，引申指男女合欢，是家门淫乱的讳语；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;采薪之忧&lt;/strong&gt;：“采薪”即砍柴，指身患疾病,不能外出打柴。作为婉称有病而无法亲赴之辞；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;用典故&#34;&gt;用典故&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;箕山之节&lt;/strong&gt;：相传尧访贤禅让天下，在箕山附近访得许由，尧让其治天下，许由以为是一种羞辱而不肯接受，遁耕于箕山之下。用来指隐居不仕的节操；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结草&lt;/strong&gt;：出自《左传》，晋将魏颗不以父亲爱妾殉葬而让她改嫁，妾父的鬼魂在一次战斗中结草绊倒秦将，使魏颗获胜。用来指受人大恩,死后也要报答；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;请缨&lt;/strong&gt;：出自《汉书·终军转》，“军自请,愿受长缨,必羁南越王而致之阙下。” 比喻主动请求担当重任；&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://zchen.github.io/categories/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="http://zchen.github.io/categories/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD/" term="“古代汉语”" label="“古代汉语”" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="http://zchen.github.io/tags/%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD/" term="古代汉语" label="古代汉语" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
             <title type="text">Derivative of Trace and Determinant</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/derivativetracedeterminant/" />
-            <id>https://zchencn.github.io/posts/derivativetracedeterminant/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/derivativetracedeterminant/" />
+            <id>http://zchen.github.io/post/derivativetracedeterminant/</id>
             <updated>2022-03-02T23:19:48&#43;08:00</updated>
             <published>2022-03-02T23:05:12&#43;08:00</published>
             <author>
@@ -133,7 +194,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                     
@@ -143,13 +204,13 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/mle/" term="MLE" label="MLE" />
+                                <category scheme="http://zchen.github.io/tags/mle/" term="MLE" label="MLE" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/derivative/" term="Derivative" label="Derivative" />
+                                <category scheme="http://zchen.github.io/tags/derivative/" term="Derivative" label="Derivative" />
                             
                         
                     
@@ -159,8 +220,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Methods to Solve Nonhomogeneous PDE problems</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/nonhomogeneous/" />
-            <id>https://zchencn.github.io/posts/nonhomogeneous/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/nonhomogeneous/" />
+            <id>http://zchen.github.io/post/nonhomogeneous/</id>
             <updated>2022-02-25T13:20:04&#43;08:00</updated>
             <published>2021-12-19T20:22:08&#43;08:00</published>
             <author>
@@ -304,13 +365,13 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/pde/" term="PDE" label="PDE" />
+                                <category scheme="http://zchen.github.io/categories/pde/" term="PDE" label="PDE" />
                             
                         
                     
@@ -320,13 +381,13 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/tags/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
+                                <category scheme="http://zchen.github.io/tags/pde/" term="PDE" label="PDE" />
                             
                         
                     
@@ -336,8 +397,8 @@ $$
     
         <entry>
             <title type="text">CrossValidation</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/crossvalidation/" />
-            <id>https://zchencn.github.io/posts/crossvalidation/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/crossvalidation/" />
+            <id>http://zchen.github.io/post/crossvalidation/</id>
             <updated>2021-12-02T21:41:55&#43;08:00</updated>
             <published>2021-12-02T21:40:00&#43;08:00</published>
             <author>
@@ -374,7 +435,7 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                                <category scheme="http://zchen.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
                             
                         
                     
@@ -384,118 +445,19 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/model-selection/" term="Model Selection" label="Model Selection" />
+                                <category scheme="http://zchen.github.io/tags/model-selection/" term="Model Selection" label="Model Selection" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                                <category scheme="http://zchen.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/cross-validation/" term="Cross Validation" label="Cross Validation" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Boosting Methods in Machine Learning</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/boosting/" />
-            <id>https://zchencn.github.io/posts/boosting/</id>
-            <updated>2022-02-25T13:27:57&#43;08:00</updated>
-            <published>2021-11-26T00:00:00&#43;00:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Introduction In machine learning, Boosting is a kind of ensemble algorithms which use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. It trains a sequence of weak learners, which only perform slightly better than random choice, and then combine them to get a strong learner.</summary>
-            
-                <content type="html">&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;In machine learning, &lt;strong&gt;Boosting&lt;/strong&gt; is a kind of ensemble algorithms which use multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone. It trains a sequence of weak learners,     which only perform slightly better than random choice, and then combine them to get a strong learner.&lt;/p&gt;
-&lt;p&gt;There are many different boosting algorithms, such as &lt;strong&gt;AdaBoost&lt;/strong&gt; and &lt;strong&gt;GBDT&lt;/strong&gt;(Gradient Boost Decision Tree). The process of construct them is very similar to &lt;strong&gt;gradient descent&lt;/strong&gt; in functional space.&lt;/p&gt;
-&lt;h2 id=&#34;functional-gradient-descent&#34;&gt;Functional Gradient Descent&lt;/h2&gt;
-&lt;p&gt;Given a hypothesis class $\mathbb{H}$, whose set of classifier has large bias and the training error is high. We want to create a ensemble classifier of the form
-$$
-H_T(x) = \sum_{t=1}^T\alpha_th_t(x)
-$$
-which is built in a iterative fashion. Assume we have a data set of $n$ samples $ D = {x_i, y_i}&lt;em&gt;{i=1}^n$ and loss function
-$$
-l(H) = \frac{1}{n}\sum&lt;/em&gt;{i=1}^nl(H(x_i), y_i)
-$$
-Now the problem we have to solve is an complex optimization problem
-$$
-\min_{\alpha_t, h_t} \frac{1}{n}\sum_{i=1}^nl\left(\sum_{t=1}^T\alpha_th_t(x_i), y_i\right)
-$$
-We can solve it with &lt;strong&gt;forward stage-wise algorithm&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Assume now we have already finished $t$ iterations, then in $t+1$ iteration we just have to find the $\alpha_{t+1}$ and $h_t$ which solve the following problem
-$$
-\min_{\alpha, h}\frac{1}{n}\sum_{i=1}^nl\left(H_t(x_i) + \alpha h(x_i), y_i\right)
-$$
-and add $\alpha_{t+1}h_{t+1}$ to the ensemble
-$$
-H_{t+1} = H_t + \alpha_{t+1}h_{t+1}
-$$
-Within a small region around $H_t$, we have the Taylor&amp;rsquo;s approximation of $l$
-$$
-l(H_t + \alpha h) \approx l(H_t) + \alpha &amp;lt;\nabla l(H), h&amp;gt;
-$$
-With the step-size $\alpha$ fixed,  the minimization problem above become
-$$
-\min_{h} &amp;lt;\nabla l(H), h&amp;gt; = \min_h \sum_{i=1}^n\frac{\partial l}{\partial H}(x_i)h(x_i) = \min_h\sum_{i=1}^nr_ih(x_i)
-$$
-so
-$$
-h_{t+1} = \arg\min_{h}\sum_{i=1}^nr_ih(x_i)
-$$&lt;/p&gt;
-&lt;h2 id=&#34;adaboost&#34;&gt;AdaBoost&lt;/h2&gt;
-&lt;h2 id=&#34;gbdt&#34;&gt;GBDT&lt;/h2&gt;
-&lt;h2 id=&#34;pros-and-cons&#34;&gt;Pros and Cons&lt;/h2&gt;
-&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ensemble_learning&#34;&gt;Ensemble learning - Wikipedia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/ensembling-learning/" term="Ensembling Learning" label="Ensembling Learning" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/ensembling-learning/" term="Ensembling Learning" label="Ensembling Learning" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/boosting/" term="Boosting" label="Boosting" />
+                                <category scheme="http://zchen.github.io/tags/cross-validation/" term="Cross Validation" label="Cross Validation" />
                             
                         
                     
@@ -505,8 +467,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Linear Regression</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/linearregression/" />
-            <id>https://zchencn.github.io/posts/linearregression/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/linearregression/" />
+            <id>http://zchen.github.io/post/linearregression/</id>
             <updated>2022-02-25T13:25:48&#43;08:00</updated>
             <published>2021-11-26T00:00:00&#43;00:00</published>
             <author>
@@ -570,13 +532,13 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                                <category scheme="http://zchen.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/regression/" term="Regression" label="Regression" />
+                                <category scheme="http://zchen.github.io/categories/regression/" term="Regression" label="Regression" />
                             
                         
                     
@@ -586,7 +548,7 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/regression/" term="Regression" label="Regression" />
+                                <category scheme="http://zchen.github.io/tags/regression/" term="Regression" label="Regression" />
                             
                         
                     
@@ -596,8 +558,8 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
     
         <entry>
             <title type="text">An Introduction to Optimal Transport</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/sinkhorn/" />
-            <id>https://zchencn.github.io/posts/sinkhorn/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/sinkhorn/" />
+            <id>http://zchen.github.io/post/sinkhorn/</id>
             <updated>2022-02-24T23:38:42&#43;08:00</updated>
             <published>2021-10-31T16:38:57&#43;08:00</published>
             <author>
@@ -725,13 +687,13 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/optimal-transport/" term="Optimal Transport" label="Optimal Transport" />
+                                <category scheme="http://zchen.github.io/categories/optimal-transport/" term="Optimal Transport" label="Optimal Transport" />
                             
                         
                     
@@ -741,13 +703,13 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/optimal-transport/" term="Optimal Transport" label="Optimal Transport" />
+                                <category scheme="http://zchen.github.io/tags/optimal-transport/" term="Optimal Transport" label="Optimal Transport" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                                <category scheme="http://zchen.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
                             
                         
                     
@@ -757,8 +719,8 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
     
         <entry>
             <title type="text">Bias and Variance</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/variancebias/" />
-            <id>https://zchencn.github.io/posts/variancebias/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/variancebias/" />
+            <id>http://zchen.github.io/post/variancebias/</id>
             <updated>2022-02-25T11:52:59&#43;08:00</updated>
             <published>2021-09-08T00:00:00&#43;00:00</published>
             <author>
@@ -829,7 +791,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                                <category scheme="http://zchen.github.io/categories/machine-learning/" term="Machine Learning" label="Machine Learning" />
                             
                         
                     
@@ -839,7 +801,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
+                                <category scheme="http://zchen.github.io/tags/machine-learning/" term="Machine Learning" label="Machine Learning" />
                             
                         
                     
@@ -849,8 +811,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Mutable and Immutable Objects in Python</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/mutableandimmutableobjects/" />
-            <id>https://zchencn.github.io/posts/mutableandimmutableobjects/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/mutableandimmutableobjects/" />
+            <id>http://zchen.github.io/post/mutableandimmutableobjects/</id>
             <updated>2022-02-25T13:17:43&#43;08:00</updated>
             <published>2021-01-21T00:00:00&#43;00:00</published>
             <author>
@@ -999,95 +961,19 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                                <category scheme="http://zchen.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
+                                <category scheme="http://zchen.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/python/" term="Python" label="Python" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/python/" term="Python" label="Python" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Adjoint Method</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/adjointmethod/" />
-            <id>https://zchencn.github.io/posts/adjointmethod/</id>
-            <updated>2022-02-25T13:20:17&#43;08:00</updated>
-            <published>2021-01-18T00:00:00&#43;00:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">问题是什么 为简单起见，我们先考虑有限维的情形，即矩阵向量的形式。 假设$x \in \math…</summary>
-            
-                <content type="html">&lt;h2 id=&#34;问题是什么&#34;&gt;问题是什么&lt;/h2&gt;
-&lt;p&gt;为简单起见，我们先考虑有限维的情形，即矩阵向量的形式。&lt;/p&gt;
-&lt;p&gt;假设$x \in \mathbb{R}^{n_x}$和$p\in\mathbb{R}^{n_p}$, 且有一个函数$g:\mathbb{R}^{n_x}\times\mathbb{R}^{n_p} \rightarrow \mathbb{R}^{n_x}$使得$g(x, p) = 0$, 另有一个关于$x$和$p$的函数$f:\mathbb{R}^{n_x}\times\mathbb{R}^{n_p} \rightarrow \mathbb{R}$，方程$g(x, p) = 0$建立了$x$和$p$的关系，所以$f$可以看成是一个关于$p$的函数，即：$f(x, p) = f(x(p), p) = \hat{f}(p)$。现在的问题是，怎么求出$\hat{f}$关于$p$的导数，即$d_{p}\hat{f}$.&lt;/p&gt;
-&lt;p&gt;一种直接的想法是利用有限差分，即：
-$$
-d_{p_i}\hat{f} \approx \frac{\hat{f}(p + \epsilon e_i) - \hat{f}(p-\epsilon e_i)}{2\epsilon} = \approx \frac{{f}(x(p + \epsilon e_i), p + \epsilon e_i) - f(x(p - \epsilon e_i), p-\epsilon e_i)}{2\epsilon} \tag{1}
-$$
-这样做的缺点在于，当$n_p$很大时，我们需要很多次地计算$x$, 在实际问题中，通常是数值求解一个偏微分方程，这是一个计算量相当大的过程。&lt;/p&gt;
-&lt;p&gt;那么如何快速准确高效地求出$d_{p_i}\hat{f}$呢？&lt;/p&gt;
-&lt;h2 id=&#34;伴随方法&#34;&gt;伴随方法&lt;/h2&gt;
-&lt;p&gt;对$\hat{f}$求全微分得：
-$$
-d_{p}\hat{f} = [\hat{f}&lt;em&gt;{p_1}, \hat{f}&lt;/em&gt;{p_2}, \cdots, \hat{f}&lt;em&gt;{p&lt;/em&gt;{n_p}}]^T = (d_px)^Td_xf + d_pf \tag{2}
-$$
-其中$d_px\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_p}$. 当$f$关于$p$和$x$的表达式已知时， $d_xf$和$d_pf$都可以显示的求出，所以关键在于求出$d_px$ .&lt;/p&gt;
-&lt;p&gt;同样地，我们对$g$求全微分，得：
-$$
-0 = d_xgd_px + d_pg \tag{3}
-$$
-其中$d_xg\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_x}, d_pg\in\mathbb{R}^{n_x}\times\mathbb{R}^{n_p}$&lt;/p&gt;
-&lt;p&gt;不妨假设$d_xg$可逆，则得到$d_px = -(d_xg)^{-1}d_pg$ , 代入(2)式， 得到：
-$$
-d_p\hat{f} = -(d_pg)^T(d_xg)^{-T}d_xf + d_pf \tag{4}
-$$
-最后，为解决(4)式中的求逆，引入&lt;strong&gt;伴随变量(adjoint variable)&lt;/strong&gt;  $\lambda \in \mathbb{R}^{n_x}$, 满足&lt;strong&gt;伴随方程(adjoint equation)&lt;/strong&gt;:
-$$
-(d_xg)^T\lambda = -d_xf \tag{5}
-$$
-代入(4)式，得到：
-$$
-d_p\hat{f} = (d_pg)^T\lambda + d_pf
-$$&lt;/p&gt;
-&lt;h2 id=&#34;泛函形式&#34;&gt;泛函形式&lt;/h2&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/python/" term="Python" label="Python" />
                             
                         
                     
@@ -1097,7 +983,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/adjoint-method/" term="Adjoint Method" label="Adjoint Method" />
+                                <category scheme="http://zchen.github.io/tags/python/" term="Python" label="Python" />
                             
                         
                     
@@ -1107,8 +993,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Different Derivatives in Mathematics</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/derivatives/" />
-            <id>https://zchencn.github.io/posts/derivatives/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/derivatives/" />
+            <id>http://zchen.github.io/post/derivatives/</id>
             <updated>2022-02-25T13:14:30&#43;08:00</updated>
             <published>2021-01-18T00:00:00&#43;00:00</published>
             <author>
@@ -1201,7 +1087,7 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                     
@@ -1211,13 +1097,13 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/caculus/" term="Caculus" label="Caculus" />
+                                <category scheme="http://zchen.github.io/tags/caculus/" term="Caculus" label="Caculus" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/derivatives/" term="Derivatives" label="Derivatives" />
+                                <category scheme="http://zchen.github.io/tags/derivatives/" term="Derivatives" label="Derivatives" />
                             
                         
                     
@@ -1227,8 +1113,8 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
     
         <entry>
             <title type="text">Matric Caculus</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/matriccaculus/" />
-            <id>https://zchencn.github.io/posts/matriccaculus/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/matriccaculus/" />
+            <id>http://zchen.github.io/post/matriccaculus/</id>
             <updated>2022-02-25T13:15:46&#43;08:00</updated>
             <published>2021-01-18T00:00:00&#43;00:00</published>
             <author>
@@ -1291,7 +1177,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                     
@@ -1301,7 +1187,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/matrix-caculus/" term="Matrix Caculus" label="Matrix Caculus" />
+                                <category scheme="http://zchen.github.io/tags/matrix-caculus/" term="Matrix Caculus" label="Matrix Caculus" />
                             
                         
                     
@@ -1311,8 +1197,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Static Library and Dynamic Link Library</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/staticlibanddynamiclib/" />
-            <id>https://zchencn.github.io/posts/staticlibanddynamiclib/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/staticlibanddynamiclib/" />
+            <id>http://zchen.github.io/post/staticlibanddynamiclib/</id>
             <updated>2022-02-25T13:11:03&#43;08:00</updated>
             <published>2020-12-03T00:00:00&#43;00:00</published>
             <author>
@@ -1390,19 +1276,19 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                                <category scheme="http://zchen.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
+                                <category scheme="http://zchen.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
+                                <category scheme="http://zchen.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
                             
                         
                     
@@ -1412,13 +1298,13 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/static-library/" term="Static Library" label="Static Library" />
+                                <category scheme="http://zchen.github.io/tags/static-library/" term="Static Library" label="Static Library" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/dynamic-link-library/" term="Dynamic Link Library" label="Dynamic Link Library" />
+                                <category scheme="http://zchen.github.io/tags/dynamic-link-library/" term="Dynamic Link Library" label="Dynamic Link Library" />
                             
                         
                     
@@ -1428,8 +1314,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">An Introduction to Perfectly Matched Layer</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/pml/" />
-            <id>https://zchencn.github.io/posts/pml/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/pml/" />
+            <id>http://zchen.github.io/post/pml/</id>
             <updated>2022-02-25T13:18:32&#43;08:00</updated>
             <published>2020-11-29T16:38:57&#43;08:00</published>
             <author>
@@ -1491,13 +1377,13 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/pde/" term="PDE" label="PDE" />
+                                <category scheme="http://zchen.github.io/categories/pde/" term="PDE" label="PDE" />
                             
                         
                     
@@ -1507,7 +1393,7 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
+                                <category scheme="http://zchen.github.io/tags/pde/" term="PDE" label="PDE" />
                             
                         
                     
@@ -1517,8 +1403,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Vector in STL</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/vector/" />
-            <id>https://zchencn.github.io/posts/vector/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/vector/" />
+            <id>http://zchen.github.io/post/vector/</id>
             <updated>2022-02-25T13:13:00&#43;08:00</updated>
             <published>2020-11-29T00:00:00&#43;00:00</published>
             <author>
@@ -1698,19 +1584,19 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                                <category scheme="http://zchen.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
+                                <category scheme="http://zchen.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
+                                <category scheme="http://zchen.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
                             
                         
                     
@@ -1720,13 +1606,13 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/c-/" term="C&#43;&#43;" label="C&#43;&#43;" />
+                                <category scheme="http://zchen.github.io/tags/c-/" term="C&#43;&#43;" label="C&#43;&#43;" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/stl/" term="STL" label="STL" />
+                                <category scheme="http://zchen.github.io/tags/stl/" term="STL" label="STL" />
                             
                         
                     
@@ -1736,8 +1622,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">An Introduction to Constrained Optimization Problems</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/constrainedoptimization/" />
-            <id>https://zchencn.github.io/posts/constrainedoptimization/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/constrainedoptimization/" />
+            <id>http://zchen.github.io/post/constrainedoptimization/</id>
             <updated>2022-02-25T12:21:42&#43;08:00</updated>
             <published>2020-10-23T00:00:00&#43;00:00</published>
             <author>
@@ -1870,13 +1756,13 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/optimization/" term="Optimization" label="Optimization" />
+                                <category scheme="http://zchen.github.io/categories/optimization/" term="Optimization" label="Optimization" />
                             
                         
                     
@@ -1886,13 +1772,13 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/tags/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/optimization/" term="Optimization" label="Optimization" />
+                                <category scheme="http://zchen.github.io/tags/optimization/" term="Optimization" label="Optimization" />
                             
                         
                     
@@ -1902,8 +1788,8 @@ $$
     
         <entry>
             <title type="text">An Introduction to Unconstrained Optimization Problems</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/unconstrainedoptimization/" />
-            <id>https://zchencn.github.io/posts/unconstrainedoptimization/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/unconstrainedoptimization/" />
+            <id>http://zchen.github.io/post/unconstrainedoptimization/</id>
             <updated>2022-02-25T12:20:29&#43;08:00</updated>
             <published>2020-10-23T00:00:00&#43;00:00</published>
             <author>
@@ -2025,13 +1911,13 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/optimization/" term="Optimization" label="Optimization" />
+                                <category scheme="http://zchen.github.io/categories/optimization/" term="Optimization" label="Optimization" />
                             
                         
                     
@@ -2041,13 +1927,13 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/tags/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/optimization/" term="Optimization" label="Optimization" />
+                                <category scheme="http://zchen.github.io/tags/optimization/" term="Optimization" label="Optimization" />
                             
                         
                     
@@ -2057,8 +1943,8 @@ $$
     
         <entry>
             <title type="text">SEM</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/sem/" />
-            <id>https://zchencn.github.io/posts/sem/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/sem/" />
+            <id>http://zchen.github.io/post/sem/</id>
             <updated>2022-02-25T13:19:26&#43;08:00</updated>
             <published>2020-10-23T00:00:00&#43;00:00</published>
             <author>
@@ -2248,19 +2134,19 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/numerical-analysis/" term="Numerical Analysis" label="Numerical Analysis" />
+                                <category scheme="http://zchen.github.io/categories/numerical-analysis/" term="Numerical Analysis" label="Numerical Analysis" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
+                                <category scheme="http://zchen.github.io/categories/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
                             
                         
                     
@@ -2270,13 +2156,13 @@ $$&lt;/p&gt;
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/sem/" term="SEM" label="SEM" />
+                                <category scheme="http://zchen.github.io/tags/sem/" term="SEM" label="SEM" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
+                                <category scheme="http://zchen.github.io/tags/pde/" term="PDE" label="PDE" />
                             
                         
                     
@@ -2286,8 +2172,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Gaussian Quadrature</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/gaussianquadrature/" />
-            <id>https://zchencn.github.io/posts/gaussianquadrature/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/gaussianquadrature/" />
+            <id>http://zchen.github.io/post/gaussianquadrature/</id>
             <updated>2022-02-25T12:30:13&#43;08:00</updated>
             <published>2020-06-27T00:00:00&#43;00:00</published>
             <author>
@@ -2400,19 +2286,19 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
+                                <category scheme="http://zchen.github.io/categories/math/" term="Math" label="Math" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/numerical-analysis/" term="Numerical Analysis" label="Numerical Analysis" />
+                                <category scheme="http://zchen.github.io/categories/numerical-analysis/" term="Numerical Analysis" label="Numerical Analysis" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
+                                <category scheme="http://zchen.github.io/categories/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
                             
                         
                     
@@ -2422,7 +2308,7 @@ $$
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
+                                <category scheme="http://zchen.github.io/tags/numerical-quadrature/" term="Numerical Quadrature" label="Numerical Quadrature" />
                             
                         
                     
@@ -2432,8 +2318,8 @@ $$
     
         <entry>
             <title type="text">An Introduction to Make</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/makefiles/" />
-            <id>https://zchencn.github.io/posts/makefiles/</id>
+            <link rel="alternate" type="text/html" href="http://zchen.github.io/post/makefiles/" />
+            <id>http://zchen.github.io/post/makefiles/</id>
             <updated>2022-02-25T13:06:16&#43;08:00</updated>
             <published>2019-12-21T00:00:00&#43;00:00</published>
             <author>
@@ -2780,7 +2666,7 @@ $ make target &lt;span class=&#34;c1&#34;&gt;# 更新target这个目标&lt;/span
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
+                                <category scheme="http://zchen.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
                             
                         
                     
@@ -2790,13 +2676,13 @@ $ make target &lt;span class=&#34;c1&#34;&gt;# 更新target这个目标&lt;/span
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/c/" term="C" label="C" />
+                                <category scheme="http://zchen.github.io/tags/c/" term="C" label="C" />
                             
                         
                             
                             
                             
-                                <category scheme="https://zchencn.github.io/tags/make-file/" term="Make File" label="Make File" />
+                                <category scheme="http://zchen.github.io/tags/make-file/" term="Make File" label="Make File" />
                             
                         
                     
