@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">CZ&#39;s Selfpage</title>
     <subtitle type="html">Notes aboust mathematics and compter science</subtitle>
-    <updated>2023-03-05T18:03:06&#43;08:00</updated>
+    <updated>2023-05-09T21:00:37&#43;08:00</updated>
     <id>https://zchencn.github.io/</id>
     <link rel="alternate" type="text/html" href="https://zchencn.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://zchencn.github.io/atom.xml" />
@@ -17,183 +17,9 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator>
         <entry>
-            <title type="text">读史笔记之秦末楚汉</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/read_history_note_01/" />
-            <id>https://zchencn.github.io/posts/read_history_note_01/</id>
-            <updated>2023-03-05T17:38:39&#43;08:00</updated>
-            <published>2023-03-05T17:36:31&#43;08:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">汉 楚 项梁 秦 章邯 二世二年冬，陈王所遣周文等将西至戏，兵数十万。二世大惊，与群臣谋曰：“…</summary>
-            
-                <content type="html">&lt;h1 id=&#34;汉&#34;&gt;汉&lt;/h1&gt;
-&lt;h1 id=&#34;楚&#34;&gt;楚&lt;/h1&gt;
-&lt;h2 id=&#34;项梁&#34;&gt;项梁&lt;/h2&gt;
-&lt;h1 id=&#34;秦&#34;&gt;秦&lt;/h1&gt;
-&lt;h2 id=&#34;章邯&#34;&gt;章邯&lt;/h2&gt;
-&lt;p&gt;二世二年冬，陈王所遣周文等将西至戏，兵数十万。二世大惊，与群臣谋曰：“柰何？”少府章邯曰：“盗已至，众彊，今发近县不及矣。郦山徒多，请赦之，授兵以击之。”二世乃大赦天下，使章邯免骊山徒、人奴产子，悉发以击楚军，大败之。周文走，出关，止屯曹阳，二月余，章邯追败之。复击之渑池，大破之。周文自刎，军遂不战。田臧矫王令诛吴叔，使李归等守荥阳。章邯进兵击李归等荥阳下，破之，杀李归等。阳城人邓说将兵居郯，章邯别将击破之。铚人伍徐（一作伍逢）将兵居许，章邯击破之。两军皆散，走陈，陈王诛邓说。章邯已破伍徐，击陈，柱国房君死。章邯又进兵击陈西张贺军。陈王出监战，军破，张贺死。腊月，陈王之汝阴，还，至下城父，其御庄贾杀陈王以降。&lt;/p&gt;
-&lt;p&gt;是时秦将章邯从陈，别将司马（尼）〔[插图]〕[14]将兵北定楚地，屠相，至砀&lt;/p&gt;
-&lt;p&gt;陈王初立时，凌人秦嘉、铚人董緤、符离人硃鸡石、取虑人郑布、徐人丁疾等皆特起，将兵围东海守于郯。陈王使武平君畔为将军，监军郯下军。秦嘉自立为大司马，恶属人，因矫王命杀武平君。秦嘉等闻陈王军破出走，乃立景驹为楚王，引兵之方与，欲击秦军定陶下。&lt;/p&gt;
-&lt;h1 id=&#34;群雄&#34;&gt;群雄&lt;/h1&gt;
-&lt;h2 id=&#34;吴广田臧&#34;&gt;吴广田臧&lt;/h2&gt;
-&lt;p&gt;吴广者，字叔，阳夏人也。二世元年七月，陈胜吴广起大泽乡，陈胜自立为将军，吴广为督尉。入据陈，胜乃自立为王，号张楚，以广为假王，监诸将以西击荥阳。吴叔围荥阳，李由为三川守，守荥阳，叔孚能下。田臧等以假王骄，不知兵权，矫陈王令诛吴广，献其守于陈王。陈王赐田臧楚令尹印，使为上将。田臧与章邯战于敖仓，军破，田臧死。&lt;/p&gt;
-&lt;h2 id=&#34;周文&#34;&gt;周文&lt;/h2&gt;
-&lt;p&gt;周文者，陈之贤人也，尝为项燕军视日，事春申君。时陈王在陈，闻周文贤，习兵，乃与之将军印，使西击秦。行收兵至关，车千乘，卒数十万，至戏，军焉。秦令少府章邯免郦山徒、人奴产子生，悉发以击楚大军，尽败之。周章（名章字文？）出关，止屯曹阳，二月余，章邯追败之。复走渑池，十余日，章邯击，大破之。周文自刎，军遂不战；&lt;/p&gt;
-&lt;h2 id=&#34;周巿魏王咎&#34;&gt;周巿魏王咎&lt;/h2&gt;
-&lt;p&gt;时陈王在陈，令魏人周巿北徇魏地。周巿徇地至狄，狄城守。狄人田儋杀狄令，自立为齐王，发兵以击周巿。巿军还至魏地，欲立魏咎为魏王。魏咎者，故魏诸公子也，故魏时封为宁陵君，陈胜之起王也，咎往从之。时咎在陈，不得之魏。魏地已定，诸侯皆欲立周巿为魏王。巿曰：“天下昏乱，忠臣乃见。今天下共畔秦，其义必立魏王后乃可。”诸侯固请立巿，巿终辞不受，迎魏咎于陈，五反，陈王乃遣之，立咎为魏王，巿为魏相。后章邯破陈王，进兵击魏王于临济。魏王使周巿出，请救于齐、楚。齐王儋及楚将项它皆将兵随巿救魏。章邯夜衔枚击，大破齐、楚军于临济下，杀齐王及周巿。魏王咎为其民约降，约定，自烧杀。&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/%E5%8E%86%E5%8F%B2/" term="历史" label="历史" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/%E7%A7%A6%E6%B1%89%E5%8F%B2/" term="秦汉史" label="秦汉史" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/%E5%8E%86%E5%8F%B2/" term="历史" label="历史" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%8F%B2/" term="中国古代史" label="中国古代史" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">读史笔记之前言</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/read_history_note_00/" />
-            <id>https://zchencn.github.io/posts/read_history_note_00/</id>
-            <updated>2023-03-05T17:49:26&#43;08:00</updated>
-            <published>2023-03-05T17:05:47&#43;08:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">最近入睡前总是在喜马拉雅上听王立群老师的《读史记之大风歌》，在这之前，我对这段历史的…</summary>
-            
-                <content type="html">&lt;p&gt;最近入睡前总是在喜马拉雅上听王立群老师的《读史记之大风歌》，在这之前，我对这段历史的了解除了高中课本上的《鸿门宴》解近乎是空白的。前一两年我阅读的兴趣主要是春秋战国这段时间的历史，沿着时间顺序，正好也差不多到了楚汉风云之际。趁这个机会，我开始阅读《史记》。&lt;/p&gt;
-&lt;p&gt;《史记》是中国历史上第一部纪传体通史，全书共一百三十篇，包括十二本纪、十表、八书、三十世家和七十列传。看书先看目录，史记的目录就让我产生了诸多疑惑——为什么既有《秦本纪》，又有《秦始皇本纪》？为什么项羽和吕后不是帝王却有《项羽本纪》和《吕后本纪》？为什么汉惠帝刘盈连单独的传记都没有？等等&amp;hellip;&amp;hellip;&lt;/p&gt;
-&lt;p&gt;纪传体史书不像编年体史书，并不是按时间顺序编排的，这有利于完整地叙述一个人的生平经历，然而对于很多相对次要的人物，司马迁没有单独编写传记，而是将他的事迹穿插在相关重要人物的传记中。比如项梁和章邯，一位是秦末起义军的领袖之一，一位是秦国抵抗起义军的大将，他们均没有单独的传记，项梁的事迹大多记叙在《项羽本纪》中，章邯的众多事迹穿插在《陈涉世家》、《项羽本纪》等等篇章中。&lt;/p&gt;
-&lt;p&gt;为了更好的梳理历史人物之间的关系和历史事件之间的因果，帮助自己更好地读懂《史记》，我想出一个给小人物编写传记的读书方法。即以《史记》为基础，参考《汉书》和《资治通鉴》，将没有传记的部分人物的事迹整理，略加修改使行文流程，整理成一个“小传”。&lt;/p&gt;
-&lt;p&gt;主要有以下几个部分：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://zchencn.github.io/posts/read_history_note_01/&#34;&gt;读史笔记之秦末楚汉&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">读《失败者的春秋》</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/readingnotes/" />
-            <id>https://zchencn.github.io/posts/readingnotes/</id>
-            <updated>2022-12-06T22:17:02&#43;08:00</updated>
-            <published>2022-11-13T22:19:28&#43;08:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">脉络 新颖的观点 有意思的地方 不学《诗》，无以言 《论语》中多次提到了《诗》，也就是《诗经…</summary>
-            
-                <content type="html">&lt;h2 id=&#34;脉络&#34;&gt;脉络&lt;/h2&gt;
-&lt;h2 id=&#34;新颖的观点&#34;&gt;新颖的观点&lt;/h2&gt;
-&lt;h2 id=&#34;有意思的地方&#34;&gt;有意思的地方&lt;/h2&gt;
-&lt;h3 id=&#34;不学诗无以言&#34;&gt;不学《诗》，无以言&lt;/h3&gt;
-&lt;p&gt;《论语》中多次提到了《诗》，也就是《诗经》。我以前一直不明白，为什么孔子会说”不学习《诗》，就没法说话“呢？第九章223页引用了《左传》中描讲秦穆公送重耳返晋时饮宴唱和的故事，这是一个很具体的”以《诗》言“的例子。在宴会中，重耳借《河水》（这里作者认为是《诗经·小雅·沔水》）表达对晋国多年乱局的感喟和对晋国的思念，也表示了对秦国的称颂以及返国后归附秦国的意愿。而后秦穆公用《诗经·小雅·六月》回应了重耳。在先秦时代的外交场合，《诗经》总是被”断章取义“的使用，这大概就是贵族的一种仪式感吧。联想到前几日外交部某新闻发言人在回答记者关于防疫政策的提问时长达近一分钟的沉默，很想推荐赵发言人回家读读《诗》。&lt;/p&gt;
-&lt;h3 id=&#34;重瞳骈胁&#34;&gt;重瞳骈胁&lt;/h3&gt;
-&lt;p&gt;据说晋文公路过曹国时，曹共公听说重耳是天生胼胁，想一睹究竟，居然去偷看重耳洗澡。”胼胁“是指肋骨连成一片，经常一起被提起的还有”重瞳“，也就是一个眼睛有两个瞳孔，想想甚是可怖。除了重耳外，史料上具有”重瞳胼胁“这种异象的名人还有舜和项羽等等。这大概是和史书中各种描写皇帝出生前的诸如电闪雷鸣等异常现象类似的一种手法，古人倾向于认为圣人有异象，于是给他们安排上了这种戏码，不知道从现代科学的角度，是否真的存在肋骨连起来的这种情况。&lt;/p&gt;
-&lt;h3 id=&#34;摘录&#34;&gt;摘录&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;礼法是一条悬索，下面就是政治危机的万丈深渊，他们只能摔得粉身碎骨。没有走钢丝的本事，又不甘心摔得粉碎的君主，就只有拒绝走上悬索。他们不再虚伪，也就是这个时代注定的“礼崩乐坏”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;blockquote&gt;
-&lt;p&gt;为应对当时的一系列危机，齐桓公设计了一个重建旧体制的方案：霸政。到宋襄公这里，证明了想通过这个方案回到旧体制完全行不通。而到晋文公时代，霸政体系对大国非常有利，则体现得非常明显。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/%E5%85%B6%E4%BB%96/" term="其他" label="其他" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/" term="读后感" label="读后感" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/%E8%AF%BB%E5%90%8E%E6%84%9F-%E5%8E%86%E5%8F%B2/" term="读后感, 历史" label="读后感, 历史" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
             <title type="text">Derivative of Trace and Determinant</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/derivativetracedeterminant/" />
-            <id>https://zchencn.github.io/posts/derivativetracedeterminant/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/derivativetracedeterminant/" />
+            <id>https://zchencn.github.io/post/derivativetracedeterminant/</id>
             <updated>2022-03-02T23:19:48&#43;08:00</updated>
             <published>2022-03-02T23:05:12&#43;08:00</published>
             <author>
@@ -332,10 +158,10 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">Methods to Solve Nonhomogeneous PDE problems</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/nonhomogeneous/" />
-            <id>https://zchencn.github.io/posts/nonhomogeneous/</id>
-            <updated>2022-02-25T13:20:04&#43;08:00</updated>
+            <title type="text">求解非齐次偏微分方程的方法</title>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/nonhomogeneous/" />
+            <id>https://zchencn.github.io/post/nonhomogeneous/</id>
+            <updated>2023-05-09T20:10:48&#43;08:00</updated>
             <published>2021-12-19T20:22:08&#43;08:00</published>
             <author>
                     <name>zchen</name>
@@ -358,7 +184,7 @@ $$
 $$
 \begin{equation}
 \begin{cases}
-\frac{\partial^2u}{\partial t^2} = a^2\frac{\partial^2u}{\partial x^2} + f(x, t), \quad -\infty&amp;lt;x&amp;lt;\infty, t&amp;gt;0\
+\frac{\partial^2u}{\partial t^2} = a^2\frac{\partial^2u}{\partial x^2} + f(x, t), \quad -\infty&amp;lt;x&amp;lt;\infty, t&amp;gt;0\\
 u(x, 0) = \frac{\partial}{\partial t}u(x, 0) = 0, \quad -\infty &amp;lt; x &amp;lt; \infty
 \end{cases}
 \end{equation}
@@ -367,7 +193,7 @@ $$
 $$
 \begin{equation}
 \begin{cases}
-\frac{\partial^2\Omega}{\partial t^2} = a^2\frac{\partial^2\Omega}{\partial x^2}, \quad -\infty&amp;lt;x&amp;lt;\infty, t&amp;gt;\tau\
+\frac{\partial^2\Omega}{\partial t^2} = a^2\frac{\partial^2\Omega}{\partial x^2}, \quad -\infty&amp;lt;x&amp;lt;\infty, t&amp;gt;\tau\\
 \Omega(x, \tau) =0,  \frac{\partial}{\partial t}\Omega(x, \tau) = f(x, \tau), \quad -\infty &amp;lt; x &amp;lt; \infty
 \end{cases}
 \end{equation}
@@ -376,21 +202,21 @@ $$&lt;/p&gt;
 $$
 u(x, t) = \int_0^t\Omega(x, t, \tau)d\tau
 $$
-则首先容易发现
+容易发现
 $$
 u(x, 0) = \int_0^0\Omega(x, t, \tau)d\tau = 0
 $$
 利用前面的引理和 $\Omega$ 方程的初始条件可以验证
 $$
-\frac{\partial u}{\partial t}(x, 0) = \Omega(x, t, t) + \left[\int_0^t\frac{\partial}{\partial t}\Omega(x, t, \tau)d\tau\right]&lt;em&gt;{t=0} = 0
+\frac{\partial u}{\partial t}(x, 0) = \Omega(x, t, t) + \Big[\int_0^t\frac{\partial}{\partial t}\Omega(x, t, \tau)d\tau\Big]_{t=0} = 0
 $$
 最后对上式在求一次时间的导数，同样有
 $$
 \begin{equation}
 \begin{aligned}
-\frac{\partial^2u}{\partial t^2} &amp;amp;= \left[\frac{\partial \Omega}{\partial t}(x, t, \tau)\right]&lt;/em&gt;{\tau=t} + \int_0^t\frac{\partial^2}{\partial t^2}\Omega(x, t, \tau)d\tau\
-&amp;amp;= f(x, t) + \int_0^ta^2\frac{\partial^2}{\partial x^2}\Omega(x, t, \tau)d\tau\
-&amp;amp;= f(x, t) + a^2\frac{\partial^2}{\partial x^2}\int_0^t\Omega(x, t, \tau)d\tau\
+\frac{\partial^2u}{\partial t^2} &amp;amp;= \Big[\frac{\partial \Omega}{\partial t}(x, t, \tau)\Big]_{\tau=t} + \int_0^t\frac{\partial^2}{\partial t^2}\Omega(x, t, \tau)d\tau\\
+&amp;amp;= f(x, t) + \int_0^ta^2\frac{\partial^2}{\partial x^2}\Omega(x, t, \tau)d\tau\\
+&amp;amp;= f(x, t) + a^2\frac{\partial^2}{\partial x^2}\int_0^t\Omega(x, t, \tau)d\tau\\
 &amp;amp;= f(x, t) + a^2\frac{\partial^2}{\partial x^2}u(x, t)
 \end{aligned}
 \end{equation}
@@ -401,8 +227,8 @@ $$
 $$
 \begin{equation}
 \begin{cases}
-\frac{\partial^2u}{\partial t^2} = a^2\frac{\partial^2u}{\partial x^2} + f(x, t), \quad 0&amp;lt;x&amp;lt;l, t&amp;gt;0\
-u(x, 0) = \frac{\partial}{\partial t}u(x, 0) = 0, \quad 0 &amp;lt; x &amp;lt; l\
+\frac{\partial^2u}{\partial t^2} = a^2\frac{\partial^2u}{\partial x^2} + f(x, t), \quad 0&amp;lt;x&amp;lt;l, t&amp;gt;0\\
+u(x, 0) = \frac{\partial}{\partial t}u(x, 0) = 0, \quad 0 &amp;lt; x &amp;lt; l\\
 u(0, t) = u(l, t) = 0
 \end{cases}
 \end{equation}
@@ -421,24 +247,24 @@ g_n(0) = g^{&#39;}_n(0) = 0
 $$&lt;/p&gt;
 &lt;p&gt;带入方程得到
 $$
-\sum_{t\geq1}\left[g^{&#39;&#39;}&lt;em&gt;n(t) + \left(\frac{na\pi}{l}\right)^2g_n(t)\right]\sin\frac{n\pi}{l}x = f(x, t)
+\sum_{t\geq1}\Big[g^{&#39;&#39;}_n(t) + \Big(\frac{na\pi}{l}\Big)^2g_n(t)\Big]\sin\frac{n\pi}{l}x = f(x, t)
 $$
 对 $f$ 做半幅傅里叶级数展开
 $$
-f(x, t) = \sum&lt;/em&gt;{t\geq 1}f_n(t)\sin\frac{n\pi}{l}x\
+f(x, t) = \sum_{t\geq 1}f_n(t)\sin\frac{n\pi}{l}x\
 f_n(t) = \frac{2}{l}\int_0^lf(x, t)\sin\frac{n\pi}{l}xdx
 $$
 对比可得关于 $g_n(t)$ 的二阶常系数非齐次微分方程
 $$
-g^{&#39;&#39;}_n + \left(\frac{na\pi}{l}\right)^2g_n - f_n(t) = 0
+g^{&#39;&#39;}_n + \Big(\frac{na\pi}{l}\Big)^2g_n - f_n(t) = 0
 $$
 两边对时间作拉普拉斯变换
 $$
-p^2G_n(p) +  \left(\frac{na\pi}{l}\right)^2G_n(p) - F_n(p) = 0
+p^2G_n(p) +  \Big(\frac{na\pi}{l}\Big)^2G_n(p) - F_n(p) = 0
 $$
 得到
 $$
-G_n(p) = \frac{F_n(p)}{p^2 +  \left(\frac{na\pi}{l}\right)^2}
+G_n(p) = \frac{F_n(p)}{p^2 +  \Big(\frac{na\pi}{l}\Big)^2}
 $$
 利用拉普拉斯变换卷积的性质和平移性质以及 $\sin t$ 的拉普拉斯变化，容易看出
 $$
@@ -461,7 +287,7 @@ $$
 那么容易验证 $v$ 满足齐次边界条件且
 $$
 \begin{aligned}
-\frac{\partial^2v}{\partial t^2} - a^2\frac{\partial^2v}{\partial x^2} &amp;amp;= \frac{\partial^2u}{\partial t^2} - \frac{\partial^2\gamma}{\partial t^2} - a^2\left(\frac{\partial^2u}{\partial x^2}-\frac{\partial^2\gamma}{\partial x^2}\right)\
+\frac{\partial^2v}{\partial t^2} - a^2\frac{\partial^2v}{\partial x^2} &amp;amp;= \frac{\partial^2u}{\partial t^2} - \frac{\partial^2\gamma}{\partial t^2} - a^2\Big(\frac{\partial^2u}{\partial x^2}-\frac{\partial^2\gamma}{\partial x^2}\Big)\\
 &amp;amp;= f(x, t) - \frac{\partial^2\gamma}{\partial t^2} + a^2\frac{\partial^2\gamma}{\partial x^2}
 \end{aligned}
 $$
@@ -510,8 +336,8 @@ $$
     
         <entry>
             <title type="text">CrossValidation</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/crossvalidation/" />
-            <id>https://zchencn.github.io/posts/crossvalidation/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/crossvalidation/" />
+            <id>https://zchencn.github.io/post/crossvalidation/</id>
             <updated>2021-12-02T21:41:55&#43;08:00</updated>
             <published>2021-12-02T21:40:00&#43;08:00</published>
             <author>
@@ -580,8 +406,8 @@ $$
     
         <entry>
             <title type="text">Linear Regression</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/linearregression/" />
-            <id>https://zchencn.github.io/posts/linearregression/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/linearregression/" />
+            <id>https://zchencn.github.io/post/linearregression/</id>
             <updated>2022-02-25T13:25:48&#43;08:00</updated>
             <published>2021-11-26T00:00:00&#43;00:00</published>
             <author>
@@ -671,9 +497,9 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
     
         <entry>
             <title type="text">An Introduction to Optimal Transport</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/sinkhorn/" />
-            <id>https://zchencn.github.io/posts/sinkhorn/</id>
-            <updated>2022-02-24T23:38:42&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/sinkhorn/" />
+            <id>https://zchencn.github.io/post/sinkhorn/</id>
+            <updated>2023-05-09T20:57:48&#43;08:00</updated>
             <published>2021-10-31T16:38:57&#43;08:00</published>
             <author>
                     <name>zchen</name>
@@ -688,7 +514,7 @@ If $X^TX$ is non-invertible we can delete some features, use pseudoinverse or us
 &lt;h2 id=&#34;monge-problem&#34;&gt;Monge Problem&lt;/h2&gt;
 &lt;p&gt;We say $\textbf{a}$ is an histogram or probability vector if  it belongs to the probability simplex:
 $$
-\Sigma_n = \left{\textbf{a}\in\mathbb{R}^n_+: \sum_{i=1}^na_i = 1\right}
+\Sigma_n = \Big\{\textbf{a}\in\mathbb{R}^n_{+}: \sum_{i=1}^na_i = 1\Big\}
 $$
 That is to say, the elements of $\textbf{a}$ is nonnegative and the sum of them is one. A discrete measure with weights $\textbf{a}$ and locations $x_1, x_2, \cdots, x_n$ reads:
 $$
@@ -698,7 +524,7 @@ where $\delta_x$ is the Dirac at  position $x$  intuitively a unit of mass which
 $$
 \alpha = \sum_{i=1}^na_i\delta_{x_i}\quad \text{and}\quad\beta = \sum_{i=1}^mb_i\delta_{y_i}
 $$
-the Monge problem seeks a map the associates to each point $x_i$ a single point $y_i$ and which must push the mass of $\alpha$ toward the mass of $\beta$, namely, such a map $T:{x_1, \cdots, x_n} \rightarrow {y_1, \cdots, y_m}$ must verify that:
+the Monge problem seeks a map the associates to each point $x_i$ a single point $y_i$ and which must push the mass of $\alpha$ toward the mass of $\beta$, namely, such a map $T:\{x_1, \cdots, x_n\} \rightarrow \{y_1, \cdots, y_m\}$ must verify that:
 $$
 \forall j \in {1, 2, \cdots, m}, b_j = \sum_{T(x_i)=y_j}a_i
 $$
@@ -708,18 +534,18 @@ T_{\sharp}\alpha = \beta
 $$
 Given a cost function $c(x, y)$, the Monge problem is to find the map that minimize the total cost of the transportation:
 $$
-\min_T\left{\sum_{i}c(x_i, T(x_i)): T_{\sharp}\alpha=\beta\right}
+\min_T\Big\{\sum_{i}c(x_i, T(x_i)): T_{\sharp}\alpha=\beta\Big\}
 $$
 Monge maps may not even exist between a discrete measure to another.&lt;/p&gt;
 &lt;h2 id=&#34;kantorovich-relaxation&#34;&gt;Kantorovich Relaxation&lt;/h2&gt;
-&lt;p&gt;The key idea of Kantorovich is to relax the deterministic nature of transportation, namely the fact that a source point $x_i$ can only be assigned to another point or location $T(x_i)$ only.  Kantorovich proposed instead that the mass at any point $x_i$ be potentially dispatched across several locations. This flexibility is encoded using a coupling matrix $P \in \mathbb{R}^{n\times m}&lt;em&gt;+$, where $P&lt;/em&gt;{ij}$ describes the amount of mass flowing from bin $i$ to bin $j$.  Admissible couplings admit a simple characterization that:
+&lt;p&gt;The key idea of Kantorovich is to relax the deterministic nature of transportation, namely the fact that a source point $x_i$ can only be assigned to another point or location $T(x_i)$ only.  Kantorovich proposed instead that the mass at any point $x_i$ be potentially dispatched across several locations. This flexibility is encoded using a coupling matrix $P \in \mathbb{R}^{n\times m}_+$, where $P_{ij}$ describes the amount of mass flowing from bin $i$ to bin $j$.  Admissible couplings admit a simple characterization that:
 $$
-U(\textbf{a}, \textbf{b}) = \left{P\in\mathbb{R}^{n\times m}&lt;em&gt;+: \sum_jP&lt;/em&gt;{ij}=a_i, \sum_iP_{ij}=b_j\right}
+U(\textbf{a}, \textbf{b}) = \Big\{P\in\mathbb{R}^{n\times m}_+: \sum_jP_{ij}=a_i, \sum_iP_{ij}=b_j\Big\}
 $$
 The set of matrices $U(\textbf{a}, \textbf{b})$ is bounded and defined by $n+m$ equality constraints, and therefore is a convex polytope.&lt;/p&gt;
 &lt;p&gt;Given a cost matrix $C$, Kantorovich&amp;rsquo;s OT problem now reads:
 $$
-L_C(\textbf{a}, \textbf{b}) = \min_{P\in U(\textbf{a}, \textbf{b})}\left&amp;lt;P, C\right&amp;gt; = \sum_{i,j}C_{ij}P_{ij}
+L_C(\textbf{a}, \textbf{b}) = \min_{P\in U(\textbf{a}, \textbf{b})}\Big&amp;lt;P, C\Big&amp;gt; = \sum_{i,j}C_{ij}P_{ij}
 $$
 This is a linear program and as is usually the case with such programs, its optimal solutions are not necessarily unique.&lt;/p&gt;
 &lt;h2 id=&#34;wasserstein-distance&#34;&gt;Wasserstein Distance&lt;/h2&gt;
@@ -747,7 +573,7 @@ H(P) = -\sum_{i, j}P_{ij}(\log(P_{ij})-1)
 $$
 The idea of the entropic regularization of OT is to use $-H$ as a regularization function to obtain approximate solutions to the origin Kantorovich OT problem:
 $$
-L^{\epsilon}&lt;em&gt;C(\textbf{a}, \textbf{b}) = \min&lt;/em&gt;{P\in U(\textbf{a, \textbf{b}})}\left&amp;lt;P, C\right&amp;gt; - \epsilon H(P)
+L^{\epsilon}_C(\textbf{a, b}, \textbf{b}) = \min_{P\in U(\textbf{a}, \textbf{b})}\Big&amp;lt;P, C\Big&amp;gt; - \epsilon H(P)
 $$
 Since the objective is an $\epsilon-strongly$ convex function, the problem mentioned above has a unique optimal solution.&lt;/p&gt;
 &lt;p&gt;It has been proved that:
@@ -777,11 +603,11 @@ $$
 \textbf{u}^{(l+1)} = \frac{\textbf{a}}{K\textbf{v}^(l)}, \quad \textbf{v}^{(l+1)} = \frac{\textbf{b}}{K^T\textbf{u}^{(l+1)}}
 $$
 initialized with an arbitrary positive vector $\textbf{v}^{(0)} = \mathbb{1}_m$. The division operator used above between two vectors is to be understood entrywise.&lt;/p&gt;
-&lt;p&gt;In order to speed up the Sinkhorn&amp;rsquo;s iterations, we can compute several regularized Wasserstein distances between pairs of histograms simultaneously. Let $N$ be an integer, $\textbf{a}_1, \cdots, \textbf{a}_N$ be histograms in $\Sigma_n$, and $\textbf{b}_1, \cdots, \textbf{b}_N$ be histograms in $\Sigma_m$. We seek to compute all $N$ approximate distances $L_C^{\epsilon}(\textbf{a}_1, \textbf{b}_1), \cdots, L_C^{\epsilon}(\textbf{a}_N, \textbf{b}_N).$  In that case, writing $A = [\textbf{a}_1, \cdots, \textbf{a}_N]$ and $B = [\textbf{b}_1, \cdots, \textbf{b}&lt;em&gt;N]$ for the $n\times N$ and $m\times N$ matrices storing all histograms,  one can notice that all Sinkhorn iterations for all these $N$ pairs can be carried out in parallel, by setting, for instance,
+&lt;p&gt;In order to speed up the Sinkhorn&amp;rsquo;s iterations, we can compute several regularized Wasserstein distances between pairs of histograms simultaneously. Let $N$ be an integer, $\textbf{a}_1, \cdots, \textbf{a}_N$ be histograms in $\Sigma_n$, and $\textbf{b}_1, \cdots, \textbf{b}_N$ be histograms in $\Sigma_m$. We seek to compute all $N$ approximate distances $L_C^{\epsilon}(\textbf{a}_1, \textbf{b}_1), \cdots, L_C^{\epsilon}(\textbf{a}_N, \textbf{b}_N).$  In that case, writing $A = [\textbf{a}_1, \cdots, \textbf{a}_N]$ and $B = [\textbf{b}_1, \cdots, \textbf{b}_N]$ for the $n\times N$ and $m\times N$ matrices storing all histograms,  one can notice that all Sinkhorn iterations for all these $N$ pairs can be carried out in parallel, by setting, for instance,
 $$
 \textbf{U}^{(l+1)} = \frac{\textbf{A}}{K\textbf{V}^(l)}, \quad \textbf{V}^{(l+1)} = \frac{\textbf{B}}{K^T\textbf{U}^{(l+1)}}
 $$
-initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt;
+initialized with $\textbf{V}^{(0)} = \mathbb{1}_{m\times N}.$&lt;/p&gt;
 &lt;h2 id=&#34;log-domain-stabilized-sinkhorn&#34;&gt;Log-domain Stabilized Sinkhorn&lt;/h2&gt;
 &lt;p&gt;The Sinkhorn algorithm suffers from numerical overflow when the regularization parameter $\epsilon$ is small compared to the entries of the cost matrix $C$. This concern can be alleviated to some extent be carrying out computations in log domain.&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
@@ -832,9 +658,9 @@ initialized with $\textbf{V}^{(0)} = \mathbb{1}&lt;/em&gt;{m\times N}.$&lt;/p&gt
     
         <entry>
             <title type="text">Bias and Variance</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/variancebias/" />
-            <id>https://zchencn.github.io/posts/variancebias/</id>
-            <updated>2022-02-25T11:52:59&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/variancebias/" />
+            <id>https://zchencn.github.io/post/variancebias/</id>
+            <updated>2023-05-09T20:59:32&#43;08:00</updated>
             <published>2021-09-08T00:00:00&#43;00:00</published>
             <author>
                     <name>zchen</name>
@@ -883,9 +709,6 @@ $$&lt;/p&gt;
 &lt;p&gt;《机器学习》，周志华，清华大学出版社&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;[Gentle Introduction to the Bias-Variance Trade-Off in Machine Learning (machinelearningmastery.com)](&lt;a href=&#34;https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/#:~:text=Bias&#34;&gt;https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/#:~:text=Bias&lt;/a&gt; is the simplifying assumptions,the bias and the variance.)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.mastersindatascience.org/learning/difference-between-bias-and-variance/&#34;&gt;What Is the Difference Between Bias and Variance? (mastersindatascience.org)&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -924,8 +747,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Mutable and Immutable Objects in Python</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/mutableandimmutableobjects/" />
-            <id>https://zchencn.github.io/posts/mutableandimmutableobjects/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/mutableandimmutableobjects/" />
+            <id>https://zchencn.github.io/post/mutableandimmutableobjects/</id>
             <updated>2022-02-25T13:17:43&#43;08:00</updated>
             <published>2021-01-21T00:00:00&#43;00:00</published>
             <author>
@@ -1106,9 +929,9 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Different Derivatives in Mathematics</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/derivatives/" />
-            <id>https://zchencn.github.io/posts/derivatives/</id>
-            <updated>2022-02-25T13:14:30&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/derivatives/" />
+            <id>https://zchencn.github.io/post/derivatives/</id>
+            <updated>2023-05-09T20:28:37&#43;08:00</updated>
             <published>2021-01-18T00:00:00&#43;00:00</published>
             <author>
                     <name>zchen</name>
@@ -1136,9 +959,9 @@ $$&lt;/p&gt;
 $$
 grad f(\mathbf{p}) = \nabla f(\mathbf{p}) =
 \begin{bmatrix}
-\frac{\partial f(\mathbf{p})}{\partial x_1}\
-\frac{\partial f(\mathbf{p})}{\partial x_2}\
-\vdots \
+\frac{\partial f(\mathbf{p})}{\partial x_1}\\
+\frac{\partial f(\mathbf{p})}{\partial x_2}\\
+\vdots \\
 \frac{\partial f(\mathbf{p})}{\partial x_n}
 \end{bmatrix}
 $$
@@ -1226,9 +1049,9 @@ $Df_u : U \rightarrow R$&lt;/p&gt;
     
         <entry>
             <title type="text">Matric Caculus</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/matriccaculus/" />
-            <id>https://zchencn.github.io/posts/matriccaculus/</id>
-            <updated>2022-02-25T13:15:46&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/matriccaculus/" />
+            <id>https://zchencn.github.io/post/matriccaculus/</id>
+            <updated>2023-05-09T20:32:55&#43;08:00</updated>
             <published>2021-01-18T00:00:00&#43;00:00</published>
             <author>
                     <name>zchen</name>
@@ -1259,9 +1082,9 @@ $$
 \begin{equation}
 \frac{\partial \mathbf{y}}{\partial \mathbf{x}} = \left[\nabla y_1, \nabla y_2, \cdots, \nabla y_m  \right]^T =
 \begin{bmatrix}
-\frac{\partial y_1}{\partial x_1} &amp;amp; \frac{\partial y_1}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_1}{\partial x_n} \
-\frac{\partial y_2}{\partial x_1} &amp;amp; \frac{\partial y_2}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_2}{\partial x_n} \
-\vdots							  &amp;amp; \vdots                            &amp;amp; \ddots &amp;amp; \vdots                            \
+\frac{\partial y_1}{\partial x_1} &amp;amp; \frac{\partial y_1}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_1}{\partial x_n} \\
+\frac{\partial y_2}{\partial x_1} &amp;amp; \frac{\partial y_2}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_2}{\partial x_n} \\
+\vdots							  &amp;amp; \vdots                            &amp;amp; \ddots &amp;amp; \vdots                            \\
 \frac{\partial y_m}{\partial x_1} &amp;amp; \frac{\partial y_m}{\partial x_2} &amp;amp; \cdots &amp;amp; \frac{\partial y_m}{\partial x_1}
 \end{bmatrix}
 \end{equation}
@@ -1310,8 +1133,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Static Library and Dynamic Link Library</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/staticlibanddynamiclib/" />
-            <id>https://zchencn.github.io/posts/staticlibanddynamiclib/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/staticlibanddynamiclib/" />
+            <id>https://zchencn.github.io/post/staticlibanddynamiclib/</id>
             <updated>2022-02-25T13:11:03&#43;08:00</updated>
             <published>2020-12-03T00:00:00&#43;00:00</published>
             <author>
@@ -1426,649 +1249,20 @@ $$&lt;/p&gt;
         </entry>
     
         <entry>
-            <title type="text">An Introduction to Perfectly Matched Layer</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/pml/" />
-            <id>https://zchencn.github.io/posts/pml/</id>
-            <updated>2022-02-25T13:18:32&#43;08:00</updated>
-            <published>2020-11-29T16:38:57&#43;08:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">Free-space simulation happens in many problems and especially in wave-structure interactions. The key question is how to perform spatial truncation without introducing significant artifacts into the computation when solving the PDE numerically. Various techniques, such as &amp;ldquo;radiating boundary&amp;rdquo;, &amp;ldquo;matched layer&amp;rdquo; and &amp;ldquo;one-way approximation of the wave equation&amp;rdquo;， have been used in computer code.</summary>
-            
-                <content type="html">&lt;p&gt;Free-space simulation happens in many problems and especially in wave-structure interactions. The key question is how to perform spatial truncation without introducing significant artifacts into the computation when solving the PDE numerically. Various techniques, such as &amp;ldquo;radiating boundary&amp;rdquo;, &amp;ldquo;matched layer&amp;rdquo; and  &amp;ldquo;one-way approximation of the wave equation&amp;rdquo;， have been used in computer code. In 1994, Berenger invented a new technique as PML technique to tackle this issue, he put a layer of artificial absorbing material around the grid to absorb the outgoing wave.&lt;/p&gt;
-&lt;h3 id=&#34;wave-equation&#34;&gt;Wave Equation&lt;/h3&gt;
-&lt;p&gt;Acoustic wave equation has the following form:
-$$
-\begin{cases}
-\frac{\partial v}{\partial t} = -\frac{1}{\rho}\nabla p\
-\frac{\partial p}{\partial t} = -\kappa\nabla \cdot v
-\end{cases}
-$$
-In two dimensional case, it can be written as:
-$$
-\frac{\partial^2 p}{\partial t^2} = c^2\nabla^2p = c^2\left(\frac{\partial^2 p}{\partial x^2}+\frac{\partial^2 p}{\partial z^2}\right)
-$$
-We will numerically solve it to demonstrate some ideas in the following article. Code can be found &lt;a href=&#34;https://github.com/zchenCN/fdwave/blob/master/acoustic2d.ipynb&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;numerical-reflection&#34;&gt;Numerical Reflection&lt;/h3&gt;
-&lt;p&gt;Numerical reflection will pollute the solution if we simply truncate the grid with hard-wall(zero condition on the boundary).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./figs/reflection.jpg&#34; alt=&#34;reflection&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;complex-coordinate-stretching&#34;&gt;Complex Coordinate Stretching&lt;/h3&gt;
-&lt;p&gt;Consider a plane wave solution of the wave equation with the form:
-$$
-w(x, t) = e^{i(kx - wt)}
-$$
-The amplitude of it is invariant as it travel along the real axis:
-$$
-||w(x, t)|| = ||e^{i(kx-wt)}|| = 1
-$$
-Things change  if we analytically continue it, evaluate the plane wave solution at complex values:
-$$
-w(x, t) = e^{i(k(Rex + iImx)-wt)} = e^{-kImx}e^{i(kRex-wt)}
-$$
-The amplitude decay exponentially as the growing of  the imaginary part of x, while the solution is not changed out of the absorbing material. So, it not  only acts like an absorbing material, but also like a reflectionless material.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;figs/absorbing.jpg&#34; alt=&#34;absorbing&#34;&gt;&lt;/p&gt;
-&lt;p&gt;The analytically continued solution satisfied the same differential equation. We assume the differential equation was x-invariant in this region, so x only appeared in derivative $\frac{\partial}{\partial x}$ .  The entire process of PML can be conceptually summed up by a single transformation of original differential equation:
-$$
-\frac{\partial }{\partial x} \rightarrow \frac{1}{s_x}\frac{\partial}{\partial x}, s_x = 1 + i\frac{\sigma_x(x)}{w}
-$$&lt;/p&gt;
-&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://math.mit.edu/~stevenj/18.369/pml.pdf&#34;&gt;Notes on Perfectly Matched Layer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/pde/" term="PDE" label="PDE" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/pde/" term="PDE" label="PDE" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">Vector in STL</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/vector/" />
-            <id>https://zchencn.github.io/posts/vector/</id>
-            <updated>2022-02-25T13:13:00&#43;08:00</updated>
-            <published>2020-11-29T00:00:00&#43;00:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">vector是c++的一个标准类模板，可以用来动态地存储相同类型的实例或基本类型。 1…</summary>
-            
-                <content type="html">&lt;p&gt;vector是c++的一个标准类模板，可以用来动态地存储相同类型的实例或基本类型。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#inlucde &amp;lt;vector&amp;gt; &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;// Include the header file
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Using declaration
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;vector是模板(template)不是具体的类(class)，在使用时，应该声明具体对象的类型：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Declare a vector v for int
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;因为引用不是具体的对象，所以不能定义由引用组成的vector。特别地，可以定义成员是vector的vector:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;// T is a type 
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; 	&lt;span class=&#34;c1&#34;&gt;// Some compile require a space before closing angle bracket
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;初始化&#34;&gt;初始化&lt;/h2&gt;
-&lt;p&gt;c++提供了不同的构造函数用来初始化vector:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Default initialization, v1 is empty
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Copy construction, v2 has a copy of each element of v1
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;// Equivalent to vector&amp;lt;T&amp;gt; v2(v1)
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// v3 has n elements with value val
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// If T is a primitive type, v4 has n default value of T;
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;				 &lt;span class=&#34;c1&#34;&gt;// If T is a class, v4 has n objects initialize by default constructor
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...};&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// v5 has the element created by the corresponding initializers
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;vector&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;v5&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...};&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Equivalent to vector&amp;lt;T&amp;gt; v5{a, b, c...}
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;容量&#34;&gt;容量&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;empty&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return if the vector is empty, bool type
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return the number of objects in vector, not necessary equal to the capacity
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;capacity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return the size of storage currently allocated for the vector, capacity is equal to or great than size
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;			  &lt;span class=&#34;c1&#34;&gt;// When the capacity is exhausted, it will reallocate memory and copy the current objects 
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reserve&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Reserve the capacity to be at least enpugh to contain n objects
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;访问&#34;&gt;访问&lt;/h2&gt;
-&lt;p&gt;同数组(raw array)类似，可以通过方括号和指标访问vector的成员，它返回对该成员的引用，需要注意的一点是，这种方式并不会进行&lt;strong&gt;边界检测(bound-check)&lt;/strong&gt;，可能会导致未定义行为，at方法的作用是相同的，但是会进行边界检测，若出界，则会抛出一个异常：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// v is a vector of T type
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return a reference to the element at position n, if n is
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;     &lt;span class=&#34;c1&#34;&gt;// out of range, it will causes undefined behavior
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;at&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// The same as [] but it will check bounds
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;其他常用访问元素的操作包括：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;front&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Return a reference to the first element of v, if v is empty, it will causes undefined behavior
-&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;back&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// Return a reference to the last element of v, if v is empty, it will causes undefined behavior
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;修改&#34;&gt;修改&lt;/h2&gt;
-&lt;p&gt;通常，我们会初始化一个空的vector，然后向其中添加成员：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;push_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Add val to the end of v
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;这种方法会调用到拷贝构造函数，在v内存的相应位置复制一个新的对象。如果增加成员导致新的size超过原先的capacity，那么需要重新分配足够的内存并将原来的成员全都复制过去。另一种方法可以避免插入时拷贝构造函数的调用：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;emplace_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;arg1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;arg2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;...);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// Construct a element at the end of vector according to the args
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pop_back&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;eraser&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;swap&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;clear&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;span class=&#34;n&#34;&gt;v&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;emplace&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/computer-science/" term="Computer Science" label="Computer Science" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/programming-language/" term="Programming Language" label="Programming Language" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/cc-/" term="C&amp;C&#43;&#43;" label="C&amp;C&#43;&#43;" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/c-/" term="C&#43;&#43;" label="C&#43;&#43;" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/stl/" term="STL" label="STL" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">An Introduction to Constrained Optimization Problems</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/constrainedoptimization/" />
-            <id>https://zchencn.github.io/posts/constrainedoptimization/</id>
-            <updated>2022-02-25T12:21:42&#43;08:00</updated>
-            <published>2020-10-23T00:00:00&#43;00:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">约束优化问题(optimization problems)一般可以表示为如下形式： $$ \min_{x\in…</summary>
-            
-                <content type="html">&lt;p&gt;约束优化问题(optimization problems)一般可以表示为如下形式：
-$$
-\min_{x\in R^n} f(x)\ s.t
-\begin{cases}
-c_i(x) = 0, i\in \mathcal{E}\
-c_i(x) \geq 0, i \in \mathcal{I}
-\end{cases}
-$$
-定义如下集合为可行域：
-$$
-\Omega = {x|c_i(x) = 0, i \in \mathcal{E}; c_i(x) \geq 0 , i\in\mathcal{I}}
-$$
-那么上述优化问题可以表示为：
-$$
-\min_{x\in \Omega}f(x)
-$$&lt;/p&gt;
-&lt;p&gt;同无约束问题类似，可以引入如下几个定义：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是全局最优解(global minimizer)如果$; f(x^&lt;/em&gt;)\leq f(x),\ \forall x \in \Omega;$;&lt;/li&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是局部最优解(local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^*)\leq f(x),\ \forall x \in \mathcal{N}\cap\Omega;$;&lt;/li&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是严格局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^&lt;em&gt;)&amp;lt; f(x),\ \forall x \neq x^&lt;/em&gt;\in \mathcal{N}\cap\Omega;$;&lt;/li&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是孤立局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; x^*;$是该领域中的唯一局部最优解；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;例子&#34;&gt;例子&lt;/h2&gt;
-&lt;h3 id=&#34;等式约束&#34;&gt;等式约束&lt;/h3&gt;
-&lt;p&gt;考虑如下等式约束问题：
-$$
-\min f(x_1, x_2) = x_1 + x_2, s.t \quad c(x_1, x_2) = x_1^2 + x_2^2 - 2 = 0
-$$
-显然它的最优解是$;x^* = (-1, -1);$, 可以计算目标函数和约束在最优解处的梯度，$;\nabla f(x^&lt;em&gt;) = (1, 1)^T, \nabla c(x^&lt;/em&gt;) = (-2, -2) ;$， 可以发现这两个向量是平行的，也就是说存在$;\lambda  = \frac{1}{2};$使得$;\nabla f(x^&lt;em&gt;) = -\lambda \nabla c(x^&lt;/em&gt;);$.&lt;br&gt;
-对$;c(x+d);$作一阶近似：
-$$
-c(x)\approx c(x) + \nabla c(x)^Td = \nabla c(x)^Td
-$$
-若要使得$;x+d;$仍然在可行域内，$;c(x)^Td = 0;$. 同样对$;f(x+d);$作一阶近似：
-$$
-f(x + d) = f(x) + \nabla f(x)^Td
-$$
-若要使得函数值得到下降，要求$;\nabla f(x)^Td &amp;lt; 0;$. 若要$;x;$是最优解，则不存在$;d;$同时满足上述两个条件，那么只能是$;\nabla f(x);$和$;\nabla c(x);$平行。&lt;br&gt;
-引入拉格朗日(Lagrange)函数：
-$$
-L(x, \lambda) = f(x) + \lambda c(x)
-$$
-上述条件等价于要求存在$;\lambda;$使得$\nabla_x L(x^*, \lambda) = 0$.&lt;/p&gt;
-&lt;h3 id=&#34;不等式约束&#34;&gt;不等式约束&lt;/h3&gt;
-&lt;p&gt;考虑如下不等式约束问题：
-$$
-\min f(x_1, x_2) = x_1 + x_2, s.t \quad c(x_1, x_2) = x_1^2 + x_2^2 - 2 \leq 0
-$$
-同样的，若要使得$;x + d;$的函数值得到下降，则：
-$$
-\nabla f(x)^Td &amp;lt; 0
-$$
-又要保持$;x+d;$在可行域内，则：
-$$
-c(x) + \nabla c(x)^Td \leq 0
-$$
-假如$;x;$在可行域的内部，即$;c(x) &amp;lt; 0;$, 那么对任意一个向量，只要它的模足够小，都能使$;x+d;$在可行域内，取：
-$$
-d = -\alpha \nabla f(x)
-$$
-要使得不存在这样的向量同时满足上述两个条件，只能是$;\nabla f(x) = 0;$; 假如$;x;$在可行域的边界，即$;c(x) = 0;$, 那么第二个式子变成：
-$$
-\nabla c(x)^Td \leq 0
-$$
-同样的，要使两个条件不能同时满足，只能是$;\nabla f(x) = -\mu \nabla c(x), \mu \geq 0;$.&lt;br&gt;
-引入拉格朗日函数：
-$$
-L(x, \mu) = f(x) + c(x)
-$$
-上述条件等价于要求在最优解处：
-$$
-\nabla_x L(x^&lt;em&gt;, \mu) = 0, \mu \geq 0
-$$
-且$;\mu c(x^&lt;/em&gt;)=0;$,这个条件称为互补条件。&lt;/p&gt;
-&lt;h2 id=&#34;约束限制&#34;&gt;约束限制&lt;/h2&gt;
-&lt;p&gt;我们首先引入几个概念。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;对可行域内一点$;x;$, 称$;\mathcal{A}(x) = \mathcal{E} \cup {i\in\mathcal{I}, c_i(x) = 0 };$为积极集(active set)。也就是说在该点为0的约束是积极约束(active constraint)，非零的是非积极约束(inactive constraint).&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们称$;{z_k};$是一个逼近$;x;$的可行序列(feasible sequence)如果$;z_k \in \Omega;$且对充分大的$;k;$有$;k\to x;$.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;向量$;d;$ 是可行域$;\Omega;$在$;x;$的切(tagent)如果存在一个逼近$;x;$的可行序列$;{z_k};$和一个逼近0的正实数序列$;t_k;$使得$;\lim_{k\to\infty}\frac{z_k-x}{t_k} = d;$. 记所有这样的向量$;d;$构成的集合为$;T_{\Omega}(x);$, 它是一个锥($;d\in T_{\Omega}(x), \Rightarrow\alpha d \in T_{\Omega}(x), \alpha &amp;gt; 0;$), 称为切锥。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;根据上面例子的演示，我们利用约束函数的一阶近似，来估计它在某点附近的行为，所以引进下面的线性可行方向集合(linearized feasible direction set):
-$$
-\mathcal{F(x)} = {d| \nabla c_i(x)^Td = 0, i \in \mathcal{E}; \nabla c_i(x)^Td \geq 0, i\in\mathcal{A}\cap \mathcal
-{I}}
-$$
-同样容易验证, $;\mathcal{F}(x);$也是一个锥。后面我们会证明，在某些特殊情况，$;\mathcal{F}(x) = T_{\Omega}(x);$.&lt;br&gt;
-最后介绍一个约束限制条件，线性无关约束限制(Linearly Independent Constraint Qualification), 称LICQ成立如果${\nabla c_i(x), i\in\mathcal{A}}$线性无关。&lt;/p&gt;
-&lt;h2 id=&#34;一阶必要条件&#34;&gt;一阶必要条件&lt;/h2&gt;
-&lt;p&gt;对于一般的约束优化问题，我们称如下函数是它的拉格朗日函数：
-$$
-L(x, \lambda) = f(x) - \sum_{i\in \mathcal{I}\cup\mathcal
-{E}}\lambda_ic_i(x)
-$$
-一阶必要性条件又称KKT条件，它是很多约束优化问题算法的基础。如果$;x^&lt;em&gt;;$是约束优化问题的局部最优解，且在该点处LICQ条件成立，$;f,c_i;$连续可微，那么存在拉格朗日乘子向量(Lagrange multiplier vector)$;\lambda^&lt;/em&gt; ;$使得：
-$$
-\begin{cases}
-\nabla L(x^&lt;em&gt;, \lambda^&lt;/em&gt;) = 0\
-c_i(x^&lt;em&gt;) = 0, i\in\mathcal{E}\
-c_i(x^&lt;/em&gt;) \geq 0, i\in\mathcal{I}\
-\lambda^&lt;em&gt;_i\geq 0, i\in\mathcal{I}\
-\lambda^&lt;/em&gt;_ic_i(x^*) = 0, i\in\mathcal{E}\cup\mathcal{I}
-\end{cases}
-$$
-其中最后一个条件称为互补条件，这意味着，非积极约束对应的拉格朗日乘子均为0。进一步的，如果对任意的约束和对应的拉格朗日乘子，一定有一个为0，我们称满足严格互补条件。&lt;br&gt;
-下面我们简要概述一阶必要性条件的证明。&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/optimization/" term="Optimization" label="Optimization" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/optimization/" term="Optimization" label="Optimization" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text">An Introduction to Unconstrained Optimization Problems</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/unconstrainedoptimization/" />
-            <id>https://zchencn.github.io/posts/unconstrainedoptimization/</id>
-            <updated>2022-02-25T12:20:29&#43;08:00</updated>
-            <published>2020-10-23T00:00:00&#43;00:00</published>
-            <author>
-                    <name>zchen</name>
-                    <uri>https://zchencn.github.io/</uri>
-                    <email>zchen@lsec.ac.cc.cn</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">优化问题(optimization problems)一般可以表示为如下形式： $$ \min_{x\in R^n} f(x)\…</summary>
-            
-                <content type="html">&lt;p&gt;优化问题(optimization problems)一般可以表示为如下形式：
-$$
-\min_{x\in R^n} f(x)\ s.t
-\begin{cases}
-c_i(x) = 0, i\in \mathcal{E}\
-c_i(x) \geq 0, i \in \mathcal{I}
-\end{cases}
-$$
-称$;f;$为目标函数(object function), $; x;$为决策变量(decision variable), $; c_i;$为约束函数(constraint function).&lt;/p&gt;
-&lt;h2 id=&#34;凸性&#34;&gt;凸性&lt;/h2&gt;
-&lt;p&gt;称集合$; S;$是凸(convex)集，如果连接集合内任何两点的线段全都包含在该集合内，即：
-$$
-\forall x, y \in S, \alpha x + (1-\alpha)y \in S, \forall \alpha \in [0, 1]
-$$
-称函数$; f;$是凸函数，如果它的定义域是凸集且对定义域内的任意两点$; x, y;$有如下性质：
-$$
-f(\alpha x + (1-\alpha)y)\leq \alpha f(x) + (1-\alpha)f(y), \forall \alpha \in [0, 1]
-$$
-如果上述不等式在$; x\neq y, \alpha\in(0, 1);$时严格成立，则称函数是严格凸(strictly convex)的。称函数是凹(concave)的，如果$; -f;$是凸的。&lt;br&gt;
-接下来我们考虑无约束优化问题，即$;\mathcal{I}=\mathcal{E}=\empty;$,
-$$
-\min_{x\in R^n}\ f(x)
-$$&lt;/p&gt;
-&lt;h2 id=&#34;定解条件&#34;&gt;定解条件&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是全局最优解(global minimizer)如果$; f(x^&lt;/em&gt;)\leq f(x),\ \forall x \in R^n;$;&lt;/li&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是局部最优解(local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^*)\leq f(x),\ \forall x \in \mathcal{N};$;&lt;/li&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是严格局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; f(x^&lt;em&gt;)&amp;lt; f(x),\ \forall x \neq x^&lt;/em&gt;\in \mathcal{N};$;&lt;/li&gt;
-&lt;li&gt;称$;x^&lt;em&gt;;$是孤立局部最优解(strict local minimizer)如果存在$;x^&lt;/em&gt;;$的一个领域$;\mathcal{N};$使得$; x^*;$是该领域中的唯一局部最优解；
-一般来说，要得到全局最优解是十分困难的，但是当目标函数$;f;$是凸函数时，可以证明局部最优就是全局最优。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;（一阶必要性条件）如果$;x^&lt;em&gt;;$是一个局部最优解，且$;f;$在$;x;$的一个开领域内连续可微，那么$;\nabla f(x^&lt;/em&gt;) = 0;$.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;假设$;\nabla f(x^&lt;em&gt;)\neq 0;$,我们可以沿着负梯度方向，设为$;p;$, 找到一个的点有更小的函数值，由泰勒展开可得：
-$$
-f(x^&lt;/em&gt; + tp) = f(x^&lt;em&gt;) +  tp^T\nabla f(x^&lt;/em&gt; + \overline{t}p), \overline{t}\in (0, t)
-$$
-而由于$;p = -\nabla f(x^&lt;em&gt;)$, $; p^T\nabla f(x^&lt;/em&gt;) = - ||\nabla f(x^&lt;em&gt;)||^2_2 &amp;lt; 0$，由连续可微的条件可知，我们可以选取足够小的$t;$，使得：
-$$
-tp^T\nabla f(x^&lt;/em&gt; + \overline{t}p) &amp;lt; 0
-$$
-此时$; f(x^* + tp) &amp;lt; f(x^&lt;em&gt;)$, 与$;x^&lt;/em&gt;;$是局部最优解矛盾。由此，我们证明了一阶必要性条件。&lt;br&gt;
-我们称梯度为零的点为稳定点(stationary point), 那么由一阶必要性条件可知，局部最优解必定是稳定点。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;（二阶必要性条件）如果$;x^&lt;em&gt;;$是一个局部最优解，且$;\nabla^2 f(x^&lt;/em&gt;);$存在并且在$;x^&lt;em&gt;;$的一个开领域内连续，那么$;\nabla f(x^&lt;/em&gt;) = 0, \nabla^2f(x^*)$半正定。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;假如$;\nabla^2 f(x^&lt;em&gt;);$不是半正定的，则可以选取向量$;p;$使得：
-$$
-p^T\nabla^2 f(x^&lt;/em&gt;)p &amp;lt; 0
-$$
-对$;f(x^* + tp);$作泰勒展开：
-$$
-f(x^* + tp) = f(x^&lt;em&gt;) + tp^T\nabla f(x^&lt;/em&gt;) + \frac{t^2}{2}p^T\nabla^2 f(x^* + \overline{t}p)p, \overline{t}\in (0, t)
-$$
-同样的可以选取足够小的$t;$使得$;f(x^&lt;em&gt;+tp)&amp;lt;f(x^&lt;/em&gt;);$, 从而得到矛盾。&lt;br&gt;
-特殊的，我们还可以导出一个充分条件。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;（二阶充分条件）假设$;\nabla^2 f(x^&lt;em&gt;);$在$;x^&lt;/em&gt;;$的一个开领域内连续且$;\nabla f(x^&lt;em&gt;) = 0;$以及$;\nabla^2 f(x^&lt;/em&gt;);$正定，那么$;x^*;$是一个严格局部最优解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;同样的作泰勒展开：
-$$
-f(x^* + p) = f(x^&lt;em&gt;) + p^T\nabla f(x^&lt;/em&gt;) + \frac{1}{2}p^T\nabla^2 f(z)p &amp;gt; f(x^&lt;em&gt;)
-$$
-注意，充分条件不是必要条件，也就是说存在$;x^&lt;/em&gt;;$是严格局部最优解但是不满足二阶充分条件的情况，比如$;f(x)=x^4, x^*=0.;$&lt;/p&gt;
-&lt;p&gt;当$;f(x);$是凸函数时，局部最优解和全局最优解的刻画会变得很容易。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;当$;f(x);$是凸函数时，局部最优解就是全局最优解。进一步，如果$;f(x);$是可微的，那么稳定点就是全局最优解。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;假设$;x^&lt;em&gt;;$不是全局最优解，那么存在$;z;$使得$;f(z) &amp;lt; f(x);$, 取$;x = \lambda z + (1 - \lambda)x^&lt;/em&gt;, \lambda \in (0, 1);$, 那么由凸性：
-$$
-f(x) = f(\lambda z + (1 - \lambda)x^&lt;em&gt;) &amp;lt; \lambda f(z) + (1-\lambda)f(x^&lt;/em&gt;) &amp;lt; f(x^&lt;em&gt;)
-$$
-对$;x^&lt;/em&gt;;$的任一个领域，都可以选取合适的$;\lambda;$使得$;x;$在里面，这与$;x^&lt;em&gt;;$是局部最优解矛盾。&lt;br&gt;
-假如$;f(x);$是可微的，若稳定点$;x^&lt;/em&gt;;$不是全局最优解，那么：
-$$
-\begin{array}{ll}
-\nabla f(x^&lt;em&gt;)^T(z - x^&lt;/em&gt;) &amp;amp;= \frac{d}{d\lambda}f(x^* + \lambda (z - x^&lt;em&gt;))|&lt;em&gt;{\lambda = 0}\
-&amp;amp;= \lim&lt;/em&gt;{\lambda\to 0}\frac{f(x^&lt;/em&gt; + \lambda (z-x^&lt;em&gt;)) - f(x^&lt;/em&gt;)}{\lambda}\
-&amp;amp;&amp;lt; f(z) - f(x^&lt;em&gt;) &amp;lt; 0
-\end{array}
-$$
-这与$;\nabla f(x^&lt;/em&gt;) = 0;$矛盾。&lt;/p&gt;
-&lt;p&gt;因此，无约束凸优化问题全局最优解的充要条件就是$;\nabla f(x^*) = 0;$。后续的算法，也是在寻找这样的稳定点。&lt;/p&gt;
-&lt;h2 id=&#34;算法概述&#34;&gt;算法概述&lt;/h2&gt;
-&lt;p&gt;通常我们用迭代法求解无约束优化问题。也就是说，算法需要一个初始点$;x_0;$，我们可以利用对问题的已知信息来得到一个解的估计作为初始点，或者任意选取。求解算法利用当前点或已求出点的信息，依次求出$;x_1, x_2, \cdots,x_k,\cdots;$从而得到一个对解的逼近序列，当$;k;$足够大时，$;x_k;$可以作为解的良好估计。&lt;br&gt;
-通常的求解算法可以分为两类：线搜索方法和信赖域方法。&lt;/p&gt;
-&lt;h3 id=&#34;线搜索&#34;&gt;线搜索&lt;/h3&gt;
-&lt;p&gt;线搜索方法概括的说就是从当前点沿着某一个方向走一定的步长从而使得函数值降低（这个不一定每步都需要）得到新的点，即：
-$$
-x_{k+1} = x_k + \alpha_k p_k
-$$
-其中$;p_k;$称为搜索方向(search direction), $;\alpha_k;$称为步长(step length).  &lt;br&gt;
-如何选取搜索方向？最自然的选择就是当前点下降最快的方向，最速下降方向(steepest desent direction), 即$;p_k = -\nabla f(x_k);$，且满足$;p_k^T\nabla f(x_k) &amp;lt; 0;$(称下降条件，满足该条件的称下降方向)，但是问题复杂时，最速下降方向的计算效率可能很低。其他通常的搜索方向选取还有牛顿方向$;p_k = -(\nabla^2f(x_k))^{-1}\nabla f(x_k) ;$和拟牛顿(quasi-Newton)方向$;p_k = -(B_k)^{-1}\nabla f(x_k);$.&lt;/p&gt;
-&lt;h3 id=&#34;信赖域&#34;&gt;信赖域&lt;/h3&gt;
-&lt;p&gt;信赖域方法的基本思想是在当前点的附近用一个模型$;m_k(x);$来近似目标函数，求解的问题为：
-$$
-\min_{||p||&amp;lt;\Delta} m_k(x_k + p) = f(x_k) + \nabla f(x_k)^Tp + \frac{1}{2}p^TB_kp
-$$
-其中$;\Delta;$称为信赖域半径，$;x_{k+1} = x_k + p;$. 当$;f(x_{k+1};$m没有使$;f;$产生充分的减小的话，我们认为模型对原目标函数近似的不是很好，从而应该缩小信赖域半径。当$;B_k = \nabla^2 f(x_k);$时，称之为信赖域牛顿法。&lt;/p&gt;
-</content>
-            
-            
-            
-            
-            
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/math/" term="Math" label="Math" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/categories/optimization/" term="Optimization" label="Optimization" />
-                            
-                        
-                    
-                
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/math/" term="Math" label="Math" />
-                            
-                        
-                            
-                            
-                            
-                                <category scheme="https://zchencn.github.io/tags/optimization/" term="Optimization" label="Optimization" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        <entry>
             <title type="text">SEM</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/sem/" />
-            <id>https://zchencn.github.io/posts/sem/</id>
-            <updated>2022-02-25T13:19:26&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/sem/" />
+            <id>https://zchencn.github.io/post/sem/</id>
+            <updated>2023-05-09T20:46:32&#43;08:00</updated>
             <published>2020-10-23T00:00:00&#43;00:00</published>
             <author>
                     <name>zchen</name>
                     <uri>https://zchencn.github.io/</uri>
                     <email>zchen@lsec.ac.cc.cn</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">谱元法简介 谱元法(Spectral Element Method)结合了谱方法的高精度性和有限元方法…</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">谱元法简介 谱元法(Spectral Element Method，简称SEM)结合了谱方法的高精度性…</summary>
             
                 <content type="html">&lt;h1 id=&#34;谱元法简介&#34;&gt;谱元法简介&lt;/h1&gt;
-&lt;p&gt;谱元法(&lt;strong&gt;S&lt;/strong&gt;pectral &lt;strong&gt;E&lt;/strong&gt;lement &lt;strong&gt;M&lt;/strong&gt;ethod)结合了谱方法的高精度性和有限元方法对于不规则求解区域的灵活性。&lt;br&gt;
+&lt;p&gt;谱元法(&lt;strong&gt;S&lt;/strong&gt;pectral &lt;strong&gt;E&lt;/strong&gt;lement &lt;strong&gt;M&lt;/strong&gt;ethod，简称SEM)结合了谱方法的高精度性和有限元方法对于不规则求解区域的灵活性。&lt;br&gt;
 谱元法的求解一般可以分为五个步骤：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;将PDE改写成弱形式(Weak Form)&lt;/li&gt;
@@ -2094,7 +1288,9 @@ $$
 可以证明，对任意测试函数都满足上式的$u$与原方程的解等价。&lt;br&gt;
 严谨的证明参考有限元方法数学理论的相关书籍。&lt;/p&gt;
 &lt;h2 id=&#34;剖分&#34;&gt;剖分&lt;/h2&gt;
-&lt;p&gt;将$\Omega = [a, b]$剖分成$N_e$个小单元，$\Omega = \cup_{e=1}^{N_e}\Omega_e, \Omega_e = [X_{e-1}, X_e], X_0 = a, X_{N_e} = b.$ 为方便后续的讨论和求积分，建立一个标准单元（参考单元）到$\Omega_e$的映射：
+&lt;p&gt;将$\Omega = [a, b]$剖分成$N_e$个小单元
+$$\Omega = \cup_{e=1}^{N_e}\Omega_e, \Omega_e = [X_{e-1}, X_e], X_0 = a, X_{N_e} = b$$
+为方便后续的讨论和求积分，建立一个标准单元（参考单元）到$\Omega_e$的映射：
 $$
 F^e:  [-1, 1] \longrightarrow \Omega_e, x = F^e(\xi) = \frac{X_{e} - X_{e-1}}{2}\xi + \frac{X_e + X_{e-1}}{2}
 $$
@@ -2122,7 +1318,7 @@ $$
 $I$可以取从$0$到$N_e\times n$的所有整数，共$N_e\times n + 1$个。
 在每个单元上，我们有：
 $$
-u(x) = u(x(\xi)) = u(F^e(\xi)) \coloneqq u^e(\xi) \approx \sum_{i=0}^nu^e_il_i(\xi) = \sum_{i=0}^nu^e_il_i((F^e)^{-1}(x)) \coloneqq \sum_{i=0}^nu^e_i\phi^e_i
+u(x) = u(x(\xi)) = u(F^e(\xi)) = u^e(\xi) \approx \sum_{i=0}^nu^e_il_i(\xi) = \sum_{i=0}^nu^e_il_i((F^e)^{-1}(x)) = \sum_{i=0}^nu^e_i\phi^e_i
 $$
 其中：
 $$
@@ -2164,7 +1360,7 @@ $$&lt;/p&gt;
 &lt;h2 id=&#34;数值积分&#34;&gt;数值积分&lt;/h2&gt;
 &lt;p&gt;在每个单元上, 选取测试函数为任意插值基函数，由方程的弱形式可以得到：
 $$
-\int_{\Omega_e} u\phi^e_j\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e} \phi^e_i\phi^e_j\ dx \coloneqq \sum_{i=0}^nM^e_{j ,i}u^e_i, \forall j = 0, 1, \cdots, n
+\int_{\Omega_e} u\phi^e_j\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e} \phi^e_i\phi^e_j\ dx = \sum_{i=0}^nM^e_{j ,i}u^e_i, \forall j = 0, 1, \cdots, n
 $$
 其中：
 $$
@@ -2173,12 +1369,14 @@ $$
 所以单元质量矩阵(Mass Matrix)是一个对角矩阵。&lt;br&gt;
 再考虑含有导数的部分：
 $$
-\int_{\Omega_e}\frac{\partial u}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \coloneqq \sum_{i=0}^nK^e_{j, i}u^e_i, \forall j = 0, 1, \cdots, n
+\int_{\Omega_e}\frac{\partial u}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \sum_{i=0}^nK^e_{j, i}u^e_i, \forall j = 0, 1, \cdots, n
 $$
-其中：
+其中
 $$
-K^e_{j, i} = \int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \int_{-1}^1\left(\frac{\partial \xi}{\partial x}\right)^2\frac{\partial l_i}{\partial \xi}\frac{\partial l_j}{\partial \xi}\frac{\partial x}{\partial \xi}\ d\xi = \frac{2}{L_e}\sum_{k=0}^nw_kd_{i,k}d_{j, k}\
-d_{i, k} = l&#39;&lt;em&gt;i(\xi_k), d&lt;/em&gt;{j, k} = l_j&#39;(\xi_k)
+K^e_{j, i} = \int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \int_{-1}^1\left(\frac{\partial \xi}{\partial x}\right)^2\frac{\partial l_i}{\partial \xi}\frac{\partial l_j}{\partial \xi}\frac{\partial x}{\partial \xi}\ d\xi = \frac{2}{L_e}\sum_{k=0}^nw_kd_{i,k}d_{j, k}
+$$
+$$
+d_{i, k} = l^{&#39;}_i(\xi_k), d_{j, k} = l_j^{&#39;}(\xi_k)
 $$
 我们有：
 $$
@@ -2187,7 +1385,7 @@ $$
 单元刚度矩阵(Stifness Matrix)$K^e$是对称矩阵。
 最后，右端项：
 $$
-f^e_j \coloneqq \int_{\Omega_e}f\phi^e_j\ dx = \frac{L_e}{2}\int_{-1}^1f(F^e(\xi))l_j(\xi)\ d\xi \approx \frac{w_jL_e}{2}f(F^e(\xi_j))
+f^e_j = \int_{\Omega_e}f\phi^e_j\ dx = \frac{L_e}{2}\int_{-1}^1f(F^e(\xi))l_j(\xi)\ d\xi \approx \frac{w_jL_e}{2}f(F^e(\xi_j))
 $$
 对于二维的情况：
 $$
@@ -2204,24 +1402,23 @@ $$
 $$
 全局质量矩阵：
 $$
-M = \sum_{e=1}^{Ne}M^e =
+M = \sum_{e=1}^{N_e}M^e =
 \begin{pmatrix}
-M^1_{0,0} &amp;amp;        &amp;amp;                     &amp;amp; \
-&amp;amp; \ddots &amp;amp;                     &amp;amp; \
-&amp;amp;        &amp;amp; M^1_{n,n}+M^2_{0,0} &amp;amp; \
-&amp;amp;        &amp;amp;                     &amp;amp; \ddots&lt;/p&gt;
-&lt;p&gt;\end{pmatrix}
+M^1_{0,0} &amp;amp;        &amp;amp;                     &amp;amp; \\
+&amp;amp; \ddots &amp;amp;                     &amp;amp; \\
+&amp;amp;        &amp;amp; M^1_{n,n}+M^2_{0,0} &amp;amp; \\
+&amp;amp;        &amp;amp;                     &amp;amp; \ddots
+\end{pmatrix}
 $$
 $M$是一个$n\times N_e + 1$的方阵。&lt;br&gt;
-全局刚度矩阵：
+全局刚度矩阵:
 $$
-K = \sum_{e=1}^{Ne}K^e =
-\begin{pmatrix}
-K^1_{0,0} &amp;amp; \cdots &amp;amp; K^1_{0, n}                     &amp;amp; \
-\vdots        &amp;amp; \ddots &amp;amp;         \vdots            &amp;amp; \
-K^1_{n, 0}        &amp;amp; \cdots       &amp;amp; M^1_{n,n}+M^2_{0,0} &amp;amp; \
-&amp;amp;        &amp;amp;                     &amp;amp; \ddots&lt;/p&gt;
-&lt;p&gt;\end{pmatrix}
+K = \sum_{e=1}^{N_e}K^e = \begin{pmatrix}
+K^1_{0,0} &amp;amp; \cdots &amp;amp; K^1_{0, n}                     &amp;amp; \\
+\vdots        &amp;amp; \ddots &amp;amp;         \vdots            &amp;amp; \\
+K^1_{n, 0}        &amp;amp; \cdots       &amp;amp; M^1_{n,n}+M^2_{0,0} &amp;amp; \\
+&amp;amp;        &amp;amp;                     &amp;amp; \ddots
+\end{pmatrix}
 $$
 同样也是一个$n\times N_e + 1$的方阵。&lt;br&gt;
 则最终的线性方程组是：
@@ -2230,7 +1427,7 @@ $$
 $$
 其中：
 $$
-\underline{u} = (u_0, u_1, \cdots, u_{n\times N_e + 1})^t \
+\underline{u} = (u_0, u_1, \cdots, u_{n\times N_e + 1})^t \\
 \underline{f} = (f^1_0, \cdots,f^1_n + f^2_0, \cdots, f^{N_e}_n)^t
 $$&lt;/p&gt;
 &lt;p&gt;二维的情况类似，这里就不再赘述。&lt;/p&gt;
@@ -2285,8 +1482,8 @@ $$&lt;/p&gt;
     
         <entry>
             <title type="text">Gaussian Quadrature</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/gaussianquadrature/" />
-            <id>https://zchencn.github.io/posts/gaussianquadrature/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/gaussianquadrature/" />
+            <id>https://zchencn.github.io/post/gaussianquadrature/</id>
             <updated>2022-02-25T12:30:13&#43;08:00</updated>
             <published>2020-06-27T00:00:00&#43;00:00</published>
             <author>
@@ -2431,8 +1628,8 @@ $$
     
         <entry>
             <title type="text">An Introduction to Make</title>
-            <link rel="alternate" type="text/html" href="https://zchencn.github.io/posts/makefiles/" />
-            <id>https://zchencn.github.io/posts/makefiles/</id>
+            <link rel="alternate" type="text/html" href="https://zchencn.github.io/post/makefiles/" />
+            <id>https://zchencn.github.io/post/makefiles/</id>
             <updated>2022-02-25T13:06:16&#43;08:00</updated>
             <published>2019-12-21T00:00:00&#43;00:00</published>
             <author>

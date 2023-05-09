@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM&#43;Plex&#43;Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Comfortaa:wght@700&amp;display=swap" /></noscript>
 
-    <meta name="author" content="zchen" /><meta name="description" content="谱元法简介 谱元法(Spectral Element Method)结合了谱方法的高精度性和有限元方法…" />
+    <meta name="author" content="zchen" /><meta name="description" content="谱元法简介 谱元法(Spectral Element Method，简称SEM)结合了谱方法的高精度性…" />
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
@@ -54,10 +54,10 @@
         "@context": "https://schema.org",
         "@type": "BlogPosting",
         "datePublished": "2020-10-23T00:00:00+00:00",
-        "dateModified": "2022-02-25T13:19:26+08:00",
+        "dateModified": "2023-05-09T20:46:32+08:00",
         "url": "https://zchencn.github.io/post/sem/",
         "headline": "SEM",
-        "description": "谱元法简介 谱元法(Spectral Element Method)结合了谱方法的高精度性和有限元方法…",
+        "description": "谱元法简介 谱元法(Spectral Element Method，简称SEM)结合了谱方法的高精度性…",
         "inLanguage" : "en",
         "articleSection": "post",
         "wordCount":  1547 ,
@@ -97,13 +97,13 @@
 
 
 <meta property="og:title" content="SEM" />
-<meta property="og:description" content="谱元法简介 谱元法(Spectral Element Method)结合了谱方法的高精度性和有限元方法…" />
+<meta property="og:description" content="谱元法简介 谱元法(Spectral Element Method，简称SEM)结合了谱方法的高精度性…" />
 <meta property="og:url" content="https://zchencn.github.io/post/sem/" />
 <meta property="og:site_name" content="CZ&#39;s Selfpage" />
 <meta property="og:locale" content="en" /><meta property="og:image" content="https://zchencn.github.io/icons/apple-touch-icon.png" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2020-10-23T00:00:00&#43;00:00" />
-    <meta property="article:modified_time" content="2022-02-25T13:19:26&#43;08:00" />
+    <meta property="article:modified_time" content="2023-05-09T20:46:32&#43;08:00" />
     
     <meta property="article:section" content="post" />
 
@@ -138,7 +138,7 @@
         
         
             
-                <li class="menu-item"><a href="/posts/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Posts</span></a>
+                <li class="menu-item"><a href="/post/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon archive"><path d="M32 448c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V160H32v288zm160-212c0-6.6 5.4-12 12-12h104c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-8zM480 32H32C14.3 32 0 46.3 0 64v48c0 8.8 7.2 16 16 16h480c8.8 0 16-7.2 16-16V64c0-17.7-14.3-32-32-32z"/></svg><span class="menu-item-name">Post</span></a>
                 </li>
             
         
@@ -258,7 +258,7 @@
 
             <div class="post-body e-content">
                 <h1 id="谱元法简介"><a href="#谱元法简介" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>谱元法简介</h1>
-<p style="text-indent:0"><span class="drop-cap">谱</span>元法(<strong>S</strong>pectral <strong>E</strong>lement <strong>M</strong>ethod)结合了谱方法的高精度性和有限元方法对于不规则求解区域的灵活性。<br>
+<p>谱元法(<strong>S</strong>pectral <strong>E</strong>lement <strong>M</strong>ethod，简称SEM)结合了谱方法的高精度性和有限元方法对于不规则求解区域的灵活性。<br>
 谱元法的求解一般可以分为五个步骤：</p>
 <ul>
 <li>将PDE改写成弱形式(Weak Form)</li>
@@ -284,7 +284,9 @@ $$
 可以证明，对任意测试函数都满足上式的$u$与原方程的解等价。<br>
 严谨的证明参考有限元方法数学理论的相关书籍。</p>
 <h2 id="剖分"><a href="#剖分" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>剖分</h2>
-<p>将$\Omega = [a, b]$剖分成$N_e$个小单元，$\Omega = \cup_{e=1}^{N_e}\Omega_e, \Omega_e = [X_{e-1}, X_e], X_0 = a, X_{N_e} = b.$ 为方便后续的讨论和求积分，建立一个标准单元（参考单元）到$\Omega_e$的映射：
+<p>将$\Omega = [a, b]$剖分成$N_e$个小单元
+$$\Omega = \cup_{e=1}^{N_e}\Omega_e, \Omega_e = [X_{e-1}, X_e], X_0 = a, X_{N_e} = b$$
+为方便后续的讨论和求积分，建立一个标准单元（参考单元）到$\Omega_e$的映射：
 $$
 F^e:  [-1, 1] \longrightarrow \Omega_e, x = F^e(\xi) = \frac{X_{e} - X_{e-1}}{2}\xi + \frac{X_e + X_{e-1}}{2}
 $$
@@ -312,7 +314,7 @@ $$
 $I$可以取从$0$到$N_e\times n$的所有整数，共$N_e\times n + 1$个。
 在每个单元上，我们有：
 $$
-u(x) = u(x(\xi)) = u(F^e(\xi)) \coloneqq u^e(\xi) \approx \sum_{i=0}^nu^e_il_i(\xi) = \sum_{i=0}^nu^e_il_i((F^e)^{-1}(x)) \coloneqq \sum_{i=0}^nu^e_i\phi^e_i
+u(x) = u(x(\xi)) = u(F^e(\xi)) = u^e(\xi) \approx \sum_{i=0}^nu^e_il_i(\xi) = \sum_{i=0}^nu^e_il_i((F^e)^{-1}(x)) = \sum_{i=0}^nu^e_i\phi^e_i
 $$
 其中：
 $$
@@ -354,7 +356,7 @@ $$</p>
 <h2 id="数值积分"><a href="#数值积分" class="anchor-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon anchor-icon"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg></a>数值积分</h2>
 <p>在每个单元上, 选取测试函数为任意插值基函数，由方程的弱形式可以得到：
 $$
-\int_{\Omega_e} u\phi^e_j\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e} \phi^e_i\phi^e_j\ dx \coloneqq \sum_{i=0}^nM^e_{j ,i}u^e_i, \forall j = 0, 1, \cdots, n
+\int_{\Omega_e} u\phi^e_j\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e} \phi^e_i\phi^e_j\ dx = \sum_{i=0}^nM^e_{j ,i}u^e_i, \forall j = 0, 1, \cdots, n
 $$
 其中：
 $$
@@ -363,12 +365,14 @@ $$
 所以单元质量矩阵(Mass Matrix)是一个对角矩阵。<br>
 再考虑含有导数的部分：
 $$
-\int_{\Omega_e}\frac{\partial u}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \coloneqq \sum_{i=0}^nK^e_{j, i}u^e_i, \forall j = 0, 1, \cdots, n
+\int_{\Omega_e}\frac{\partial u}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx \approx \sum_{i=0}^nu^e_i\int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \sum_{i=0}^nK^e_{j, i}u^e_i, \forall j = 0, 1, \cdots, n
 $$
-其中：
+其中
 $$
-K^e_{j, i} = \int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \int_{-1}^1\left(\frac{\partial \xi}{\partial x}\right)^2\frac{\partial l_i}{\partial \xi}\frac{\partial l_j}{\partial \xi}\frac{\partial x}{\partial \xi}\ d\xi = \frac{2}{L_e}\sum_{k=0}^nw_kd_{i,k}d_{j, k}\
-d_{i, k} = l'<em>i(\xi_k), d</em>{j, k} = l_j'(\xi_k)
+K^e_{j, i} = \int_{\Omega_e}\frac{\partial \phi^e_i}{\partial x}\frac{\partial \phi^e_j}{\partial x}\ dx = \int_{-1}^1\left(\frac{\partial \xi}{\partial x}\right)^2\frac{\partial l_i}{\partial \xi}\frac{\partial l_j}{\partial \xi}\frac{\partial x}{\partial \xi}\ d\xi = \frac{2}{L_e}\sum_{k=0}^nw_kd_{i,k}d_{j, k}
+$$
+$$
+d_{i, k} = l^{'}_i(\xi_k), d_{j, k} = l_j^{'}(\xi_k)
 $$
 我们有：
 $$
@@ -377,7 +381,7 @@ $$
 单元刚度矩阵(Stifness Matrix)$K^e$是对称矩阵。
 最后，右端项：
 $$
-f^e_j \coloneqq \int_{\Omega_e}f\phi^e_j\ dx = \frac{L_e}{2}\int_{-1}^1f(F^e(\xi))l_j(\xi)\ d\xi \approx \frac{w_jL_e}{2}f(F^e(\xi_j))
+f^e_j = \int_{\Omega_e}f\phi^e_j\ dx = \frac{L_e}{2}\int_{-1}^1f(F^e(\xi))l_j(\xi)\ d\xi \approx \frac{w_jL_e}{2}f(F^e(\xi_j))
 $$
 对于二维的情况：
 $$
@@ -394,24 +398,23 @@ $$
 $$
 全局质量矩阵：
 $$
-M = \sum_{e=1}^{Ne}M^e =
+M = \sum_{e=1}^{N_e}M^e =
 \begin{pmatrix}
-M^1_{0,0} &amp;        &amp;                     &amp; \
-&amp; \ddots &amp;                     &amp; \
-&amp;        &amp; M^1_{n,n}+M^2_{0,0} &amp; \
-&amp;        &amp;                     &amp; \ddots</p>
-<p>\end{pmatrix}
+M^1_{0,0} &amp;        &amp;                     &amp; \\
+&amp; \ddots &amp;                     &amp; \\
+&amp;        &amp; M^1_{n,n}+M^2_{0,0} &amp; \\
+&amp;        &amp;                     &amp; \ddots
+\end{pmatrix}
 $$
 $M$是一个$n\times N_e + 1$的方阵。<br>
-全局刚度矩阵：
+全局刚度矩阵:
 $$
-K = \sum_{e=1}^{Ne}K^e =
-\begin{pmatrix}
-K^1_{0,0} &amp; \cdots &amp; K^1_{0, n}                     &amp; \
-\vdots        &amp; \ddots &amp;         \vdots            &amp; \
-K^1_{n, 0}        &amp; \cdots       &amp; M^1_{n,n}+M^2_{0,0} &amp; \
-&amp;        &amp;                     &amp; \ddots</p>
-<p>\end{pmatrix}
+K = \sum_{e=1}^{N_e}K^e = \begin{pmatrix}
+K^1_{0,0} &amp; \cdots &amp; K^1_{0, n}                     &amp; \\
+\vdots        &amp; \ddots &amp;         \vdots            &amp; \\
+K^1_{n, 0}        &amp; \cdots       &amp; M^1_{n,n}+M^2_{0,0} &amp; \\
+&amp;        &amp;                     &amp; \ddots
+\end{pmatrix}
 $$
 同样也是一个$n\times N_e + 1$的方阵。<br>
 则最终的线性方程组是：
@@ -420,7 +423,7 @@ $$
 $$
 其中：
 $$
-\underline{u} = (u_0, u_1, \cdots, u_{n\times N_e + 1})^t \
+\underline{u} = (u_0, u_1, \cdots, u_{n\times N_e + 1})^t \\
 \underline{f} = (f^1_0, \cdots,f^1_n + f^2_0, \cdots, f^{N_e}_n)^t
 $$</p>
 <p>二维的情况类似，这里就不再赘述。</p>
@@ -480,7 +483,7 @@ $$</p>
             
                 <div class="share-item linkedin">
                     
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://zchencn.github.io/post/sem/&amp;title=SEM&amp;summary=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e5%92%8c%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e2%80%a6&amp;source=CZ%27s%20Selfpage" title="Share on LinkedIn" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://zchencn.github.io/post/sem/&amp;title=SEM&amp;summary=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%ef%bc%8c%e7%ae%80%e7%a7%b0SEM%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e2%80%a6&amp;source=CZ%27s%20Selfpage" title="Share on LinkedIn" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
                 </div>
             
 
@@ -501,21 +504,21 @@ $$</p>
             
                 <div class="share-item douban">
                     
-                    <a href="https://www.douban.com/share/service?href=https://zchencn.github.io/post/sem/&amp;name=SEM&amp;text=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e5%92%8c%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e2%80%a6" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
+                    <a href="https://www.douban.com/share/service?href=https://zchencn.github.io/post/sem/&amp;name=SEM&amp;text=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%ef%bc%8c%e7%ae%80%e7%a7%b0SEM%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e2%80%a6" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item qq">
                     
-                    <a href="https://connect.qq.com/widget/shareqq/index.html?url=https://zchencn.github.io/post/sem/&amp;title=SEM&amp;summary=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e5%92%8c%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e2%80%a6&amp;pics=https://zchencn.github.io/icons/apple-touch-icon.png&amp;site=CZ%27s%20Selfpage" title="Share on QQ" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
+                    <a href="https://connect.qq.com/widget/shareqq/index.html?url=https://zchencn.github.io/post/sem/&amp;title=SEM&amp;summary=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%ef%bc%8c%e7%ae%80%e7%a7%b0SEM%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e2%80%a6&amp;pics=https://zchencn.github.io/icons/apple-touch-icon.png&amp;site=CZ%27s%20Selfpage" title="Share on QQ" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item qzone">
                     
-                    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zchencn.github.io/post/sem/&amp;title=SEM&amp;summary=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e5%92%8c%e6%9c%89%e9%99%90%e5%85%83%e6%96%b9%e6%b3%95%e2%80%a6&amp;pics=https://zchencn.github.io/icons/apple-touch-icon.png&amp;site=CZ%27s%20Selfpage" title="Share on Qzone" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon qzone-icon"><path d="M23.985 9.202c-.032-.099-.127-.223-.334-.258-.207-.036-7.351-1.406-7.351-1.406s-.105-.022-.198-.07c-.092-.047-.127-.167-.127-.167S12.447.956 12.349.77C12.25.583 12.104.532 12 .532c-.104 0-.251.051-.349.238-.098.186-3.626 6.531-3.626 6.531s-.035.12-.128.167c-.092.047-.197.07-.197.07S.556 8.908.348 8.943c-.208.036-.302.16-.333.258a.477.477 0 0 0 .125.449l5.362 5.49s.072.08.119.172c.016.104.005.21.005.21s-1.189 7.242-1.22 7.45.075.369.159.43c.083.062.233.106.421.013.189-.093 6.812-3.261 6.812-3.261s.098-.044.201-.061c.103-.017.201.061.201.061s6.623 3.168 6.812 3.261c.188.094.338.049.421-.013a.463.463 0 0 0 .159-.43c-.021-.14-.93-5.677-.93-5.677.876-.54 1.425-1.039 1.849-1.747-2.594.969-6.006 1.717-9.415 1.866-.915.041-2.41.097-3.473-.015-.678-.071-1.17-.144-1.243-.438-.053-.215.054-.46.545-.831a2640.5 2640.5 0 0 1 2.861-2.155c1.285-.968 3.559-2.47 3.559-2.731 0-.285-2.144-.781-4.037-.781-1.945 0-2.275.132-2.811.168-.488.034-.769.005-.804-.138-.06-.248.183-.389.588-.568.709-.314 1.86-.594 1.984-.626.194-.052 3.082-.805 5.618-.535 1.318.14 3.244.668 3.244 1.276 0 .342-1.721 1.494-3.225 2.597-1.149.843-2.217 1.561-2.217 1.688 0 .342 3.533 1.241 6.689 1.01l.003-.022c.048-.092.119-.172.119-.172l5.362-5.49a.477.477 0 0 0 .127-.449z"/></svg></a>
+                    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zchencn.github.io/post/sem/&amp;title=SEM&amp;summary=%e8%b0%b1%e5%85%83%e6%b3%95%e7%ae%80%e4%bb%8b%20%e8%b0%b1%e5%85%83%e6%b3%95%28Spectral%20Element%20Method%ef%bc%8c%e7%ae%80%e7%a7%b0SEM%29%e7%bb%93%e5%90%88%e4%ba%86%e8%b0%b1%e6%96%b9%e6%b3%95%e7%9a%84%e9%ab%98%e7%b2%be%e5%ba%a6%e6%80%a7%e2%80%a6&amp;pics=https://zchencn.github.io/icons/apple-touch-icon.png&amp;site=CZ%27s%20Selfpage" title="Share on Qzone" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon qzone-icon"><path d="M23.985 9.202c-.032-.099-.127-.223-.334-.258-.207-.036-7.351-1.406-7.351-1.406s-.105-.022-.198-.07c-.092-.047-.127-.167-.127-.167S12.447.956 12.349.77C12.25.583 12.104.532 12 .532c-.104 0-.251.051-.349.238-.098.186-3.626 6.531-3.626 6.531s-.035.12-.128.167c-.092.047-.197.07-.197.07S.556 8.908.348 8.943c-.208.036-.302.16-.333.258a.477.477 0 0 0 .125.449l5.362 5.49s.072.08.119.172c.016.104.005.21.005.21s-1.189 7.242-1.22 7.45.075.369.159.43c.083.062.233.106.421.013.189-.093 6.812-3.261 6.812-3.261s.098-.044.201-.061c.103-.017.201.061.201.061s6.623 3.168 6.812 3.261c.188.094.338.049.421-.013a.463.463 0 0 0 .159-.43c-.021-.14-.93-5.677-.93-5.677.876-.54 1.425-1.039 1.849-1.747-2.594.969-6.006 1.717-9.415 1.866-.915.041-2.41.097-3.473-.015-.678-.071-1.17-.144-1.243-.438-.053-.215.054-.46.545-.831a2640.5 2640.5 0 0 1 2.861-2.155c1.285-.968 3.559-2.47 3.559-2.731 0-.285-2.144-.781-4.037-.781-1.945 0-2.275.132-2.811.168-.488.034-.769.005-.804-.138-.06-.248.183-.389.588-.568.709-.314 1.86-.594 1.984-.626.194-.052 3.082-.805 5.618-.535 1.318.14 3.244.668 3.244 1.276 0 .342-1.721 1.494-3.225 2.597-1.149.843-2.217 1.561-2.217 1.688 0 .342 3.533 1.241 6.689 1.01l.003-.022c.048-.092.119-.172.119-.172l5.362-5.49a.477.477 0 0 0 .127-.449z"/></svg></a>
                 </div>
             
 
@@ -556,19 +559,19 @@ $$</p>
                     </li>
                 
                     <li class="related-item">
-                        <a href="/post/pml/" class="related-link">An Introduction to Perfectly Matched Layer</a>
+                        <a href="/post/nonhomogeneous/" class="related-link">求解非齐次偏微分方程的方法</a>
                     </li>
                 
                     <li class="related-item">
-                        <a href="/post/nonhomogeneous/" class="related-link">Methods to Solve Nonhomogeneous PDE problems</a>
+                        <a href="/post/derivativetracedeterminant/" class="related-link">Derivative of Trace and Determinant</a>
                     </li>
                 
                     <li class="related-item">
-                        <a href="/post/constrainedoptimization/" class="related-link">An Introduction to Constrained Optimization Problems</a>
+                        <a href="/post/sinkhorn/" class="related-link">An Introduction to Optimal Transport</a>
                     </li>
                 
                     <li class="related-item">
-                        <a href="/post/unconstrainedoptimization/" class="related-link">An Introduction to Unconstrained Optimization Problems</a>
+                        <a href="/post/derivatives/" class="related-link">Different Derivatives in Mathematics</a>
                     </li>
                 
             </ul>
@@ -619,7 +622,7 @@ $$</p>
         <ul class="post-nav">
             
                 <li class="post-nav-prev">
-                    <a href="/post/unconstrainedoptimization/" rel="prev">&lt; An Introduction to Unconstrained Optimization Problems</a>
+                    <a href="/post/staticlibanddynamiclib/" rel="prev">&lt; Static Library and Dynamic Link Library</a>
                 </li>
             
             
@@ -661,7 +664,7 @@ $$</p>
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2021–2022&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;zchen</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
+            <div class="site-info">©&nbsp;2021–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;zchen</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
                 <div class="busuanzi-site-uv-and-pv">
                     <span id="busuanzi_container_site_uv">Site UV&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon busuanzi-site-uv"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg>&nbsp;<span id="busuanzi_value_site_uv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_pv">Site PV&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="icon busuanzi-site-pv"><path d="M288 144a110.94 110.94 0 0 0-31.24 5 55.4 55.4 0 0 1 7.24 27 56 56 0 0 1-56 56 55.4 55.4 0 0 1-27-7.24A111.71 111.71 0 1 0 288 144zm284.52 97.4C518.29 135.59 410.93 64 288 64S57.68 135.64 3.48 241.41a32.35 32.35 0 0 0 0 29.19C57.71 376.41 165.07 448 288 448s230.32-71.64 284.52-177.41a32.35 32.35 0 0 0 0-29.19zM288 400c-98.65 0-189.09-55-237.93-144C98.91 167 189.34 112 288 112s189.09 55 237.93 144C477.1 345 386.66 400 288 400z"/></svg>&nbsp;<span id="busuanzi_value_site_pv"></span></span>
                 </div>
